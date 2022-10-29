@@ -1,0 +1,20 @@
+---
+import type { MarkdownHeading } from 'astro';
+
+type Props = {
+  headings: MarkdownHeading[];
+};
+
+const { headings } = Astro.props as Props;
+---
+
+<h2 class="heading">索引</h2>
+<ul>
+  {headings
+    .filter(({ depth, slug }) => depth > 1 && depth < 4 && slug[0] !== '_')
+    .map((heading) => (
+      <li class={`heading-link depth-${heading.depth}`}>
+        <a href={`#${heading.slug}`}>{heading.text}</a>
+      </li>
+    ))}
+</ul>

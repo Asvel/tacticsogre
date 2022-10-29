@@ -1,0 +1,25 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.5.2",
+    "remark-breaks": "^3.0.2",
+    "remark-directive": "^2.0.1",
+    "remark-gfm": "^3.0.1",
+    "remark-heading-id": "^1.0.0",
+    "remark-remove-comments": "^0.2.0",
+    "sanitize.css": "^13.0.0",
+    "sass": "^1.55.0",
+    "unist-builder": "^3.0.0",
+    "unist-util-visit-parents": "^5.1.1"
+  }
+}

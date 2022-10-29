@@ -1,0 +1,52 @@
+---
+import type { MarkdownLayoutProps } from 'astro';
+import BaseLayout from './BaseLayout.astro';
+
+type Props = MarkdownLayoutProps<{
+  title: string;
+}>;
+
+const { frontmatter: { title }, headings } = Astro.props;
+---
+
+<BaseLayout {...Astro.props}>
+  <article id="article" class="content">
+    <script is:inline>
+      if (localStorage.getItem('tacticsogre.disable-spoiler-hidden')) {
+        document.querySelector('#article').classList.add('-revealed');
+      }
+    </script>
+    <section class="main-section">
+      <h1 class="content-title" id="overview">{title}</h1>
+      <!-- <nav class="block sm:hidden">
+        <TableOfContents headings={headings} />
+      </nav> -->
+      <slot />
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .content {
+    padding: 0;
+    max-width: 75ch;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content > section {
+    margin-bottom: 6rem;
+  }
+
+  /* .block {
+    display: block;
+  }
+
+  @media (min-width: 50em) {
+    .sm\:hidden {
+      display: none;
+    }
+  } */
+</style>

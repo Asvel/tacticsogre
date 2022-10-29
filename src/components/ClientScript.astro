@@ -1,0 +1,30 @@
+﻿---
+---
+
+<script>
+  const spoilerHiddenKey = 'tacticsogre.disable-spoiler-hidden';
+
+  window.addEventListener('click', e => {
+    var el = e.target as Element;
+    if (el?.classList?.contains('taco-selection')) {
+      while (el.tagName !== 'UL') el = el.parentElement!;
+      el.classList.add('-revealed');
+    }
+
+    if (el.tagName === 'A') {
+      let preventDefault = true;
+      switch (el.getAttribute('href')) {
+        case '#toggle-spoiler-hidden':
+          if (localStorage.getItem(spoilerHiddenKey) === null) {
+            localStorage.setItem(spoilerHiddenKey, 'disabled');
+          } else {
+            localStorage.removeItem(spoilerHiddenKey);
+          }
+          break;
+        default:
+          preventDefault = false;
+      }
+      if (preventDefault) e.preventDefault();
+    }
+  });
+</script>
