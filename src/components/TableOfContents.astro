@@ -8,8 +8,7 @@ type Props = {
 const { headings } = Astro.props as Props;
 ---
 
-<h2 class="heading">索引</h2>
-<ul>
+<ul class="heading">
   {headings
     .filter(({ depth, slug }) => depth > 1 && depth < 4 && slug[0] !== '_')
     .map((heading) => (
@@ -18,3 +17,52 @@ const { headings } = Astro.props as Props;
       </li>
     ))}
 </ul>
+
+<style lang="scss">
+  .heading {
+    margin-top: 2rem;
+    padding-top: 1px;
+  }
+
+  .heading-link {
+    font-size: 1rem;
+    padding-left: 1rem;
+    border-left: 4px solid var(--theme-divider);
+  }
+
+  .heading-link:hover,
+  .heading-link:focus {
+    border-left-color: var(--theme-accent);
+    color: var(--theme-accent);
+  }
+  .heading-link:focus-within {
+    color: var(--theme-text-light);
+    border-left-color: hsla(var(--color-gray-40), 1);
+  }
+  .heading-link svg {
+    opacity: 0.6;
+  }
+  .heading-link:hover svg {
+    opacity: 0.8;
+  }
+  .heading-link a {
+    display: inline-flex;
+    gap: 0.5em;
+    width: 100%;
+    padding: 0.25em 0;
+  }
+
+  .heading-link.depth-3 {
+    padding-left: 2rem;
+    font-size: .875em;
+  }
+  .heading-link.depth-4 {
+    padding-left: 3rem;
+  }
+
+  .heading-link a {
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+  }
+</style>

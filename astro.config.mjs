@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import yaml from '@rollup/plugin-yaml';
+import compress from "astro-compress";
 
 import remarkRemoveComments from 'remark-remove-comments';
 import remarkBreaks from 'remark-breaks';
@@ -98,6 +99,13 @@ export default defineConfig({
       compactHeadingSceneId,
     ],
   },
+  integrations: [
+    compress({
+      html: {
+        removeComments: true,
+      },
+    }),
+  ],
   vite: {
     build: {
       assetsInlineLimit: '0',

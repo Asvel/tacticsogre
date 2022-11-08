@@ -1,7 +1,7 @@
 ---
 import type { MarkdownLayoutProps } from 'astro';
-import RightSidebar from '../components/RightSidebar.astro';
 import BaseLayout from './BaseLayout.astro';
+import RightSidebar from '../components/RightSidebar.astro';
 
 type Props = MarkdownLayoutProps<{
   title: string;
@@ -27,12 +27,16 @@ const { frontmatter: { title }, headings } = Astro.props;
       </section>
     </article>
     </div>
-  <aside id="grid-right" class="grid-sidebar" title="Table of Contents">
+  <aside id="grid-right" class="grid-sidebar">
     <RightSidebar headings={headings} />
   </aside>
 </BaseLayout>
 
-<style>
+<style lang="scss" is:global>
+  :target {
+    scroll-margin: 1.75rem 0;
+  }
+
   .content {
     padding: 0;
     max-width: 75ch;
@@ -55,4 +59,51 @@ const { frontmatter: { title }, headings } = Astro.props;
       display: none;
     }
   } */
+
+  .main-section {
+    p + ul {
+      margin-top: .5rem;
+    }
+    > h2 {
+      line-height: 1.2;
+      margin-bottom: 1.25rem;
+      &:not(:first-child) {
+        margin-top: 2.75rem;
+      }
+    }
+    > h3 {
+      padding-top: .25rem;  // for scroll-margin
+      margin-top: 2.25rem;
+    }
+  }
+
+  h2 > em {
+    font-size: .75em;
+    font-weight: 300;
+    color: var(--theme-text-light);
+  }
+
+  details summary {
+    margin-bottom: 1px;
+    cursor: pointer;
+  }
+
+  del {
+    &::before {
+      content: " ";
+    }
+  }
+
+  .taco-selection {
+    border-radius: 2px;
+    transition: background-color .1s ease;
+    #article:not(.-revealed) ul:not(.-revealed) > li > & {
+      background-color: var(--theme-text-light);
+      cursor: pointer;
+      &::selection {
+        color: inherit;
+        background-color: transparent;
+      }
+    }
+  }
 </style>
