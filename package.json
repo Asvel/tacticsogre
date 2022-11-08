@@ -11,6 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@rollup/plugin-yaml": "^4.0.1",
     "astro": "^1.5.2",
     "remark-breaks": "^3.0.2",
     "remark-directive": "^2.0.1",

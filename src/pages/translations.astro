@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import translations from './translations.yaml';
+
+const title = '译名对照表';
+const sections = {
+  'people': '人物',
+  'class': '职业',
+  'strongpoint': '地点',
+  'clan': '民族',
+};
+for (let section of Object.values(translations) as any[]) {
+  section.hasCn2012 = section.some((x:any) => x.length > 4);
+}
+---
+
+<BaseLayout title={title}>
+  <div id="grid-main">
+    <h1>译名对照表</h1>
+    {Object.entries(sections).map(([sectionId, sectionName]) => (
+      <>
+        <h2 class="translations-title">
+          {sectionName}
+          {translations[sectionId].hasCn2012 && (
+            <div class="translations-tip">* “2016汉化典藏版”调整了部分译名，玩家社区中常用新译，多数攻略资料成文较早用的旧译</div>
+          )}
+        </h2>
+        <table class={`translations-table translations--${sectionId}`}>
+          <thead>
+            <tr>
+              <th>官方中文</th>
+              <th>
+                命运之轮中文
+                {translations[sectionId].hasCn2012 && (
+                  <span class="translations-cn2012">/ 旧版*</span>
+                )}
+              </th>
+              <th>日文</th>
+              <th>英文</th>
+            </tr>
+          </thead>
+          <tbody>
+            {translations[sectionId].map((item: any) => (
+              <tr>
+                <td>{item[2]}</td>
+                <td>
+                  {item[3]}
+                  {item[4] !== undefined && (
+                    <span class="translations-cn2012">/ {item[4]}</span>
+                  )}
+                </td>
+                <td>{item[1]}</td>
+                <td>{item[0]}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </>
+    ))}
+  </div>
+</BaseLayout>
+
+<style lang="scss" is:global>
+  #grid-main {
+    grid-column: 2 / 4;
+    margin-bottom: 6rem;
+  }
+  .translations-title {
+    position: relative;
+  }
+  .translations-tip {
+    position: absolute;
+    right: 0;
+    font-size: .875rem;
+    font-weight: normal;
+    color: hsla(var(--color-gray-70), 1);
+  }
+  .translations-table {
+    line-height: 1.25rem;
+    tbody {
+      vertical-align: top;
+      color: var(--theme-text-light);
+    }
+    th, td {
+      width: 25%;
+      padding: .5rem 1rem;
+    }
+  }
+  .translations-cn2012 {
+    font-weight: normal;
+    color: hsla(var(--color-gray-70), 1);
+  }
+  .translations--strongpoint {
+    th, td {
+      &:nth-child(3) {
+        width: 22%;
+      }
+      &:nth-child(4) {
+        width: 28%;
+      }
+    }
+  }
+</style>

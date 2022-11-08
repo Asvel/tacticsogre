@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import yaml from '@rollup/plugin-yaml';
 
 import remarkRemoveComments from 'remark-remove-comments';
 import remarkBreaks from 'remark-breaks';
@@ -101,5 +102,6 @@ export default defineConfig({
     build: {
       assetsInlineLimit: '0',
     },
+    plugins: [yaml()],
   },
 });

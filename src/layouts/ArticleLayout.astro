@@ -1,5 +1,6 @@
 ---
 import type { MarkdownLayoutProps } from 'astro';
+import RightSidebar from '../components/RightSidebar.astro';
 import BaseLayout from './BaseLayout.astro';
 
 type Props = MarkdownLayoutProps<{
@@ -9,21 +10,26 @@ type Props = MarkdownLayoutProps<{
 const { frontmatter: { title }, headings } = Astro.props;
 ---
 
-<BaseLayout {...Astro.props}>
-  <article id="article" class="content">
-    <script is:inline>
-      if (localStorage.getItem('tacticsogre.disable-spoiler-hidden')) {
-        document.querySelector('#article').classList.add('-revealed');
-      }
-    </script>
-    <section class="main-section">
-      <h1 class="content-title" id="overview">{title}</h1>
-      <!-- <nav class="block sm:hidden">
-        <TableOfContents headings={headings} />
-      </nav> -->
-      <slot />
-    </section>
-  </article>
+<BaseLayout title={title}>
+  <div id="grid-main">
+    <article id="article" class="content">
+      <script is:inline>
+        if (localStorage.getItem('tacticsogre.disable-spoiler-hidden')) {
+          document.querySelector('#article').classList.add('-revealed');
+        }
+      </script>
+      <section class="main-section">
+        <h1 class="content-title" id="overview">{title}</h1>
+        <!-- <nav class="block sm:hidden">
+          <TableOfContents headings={headings} />
+        </nav> -->
+        <slot />
+      </section>
+    </article>
+    </div>
+  <aside id="grid-right" class="grid-sidebar" title="Table of Contents">
+    <RightSidebar headings={headings} />
+  </aside>
 </BaseLayout>
 
 <style>
