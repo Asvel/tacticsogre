@@ -9,7 +9,7 @@ function anchorProps(path: string) {
 }
 ---
 
-<nav aria-labelledby="grid-left">
+<nav>
   <ul class="nav-groups">
     <li>
       <div class="nav-group">
@@ -55,7 +55,6 @@ function anchorProps(path: string) {
 
   .nav-groups {
     height: 100%;
-    padding: 2rem 0;
     overflow-x: visible;
     overflow-y: auto;
     max-height: 100vh;
@@ -71,7 +70,7 @@ function anchorProps(path: string) {
 
   .nav-groups > :last-child {
     padding-bottom: 2rem;
-    margin-bottom: var(--theme-navbar-height);
+    margin-bottom: var(--header-height);
   }
 
   .nav-group-title {
@@ -105,9 +104,14 @@ function anchorProps(path: string) {
     font-weight: 600;
   }
 
-  @media (min-width: 50em) {
+  @media (max-width: 52em) {
     .nav-groups {
-      padding: 0;
+      padding: 2rem 0;
+    }
+    .nav-link a {
+      margin-left: 0;
+      margin-right: 0;
+      border-radius: 0;
     }
   }
 </style>

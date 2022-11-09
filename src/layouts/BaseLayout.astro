@@ -37,7 +37,7 @@ const { title } = Astro.props as Props;
   body {
     width: 100%;
     display: grid;
-    grid-template-rows: var(--theme-navbar-height) 1fr;
+    grid-template-rows: var(--header-height) 1fr;
     --gutter: 0.5rem;
     --doc-padding: 2rem;
   }
@@ -45,22 +45,17 @@ const { title } = Astro.props as Props;
   .layout {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: minmax(var(--gutter), 1fr) minmax(0, var(--max-width)) minmax(var(--gutter), 1fr);
-    overflow-x: hidden;
-  }
-
-  .grid-sidebar {
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    padding: 0;
+    grid-template-columns: 16rem minmax(0, var(--max-width)) 16rem;
+    gap: 1rem;
+    margin: 0 auto;
+     > * {
+      width: 100%;
+    }
   }
 
   #grid-left {
-    position: fixed;
-    background-color: var(--theme-bg);
-    z-index: 10;
-    display: none;
+    grid-column: 1;
+    display: flex;
   }
 
   #grid-main {
@@ -70,48 +65,47 @@ const { title } = Astro.props as Props;
   }
 
   #grid-right {
-    display: none;
+    grid-column: 3;
+    display: flex;
   }
 
-  @media (min-width: 50em) {
+  .grid-sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 72em) {
     .layout {
-      overflow: initial;
       grid-template-columns: 16rem minmax(0, var(--max-width));
-      gap: 1rem;
     }
-
-    #grid-left {
-      display: flex;
-      // padding-left: 2rem;
-      position: sticky;
-      grid-column: 1;
-    }
-  }
-
-  @media (min-width: 72em) {
-    .layout {
-      grid-template-columns: 16rem minmax(0, var(--max-width)) 16rem;
-      padding-left: 0;
-      padding-right: 0;
-      margin: 0 auto;
-    }
-
     #grid-right {
-      grid-column: 3;
-      display: flex;
+      display: none;
     }
   }
 
-  .layout > * {
-    width: 100%;
-  }
-
-  .mobile-sidebar-toggle {
-    overflow: hidden;
-  }
-
-  .mobile-sidebar-toggle #grid-left {
-    display: block;
-    top: 2rem;
+  @media (max-width: 52em) {
+    .layout {
+      grid-template-columns: minmax(var(--gutter), 1fr) minmax(0, var(--max-width)) minmax(var(--gutter), 1fr);
+      gap: initial;
+      overflow-x: hidden;
+    }
+    #grid-left {
+      position: fixed;
+      display: none;
+      padding-top: 2rem;
+      background-color: var(--theme-bg);
+      z-index: 10;
+    }
+    .mobile-sidebar-shown {
+      overflow: hidden;
+      .layout {
+        grid-template-columns: 0 100vw 0;
+      }
+      #grid-left {
+        display: block;
+      }
+    }
   }
 </style>

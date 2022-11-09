@@ -4,30 +4,39 @@ import ThemeToggle from './ThemeToggle.astro';
 ---
 
 <header>
+  <button type="button" id="menu-toggle">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
   <nav class="nav-wrapper">
     <div class="logo flex">
-      <a href="/">
-        <h1>{global.title}（施工中）</h1>
+      <a href=".">
+        <h1>{global.title}</h1>
       </a>
     </div>
-    <div style="flex-grow: 1;"></div>
-    <div class="search-item">
-      <ThemeToggle />
-    </div>
+    <div class="header-spacer"></div>
+    <ThemeToggle />
   </nav>
 </header>
 
-<style>
+<script>
+  document.getElementById('menu-toggle')!.addEventListener('click', () => {
+    document.documentElement.classList.toggle('mobile-sidebar-shown');
+  });
+</script>
+
+<style lang="scss">
   header {
-    z-index: 11;
-    height: var(--theme-navbar-height);
+    padding: 2rem 0rem;
+    height: var(--header-height);
     width: 100%;
     background-color: var(--theme-navbar-bg);
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    position: sticky;
+    position: static;
     top: 0;
   }
 
@@ -35,14 +44,11 @@ import ThemeToggle from './ThemeToggle.astro';
     flex: 1;
     display: flex;
     overflow: hidden;
-    width: 30px;
     font-size: 2rem;
     flex-shrink: 0;
     font-weight: 600;
     line-height: 1;
     color: hsla(var(--color-base-white), 100%, 1);
-    gap: 0.25rem;
-    z-index: -1;
   }
 
   .logo a {
@@ -64,40 +70,54 @@ import ThemeToggle from './ThemeToggle.astro';
   }
 
   .logo h1 {
-    display: none;
     font: inherit;
     color: inherit;
     margin: 0;
+  }
+
+  .header-spacer {
+    flex-grow: 1;
   }
 
   .nav-wrapper {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 1rem;
     width: 100%;
     max-width: 78rem;
     /* padding: 0 1rem; */
   }
 
-  @media (min-width: 50em) {
+  #menu-toggle {
+    display: none;
+  }
+
+  @media (max-width: 52em) {
     header {
-      position: static;
-      padding: 2rem 0rem;
+      padding: 1rem;
     }
-
     .logo {
-      width: auto;
-      margin: 0;
-      z-index: 0;
+      padding-left: 2.75rem;
+      font-size: 1.5rem;
     }
-
-    .logo h1 {
-      display: initial;
+    .header-spacer {
+      flex-grow: unset;
     }
-
-    .menu-toggle {
-      display: none;
+    #menu-toggle {
+      position: fixed;
+      left: .875rem;
+      top: .875rem;
+      display: block;
+      padding: 0.5em;
+      border: 0;
+      font-size: 1rem;
+      border-radius: 2px;
+      color: var(--theme-text);
+      background-color: var(--theme-code-inline-bg);
+      z-index: 20;
+      svg {
+        display: block;
+      }
     }
   }
 </style>

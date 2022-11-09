@@ -12,13 +12,16 @@
 
 :root {
   cursor: auto;
-  --user-font-scale: 1rem - 16px;
-  --max-width: calc(100% - 1rem);
+  font-size: 16px;
+  font-size: clamp(0.9rem, 0.75rem + 0.4vw, 1rem);
+  --max-width: 46rem;
+  --header-height: 6rem;
 }
 
-@media (min-width: 50em) {
+@media (max-width: 52em) {
   :root {
-    --max-width: 46rem;
+    --max-width: calc(100% - 1rem);
+    --header-height: 4rem;
   }
 }
 
@@ -27,8 +30,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: "PingFang SC", "Microsoft YaHei UI", sans-serif;
-  font-size: 1rem;
-  font-size: clamp(0.9rem, 0.75rem + 0.375vw + var(--user-font-scale), 1rem);
   line-height: 1.5;
   max-width: 100vw;
 }
@@ -78,6 +79,11 @@ h2 {
 h1 {
   font-size: 3.25rem;
   font-weight: 800;
+}
+@media (max-width: 52em) {
+  h1 {
+    line-height: 1.1;
+  }
 }
 
 h2 {
@@ -234,20 +240,3 @@ th {
   display: flex;
   align-items: center;
 }
-
-// button {
-//   display: flex;
-//   align-items: center;
-//   justify-items: center;
-//   gap: 0.25em;
-//   padding: 0.33em 0.67em;
-//   border: 0;
-//   background: var(--theme-bg);
-//   display: flex;
-//   font-size: 1rem;
-//   align-items: center;
-//   gap: 0.25em;
-//   border-radius: 99em;
-//   color: var(--theme-text);
-//   background-color: var(--theme-bg);
-// }

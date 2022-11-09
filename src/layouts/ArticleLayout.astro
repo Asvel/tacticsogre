@@ -20,9 +20,6 @@ const { frontmatter: { title }, headings } = Astro.props;
       </script>
       <section class="main-section">
         <h1 class="content-title" id="overview">{title}</h1>
-        <!-- <nav class="block sm:hidden">
-          <TableOfContents headings={headings} />
-        </nav> -->
         <slot />
       </section>
     </article>
@@ -49,16 +46,6 @@ const { frontmatter: { title }, headings } = Astro.props;
   .content > section {
     margin-bottom: 6rem;
   }
-
-  /* .block {
-    display: block;
-  }
-
-  @media (min-width: 50em) {
-    .sm\:hidden {
-      display: none;
-    }
-  } */
 
   .main-section {
     p + ul {
