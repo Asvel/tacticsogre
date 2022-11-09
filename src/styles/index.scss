@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: var(--font-body);
+  font-family: "PingFang SC", "Microsoft YaHei UI", sans-serif;
   font-size: 1rem;
   font-size: clamp(0.9rem, 0.75rem + 0.375vw + var(--user-font-scale), 1rem);
   line-height: 1.5;
@@ -190,7 +190,6 @@ table {
   padding-right: calc(var(--padding-inline) * 2);
   margin-left: calc(var(--padding-inline) * -1);
   margin-right: calc(var(--padding-inline) * -1);
-  font-family: var(--font-mono);
 
   line-height: 1.25rem;
   font-size: 0.85rem;
@@ -218,7 +217,6 @@ th {
   text-align: left;
 }
 
-
 // blockquote {
 //   margin: 2rem 0;
 //   padding: 1.25em 1.5rem;
@@ -237,19 +235,19 @@ th {
   align-items: center;
 }
 
-button {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  gap: 0.25em;
-  padding: 0.33em 0.67em;
-  border: 0;
-  background: var(--theme-bg);
-  display: flex;
-  font-size: 1rem;
-  align-items: center;
-  gap: 0.25em;
-  border-radius: 99em;
-  color: var(--theme-text);
-  background-color: var(--theme-bg);
-}
+// button {
+//   display: flex;
+//   align-items: center;
+//   justify-items: center;
+//   gap: 0.25em;
+//   padding: 0.33em 0.67em;
+//   border: 0;
+//   background: var(--theme-bg);
+//   display: flex;
+//   font-size: 1rem;
+//   align-items: center;
+//   gap: 0.25em;
+//   border-radius: 99em;
+//   color: var(--theme-text);
+//   background-color: var(--theme-bg);
+// }

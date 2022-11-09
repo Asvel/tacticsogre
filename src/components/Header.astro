@@ -1,9 +1,10 @@
 ---
 import * as global from '../global';
+import ThemeToggle from './ThemeToggle.astro';
 ---
 
 <header>
-  <nav class="nav-wrapper" title="Top Navigation">
+  <nav class="nav-wrapper">
     <div class="logo flex">
       <a href="/">
         <h1>{global.title}（施工中）</h1>
@@ -11,6 +12,7 @@ import * as global from '../global';
     </div>
     <div style="flex-grow: 1;"></div>
     <div class="search-item">
+      <ThemeToggle />
     </div>
   </nav>
 </header>
