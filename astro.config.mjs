@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-import yaml from '@rollup/plugin-yaml';
+import rollupYaml from '@rollup/plugin-yaml';
 import compress from "astro-compress";
 
 import remarkRemoveComments from 'remark-remove-comments';
@@ -11,6 +11,10 @@ import { visit } from 'unist-util-visit';
 import { visitParents } from 'unist-util-visit-parents';
 import { u } from 'unist-builder';
 
+import fs from 'fs';
+import yaml from 'js-yaml';
+
+const officalChinese = yaml.load(fs.readFileSync('./data/official-chinese.yaml', 'utf8'));
 
 const termTypes = {
   'a': 'appellation',
@@ -31,16 +35,16 @@ function transformTerms() {
     visit(tree, (node) => {
       if (node.type === 'textDirective' && node.name.length === 1) {
         const data = node.data ??= {};
-        //const hast = h('span', node.attributes);
         data.hName = 'span';
         data.hProperties = {
           className: [`taco-${termTypes[node.name]}`],
         };
         let [ id, text ] = node.children[0].value.split(':');
+        if (node.name === 't') id = text;
+        text = officalChinese[node.name]?.[id] ?? text;
         if (node.name === 'a' || node.name === 'q' || node.name === 'r') text = `“${text}”`;
         if (node.name === 'p') text = text.replace(/\s/g, '');
         node.children[0].value = text;
-        //data.hProperties = hast.hProperties;
       };
     });
   };
@@ -110,6 +114,6 @@ export default defineConfig({
     build: {
       assetsInlineLimit: '0',
     },
-    plugins: [yaml()],
+    plugins: [rollupYaml()],
   },
 });
