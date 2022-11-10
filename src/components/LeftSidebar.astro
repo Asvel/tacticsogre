@@ -2,9 +2,13 @@
 const { url } = Astro;
 
 function anchorProps(path: string) {
+  let { pathname } = url;
+  if (pathname.endsWith('.html')) {
+    pathname = pathname.slice(0, -5);
+  }
   return {
     'href': path,
-    'aria-current': new URL(path, url).pathname === url.pathname,
+    'aria-current': new URL(path, url).pathname === pathname,
   };
 }
 ---
