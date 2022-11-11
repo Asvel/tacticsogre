@@ -106,8 +106,11 @@ export default defineConfig({
   integrations: [
     compress({
       html: {
+        minifyCSS: false,
         removeComments: true,
+        sortClassName: false,
       },
+      css: false,
     }),
   ],
   vite: {
