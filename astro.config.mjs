@@ -21,7 +21,6 @@ const termTypes = {
   'c': 'character',
   'd': 'character',  // screenplay character
   'l': 'clan',
-  'm': 'strongpointmini',
   'p': 'strongpoint',
   'q': 'ca',
   'r': 'rumor',
