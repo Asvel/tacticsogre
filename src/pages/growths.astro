@@ -20,10 +20,11 @@ const classGrowths = new Map(classGrowthsText.split(/\r?\n/).slice(1, -1).map(li
   });
   return [parseInt(parts[0], 16), { name, growths }];
 }));
+classGrowths.delete(0x0c);  // 盗贼
 
 const ids = Array.from(Array(100).keys());
 const groups = [
-  [...ids.slice(0x01, 0x13), ...ids.slice(0x33, 0x40), 0x46, ...ids.slice(0x13, 0x17)],
+  [...ids.slice(0x01, 0x0c), ...ids.slice(0x0d, 0x13), ...ids.slice(0x33, 0x40), 0x46, ...ids.slice(0x13, 0x17)],
   [...ids.slice(0x1b, 0x2c)],
 ];
 const grwothLength = classGrowths.get(1)!.growths.length;
