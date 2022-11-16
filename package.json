@@ -21,6 +21,7 @@
     "remark-gfm": "^3.0.1",
     "remark-heading-id": "^1.0.0",
     "remark-remove-comments": "^0.2.0",
+    "rollup-plugin-string": "^3.0.0",
     "sanitize.css": "^13.0.0",
     "sass": "^1.55.0",
     "unist-builder": "^3.0.0",

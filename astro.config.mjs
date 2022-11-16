@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import rollupYaml from '@rollup/plugin-yaml';
+import { string as rollupString } from "rollup-plugin-string";
 import compress from "astro-compress";
 
 import remarkRemoveComments from 'remark-remove-comments';
@@ -116,6 +117,9 @@ export default defineConfig({
     build: {
       assetsInlineLimit: '0',
     },
-    plugins: [rollupYaml()],
+    plugins: [
+      rollupYaml(),
+      rollupString({ include: '**/*.csv' }),
+    ],
   },
 });

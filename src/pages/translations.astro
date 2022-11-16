@@ -16,7 +16,7 @@ for (let section of Object.values(translations) as any[]) {
 
 <BaseLayout title={title}>
   <div id="grid-main">
-    <h1>译名对照表</h1>
+    <h1>{title}</h1>
     {Object.entries(sections).map(([sectionId, sectionName]) => (
       <>
         <h2 class="translations-title">
