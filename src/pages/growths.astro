@@ -7,55 +7,60 @@ const classGrowths = new Map(classGrowthsText.split(/\r?\n/).slice(1, -1).map(li
   const name = parts[parts.length - 1];
   const growths = parts.slice(1, -1).map(n => ({
     text: n,
-    number: Math.round(parseFloat(n) * 10),
+    number: parseFloat(n),
     color: 0,
   }));
-  const sum = (growths.slice(2, -1).reduce((s, x) => s + x.number, 0)
-    + (growths[0].number + growths[1].number) / 10
-    + growths[growths.length - 1].number * 4.1) / 10;
-  growths.push({
-    text: sum.toFixed(2),
-    number: sum,
-    color: 0,
-  });
   return [parseInt(parts[0], 16), { name, growths }];
 }));
 classGrowths.delete(0x0c);  // 盗贼
+const raceGrowths = [0.2, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1];
+const totalGrowths = new Map(Array.from(classGrowths, ([id, { name, growths }]) => {
+  const random = growths[growths.length - 1].number;
+  const numbers = raceGrowths.map((n, i) => n + growths[i].number + random / 2);
+  numbers.push(numbers.slice(2).reduce((s, n) => s + n, 0) + (numbers[0] + numbers[1]) / 10);
+  return [id, { name, growths: numbers.map(n => ({ text: n.toFixed(2), number: n, color: 0 })) }];
+}));
 
 const ids = Array.from(Array(100).keys());
 const groups = [
   [...ids.slice(0x01, 0x0c), ...ids.slice(0x0d, 0x13), ...ids.slice(0x33, 0x40), 0x46, ...ids.slice(0x13, 0x17)],
   [...ids.slice(0x1b, 0x2c)],
 ];
-const grwothLength = classGrowths.get(1)!.growths.length;
-for (const group of groups) {
-  for (let grwothIndex = 0; grwothIndex < grwothLength; grwothIndex++) {
-    const growthSet = new Set<number>();
-    let max = -Infinity;
-    let min = Infinity;
-    for (const id of group) {
-      const { number } = classGrowths.get(id)!.growths[grwothIndex];
-      growthSet.add(number);
-      if (number > max) max = number;
-      if (number < min) min = number;
-    }
-    const delta = max - min;
-    for (const id of group) {
-      const growth = classGrowths.get(id)!.growths[grwothIndex];
-      const ratio = (growth.number - min) / delta;
-      if (ratio > 0.9) {
-        growth.color = growthSet.size > 3 ? 5 : 4;
-      } else if (ratio < 0.1) {
-        growth.color = growthSet.size > 3 ? 1 : 2;
-      } else if (ratio > 0.7) {
-        growth.color = 4;
-      } else if (ratio < 0.3) {
-        growth.color = 2;
-      } else {
-        growth.color = 3;
+for (const theGrowths of [classGrowths, totalGrowths]) {
+  const grwothLength = theGrowths.get(1)!.growths.length;
+  for (const group of groups) {
+    for (let grwothIndex = 0; grwothIndex < grwothLength; grwothIndex++) {
+      const groupGrwoths = group.map(id => theGrowths.get(id)!.growths[grwothIndex]);
+      const growthSet = new Set<number>();
+      let max = -Infinity;
+      let min = Infinity;
+      for (const { number } of groupGrwoths) {
+        growthSet.add(number);
+        if (number > max) max = number;
+        if (number < min) min = number;
+      }
+      const delta = max - min;
+      for (const growth of groupGrwoths) {
+        const ratio = (growth.number - min) / delta;
+        if (ratio > 0.9) {
+          growth.color = 5;
+        } else if (ratio < 0.1) {
+          growth.color = 1;
+        } else if (ratio > 0.7) {
+          growth.color = 4;
+        } else if (ratio < 0.3) {
+          growth.color = 2;
+        } else {
+          growth.color = 3;
+        }
+      }
+      if (!groupGrwoths.some(g => g.color == 4 || g.color == 2)) {
+        for (const growth of groupGrwoths) {
+          if (growth.color == 5) growth.color = 4;
+          if (growth.color == 1) growth.color = 2;
+        }
       }
     }
-
   }
 }
 
@@ -71,7 +76,6 @@ const title = '成长率';
     </p>
     <h2 class="growths-title">
       兵种成长率
-      <div class="growths-tip">* 随机部分按期望计入，HP、MP按十分之一计入</div>
     </h2>
     <table class="growths-table">
       <thead>
@@ -88,7 +92,6 @@ const title = '成长率';
           <th>MND</th>
           <th>RES</th>
           <th>随机上限</th>
-          <th>总和*</th>
         </tr>
       </thead>
       <tbody>
@@ -109,14 +112,59 @@ const title = '成长率';
         ))}
       </tbody>
     </table>
+
     <h2 class="growths-title">
       种族成长率
     </h2>
     <p>《重生》中全部种族（包括剧情角色）的成长率均为HP、MP0.2，其他属性0.1，成长性不存在个体差距。</p>
+
+    <h2 class="growths-title" id="total">
+      总成长率（期望值）
+      <div class="growths-tip">* HP、MP按十分之一计入</div>
+    </h2>
+    <table class="growths-table">
+      <thead>
+        <tr>
+          <th>兵种</th>
+          <th>HP</th>
+          <th>MP</th>
+          <th>STR</th>
+          <th>VIT</th>
+          <th>DEX</th>
+          <th>AGI</th>
+          <th>AVD</th>
+          <th>INT</th>
+          <th>MND</th>
+          <th>RES</th>
+          <th>总和*</th>
+        </tr>
+      </thead>
+      <tbody>
+        {groups.map(group => (
+          <>
+            {group.map(id => {
+              const { name, growths } = totalGrowths.get(id)!;
+              return(
+                <tr class={`growths-class-${id.toString(16)}`}>
+                  <td>{name}</td>
+                  {growths.map(({ text, color })=> (
+                    <td class={`growths-color-${color}`}>{text}</td>
+                  ))}
+                </tr>
+              );
+            })}
+          </>
+        ))}
+      </tbody>
+    </table>
   </div>
 </BaseLayout>
 
 <style lang="scss" is:global>
+  :target {
+    scroll-margin: 2rem 0;
+  }
+
   #grid-main {
     grid-column: 2 / 4;
     margin-bottom: 6rem;
@@ -124,6 +172,7 @@ const title = '成长率';
       margin-top: 2.5rem;
     }
   }
+
   .growths-title {
     position: relative;
   }
@@ -157,7 +206,7 @@ const title = '成长率';
       }
     }
     th, td {
-      width: 7%;
+      width: 7.5%;
       padding: 2px 3px 2px 3px;
       text-align: center;
       border: 1px rgba(0,0,0,0.15) solid;
@@ -205,24 +254,27 @@ const title = '成长率';
       border-bottom-color: rgba(0,0,0,0.6);
     }
   }
-  .growths-color-1 {
+
+  td[class*="growths-color-"] {
     color: #111;
-    background-color: rgb(230 124 115);
+    &::selection {
+      color: #111;
+      background-color: rgba(14, 101, 235, 0.1);
+    }
+  }
+  .growths-color-1 {
+    background-color: rgb(230, 124, 115);
   }
   .growths-color-2 {
-    color: #111;
     background-color: rgb(243, 190, 185);
   }
   .growths-color-3 {
-    color: #111;
     background-color: rgb(255, 255, 255);
   }
   .growths-color-4 {
-    color: #111;
     background-color: rgb(171, 221, 197);
   }
   .growths-color-5 {
-    color: #111;
     background-color: rgb(87, 187, 138);
   }
 </style>
