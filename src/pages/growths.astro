@@ -65,10 +65,13 @@ const title = '成长率';
 <BaseLayout title={title}>
   <div id="grid-main">
     <h1>{title}</h1>
-    <p>升级时，每项属性提升：此属性的兵种成长率 + 此属性的种族成长率 + 兵种随机成长率×随机数范围0到1，小数点部分会被保留。</p>
+    <p>
+      升级时，每项属性提升：此属性的兵种成长率 + 此属性的种族成长率 + 兵种随机成长率，小数点部分会被保留。<br />
+      随机成长率：在【0.0、0.1、0.2、...、随机上限】中随机抽取一个，抽到上下限的概率低于其他。
+    </p>
     <h2 class="growths-title">
       兵种成长率
-      <div class="growths-tip">* 随机按期望计入，HP、MP按十分之一计入</div>
+      <div class="growths-tip">* 随机部分按期望计入，HP、MP按十分之一计入</div>
     </h2>
     <table class="growths-table">
       <thead>
@@ -84,7 +87,7 @@ const title = '成长率';
           <th>INT</th>
           <th>MND</th>
           <th>RES</th>
-          <th>随机</th>
+          <th>随机上限</th>
           <th>总和*</th>
         </tr>
       </thead>
