@@ -94,22 +94,23 @@ const title = '成长率';
           <th>随机上限</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody class="growths-table-collapsed">
+        <tr class="growths-table-expand">
+          <td colspan="12">点击展开</td>
+        </tr>
         {groups.map(group => (
-          <>
-            {group.map(id => {
-              const { name, growths } = classGrowths.get(id)!;
-              return(
-                <tr class={`growths-class-${id.toString(16)}`}>
-                  <td>{name}</td>
-                  {growths.map(({ text, color })=> (
-                    <td class={`growths-color-${color}`}>{text}</td>
-                  ))}
-                </tr>
-              );
-            })}
-          </>
-        ))}
+          group.map(id => {
+            const { name, growths } = classGrowths.get(id)!;
+            return(
+              <tr class={`growths-class-${id.toString(16)}`}>
+                <td>{name}</td>
+                {growths.map(({ text, color })=> (
+                  <td class={`growths-color-${color}`}>{text}</td>
+                ))}
+              </tr>
+            );
+          })
+        )).flat()}
       </tbody>
     </table>
 
@@ -141,20 +142,18 @@ const title = '成长率';
       </thead>
       <tbody>
         {groups.map(group => (
-          <>
-            {group.map(id => {
-              const { name, growths } = totalGrowths.get(id)!;
-              return(
-                <tr class={`growths-class-${id.toString(16)}`}>
-                  <td>{name}</td>
-                  {growths.map(({ text, color })=> (
-                    <td class={`growths-color-${color}`}>{text}</td>
-                  ))}
-                </tr>
-              );
-            })}
-          </>
-        ))}
+          group.map(id => {
+            const { name, growths } = totalGrowths.get(id)!;
+            return(
+              <tr class={`growths-class-${id.toString(16)}`}>
+                <td>{name}</td>
+                {growths.map(({ text, color })=> (
+                  <td class={`growths-color-${color}`}>{text}</td>
+                ))}
+              </tr>
+            );
+          })
+        )).flat()}
       </tbody>
     </table>
   </div>
@@ -221,7 +220,6 @@ const title = '成长率';
       &:nth-child(5),
       &:nth-child(8),
       &:nth-child(11),
-      &:nth-child(12),
       &:last-child {
         border-right-width: 2px;
         border-right-color: rgba(0,0,0,0.22);
@@ -243,7 +241,8 @@ const title = '成长率';
   .growths-class-16,
   .growths-class-22,
   .growths-class-23,
-  .growths-class-27, {
+  .growths-class-27,
+  .growths-table-expand {
     td {
       border-bottom-width: 2px;
       border-bottom-color: rgba(0,0,0,0.22);
@@ -277,4 +276,27 @@ const title = '成长率';
   .growths-color-5 {
     background-color: rgb(87, 187, 138);
   }
+
+  .growths-table-expand {
+    display: none;
+  }
+  .growths-table-collapsed {
+    tr {
+      display: none;
+    }
+    .growths-table-expand {
+      display: table-row;
+      cursor: pointer;
+      td {
+        text-align: center;
+        line-height: 26px;
+      }
+    }
+  }
 </style>
+
+<script is:inline>
+  document.querySelector('.growths-table-expand').addEventListener('click', () => {
+    document.querySelector('.growths-table-collapsed').classList.remove('growths-table-collapsed');
+  });
+</script>
