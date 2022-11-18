@@ -1449,3 +1449,3581 @@ clan:
   - バルバウダ
   - 巴尔鲍达
   - 巴尔巴乌达
+arms:
+- - Leather Caestus
+  - レザーセスタス
+  - 皮拳套
+  - 皮革拳套
+- - Bronze Knuckles
+  - ブロンズナックル
+  - 铜指虎
+  - 青铜指套
+- - Iron Claws
+  - アイアンクロー
+  - 铁爪
+  - 铁爪
+- - Cat Bagh Nakh
+  - キャットバグナウ
+  - 猫爪
+  - 猫爪
+- - Baldur Claws
+  - バルダークロー
+  - 巴德尔爪
+  - 魔铁爪
+- - Katara
+  - カタール
+  - 拳刃
+  - 拳剑
+- - Tiger Bagh Nakh
+  - タイガーバグナウ
+  - 虎爪
+  - 虎爪
+- - Damascus Claws
+  - ダマスカスクロー
+  - 镔铁爪
+  - 大马士革爪
+- - Dragon Claws
+  - ドラゴンクロー
+  - 龙爪
+  - 龙爪
+- - Dragon Blades
+  - ドラゴンブレイズ
+  - 龙息
+  - 龙焰
+- - Jamadhar
+  - ジャマダハル
+  - 三叉拳刃
+  - 三叉拳剑
+- - Vishnu's Katara
+  - ヴィシュヌカタール
+  - 毗湿奴拳刃
+  - 毗湿奴拳剑
+- - Hellhound Claws
+  - ヘルハウンドクロー
+  - 地狱犬爪
+  - 地狱犬爪
+- - Kerberos Claws
+  - ケルベロスクロー
+  - 三头犬爪
+  - 刻耳柏洛斯之爪
+- - Daedalus Knuckles
+  - ダイダロスナックル
+  - 代达罗斯指虎
+  - 代达罗斯指套
+  - 戴达罗斯指套
+- - Vaisravana
+  - 毘沙門
+  - 毗沙门
+  - 毗沙门
+- - Trueno's Scales
+  - トゥルエノ
+  - 图埃诺
+  - 托鲁埃诺
+- - Vainateya's Talons
+  - ヴァイナテーヤ
+  - 迦楼罗
+  - 瓦伊纳特亚
+- - Huitzilopochtli's Rays
+  - ウィツィロポチトリ
+  - 维齐洛波奇特利
+  - 维齐洛波奇特利
+- - Sticker
+  - ミニマムダガー
+  - 小型短剑
+  - 迷你短剑
+- - Battle Knife
+  - バトルナイフ
+  - 战斗短刀
+  - 战斗小刀
+- - Dirk
+  - ダーク
+  - 达刻
+  - 小刀
+- - Butcher Knife
+  - ブッチャーナイフ
+  - 屠夫刀
+  - 屠宰小刀
+- - Baldur Dagger
+  - バルダーダガー
+  - 巴德尔短剑
+  - 魔铁短剑
+- - Kris
+  - クリス
+  - 波纹短剑
+  - 波纹剑
+- - Kidney Spike
+  - キドニーダガー
+  - 慈悲短剑
+  - 刺杀短剑
+- - Damascus Dagger
+  - ダマスカスダガー
+  - 镔铁短剑
+  - 大马士革短剑
+- - Valiant's Dagger
+  - バリアントダガー
+  - 骁勇短剑
+  - 符文短剑
+- - Brilliant Dagger
+  - ブリリアントダガー
+  - 光耀短剑
+  - 辉光短剑
+- - Marauder Knife
+  - マローダーナイフ
+  - 掳掠短刀
+  - 抢夺者小刀
+- - Predator Knife
+  - プレデターナイフ
+  - 掠食短刀
+  - 掠食者小刀
+- - Xolotl's Canine
+  - ソロトル
+  - 索洛托
+  - 索洛托尔
+  - 索罗特尔
+- - Yama
+  - 焔魔
+  - 焰魔
+  - 焰魔
+- - Dragon Fang
+  - ドラゴンファング
+  - 猛龙毒牙
+  - 龙牙
+- - Pinion Blade
+  - ベンダバール
+  - 飓风
+  - 疾风
+- - Assassin Blade
+  - アサシンブレード
+  - 刺客黑刃
+  - 暗杀刃
+- - Short Sword
+  - ショートソード
+  - 单手剑
+  - 短剑
+- - Gladius
+  - グラディウス
+  - 斗剑
+  - 宽剑
+- - Rapier
+  - レイピア
+  - 细剑
+  - 突刺剑
+- - Shamshir
+  - シャムシール
+  - 弯刀
+  - 弯刀
+- - Baldur Sword
+  - バルダーソード
+  - 巴德尔长剑
+  - 魔铁剑
+- - Cutlass
+  - カットラス
+  - 弧刀
+  - 水手弯刀
+- - Khora
+  - コラ
+  - 云头刀
+  - 曲刀
+- - Damascus Sword
+  - ダマスカスソード
+  - 镔铁剑
+  - 大马士革剑
+- - Walloon Sword
+  - ワルーンソード
+  - 瓦隆剑
+  - 瓦隆剑
+- - Lightning Sword
+  - ライトニングソード
+  - 雷霆剑
+  - 闪电剑
+- - Ice Blade
+  - アイスブレード
+  - 冰霜剑
+  - 冰刃
+- - Isberg
+  - イセベルグ
+  - 伊瑟伯格
+  - 冰山刃
+- - Kukri
+  - ククリ
+  - 曲刀
+  - 尼泊尔弯刀
+- - Fandango
+  - ファンダンゴ
+  - 凡丹戈
+  - 凡当戈弯刀
+- - Nifrit Sword
+  - ニフリートソード
+  - 尼弗利特剑
+  - 污水剑
+- - Lombardia
+  - ロンバルディア
+  - 伦巴第
+  - 伦巴第
+  - 隆巴迪亚
+- - Kumbhira
+  - 金毘羅
+  - 金毗罗
+  - 金毗罗
+- - Odiferous Waster
+  - にぎりがくさい剣
+  - 臭味相与剑
+  - 汗臭剑
+- - Ogre Blade
+  - オウガブレード
+  - 食人魔之剑
+  - 奥伽之刃
+- - Ambicion
+  - アンビシオン
+  - 安毕希翁
+  - 安比西昂
+- - Brynhildr
+  - ブリュンヒルド
+  - 布伦希尔德
+  - 布伦希尔德
+- - Daedalus Blade
+  - ダイダロスブレード
+  - 代达罗斯剑
+  - 代达罗斯之刃
+  - 戴达罗斯之刃
+- - Oracion
+  - オラシオン
+  - 奥拉席翁
+  - 祈祷之剑
+- - Fafnir's Heart
+  - ファフニール
+  - 法夫尼鲁
+  - 法夫尼尔
+- - Leksar's Beloved
+  - レクサソール
+  - 雷克萨索尔
+  - 雷克萨索尔
+- - Broadsword
+  - ブロードソード
+  - 宽剑
+  - 阔剑
+- - Viking Sword
+  - 'バイキングソード  '
+  - 维京剑
+  - 海盗剑
+- - Zweihander
+  - ツヴァイハンダー
+  - 双手大剑
+  - 巨剑
+- - Baldur Blade
+  - バルダーブレード
+  - 巴德尔大剑
+  - 魔铁大剑
+- - Bastard Sword
+  - バスタードソード
+  - 混种剑
+  - 大剑
+- - Claymore
+  - クレイモアー
+  - 阔刃大剑
+  - 阔刃斩剑
+- - Falx
+  - ファルクス
+  - 大镰
+  - 弯镰剑
+- - Damascus Blade
+  - ダマスカスブレード
+  - 镔铁剑
+  - ''
+- - Desert Blade
+  - デゼールブレード
+  - 荒漠剑
+  - 沙漠之刃
+- - Gaia Blade
+  - ガイアブレード
+  - 盖亚剑
+  - 盖亚之刃
+- - The Headsman
+  - 斬首剣
+  - 斩首剑
+  - 斩首剑
+- - The Dark Headsman
+  - 斬魔剣
+  - 斩魔剑
+  - 斩魔剑
+- - Rhomphaia
+  - ロンパイア
+  - 长柄逆刃刀
+  - 长柄逆刃刀
+- - Grasshewer Blade
+  - クサナギブレード
+  - 天丛云剑
+  - 草薙刀
+- - Notos
+  - ノトス
+  - 诺托斯
+  - 南风之剑
+- - Balmung
+  - バルムンク
+  - 巴尔蒙格
+  - 巴鲁姆克
+- - Ishana
+  - 伊舎那
+  - 伊舍那
+  - 伊舍那
+- - Durandal
+  - デュランダル
+  - 杜兰达尔
+  - 杜兰达尔
+- - Moon Blade
+  - 冷艶鋸
+  - 冷艳锯
+  - 冷艳锯
+- - Hand Axe
+  - ハンドアックス
+  - 手斧
+  - 手斧
+- - Battle Axe
+  - バトルアックス
+  - 战斧
+  - 战斧
+- - Heavy Axe
+  - ヘビーアックス
+  - 重斧
+  - 重斧
+- - Baldur Axe
+  - バルダーアックス
+  - 巴德尔斧
+  - 魔铁斧
+- - Tabar Zin
+  - タバルジン
+  - 单手战斧
+  - 半月钩斧
+- - Chakmak
+  - チャクマク
+  - 恰克马克
+  - 圆月战斧
+- - Guisarme
+  - ギサルメアックス
+  - 长矛战斧
+  - 矛斧
+- - Damascus Axe
+  - ダマスカスアックス
+  - 镔铁斧
+  - ''
+- - Balbriggan
+  - バルブリガン
+  - 巴尔布里根
+  - 巴尔布里根
+- - Trovaon
+  - トロヴァオン
+  - 托洛瓦恩
+  - 托罗瓦昂
+- - Dragon Axe
+  - ドラゴンアックス
+  - 巨龙斧
+  - 龙鳍斧
+- - Terre Axe
+  - 地竜の戦斧
+  - 地龙战斧
+  - 地龙战斧
+- - Glamrock
+  - グラムロック
+  - 格拉姆洛克
+  - 陨铁斧
+- - Stardust
+  - スターダスト
+  - 星尘
+  - 星尘斧
+- - Prox
+  - プロクス
+  - 普罗克斯
+  - 红莲之斧
+- - Boreas
+  - ボレアス
+  - 玻瑞阿斯
+  - 北风之斧
+- - Kshuparaka
+  - 戦捺羅
+  - 战捺罗
+  - 战奈罗
+- - Shaytan's Bulova
+  - サタンブローバー
+  - 撒旦斧
+  - 撒旦之镰
+- - Rune Axe
+  - ルーンアックス
+  - 卢恩斧
+  - 符刻圣斧
+- - Bronze Spear
+  - ブロンズスピア
+  - 铜枪
+  - 青铜枪
+- - Xyston
+  - スレンダースピア
+  - 细枪
+  - 细枪
+- - Voulge
+  - ヴォウジェ
+  - 长戟
+  - 宽刃枪
+- - Baldur Spear
+  - バルダースピア
+  - 巴德尔枪
+  - 魔铁枪
+- - Scorpion
+  - スコーピオン
+  - 天蝎
+  - 蝎枪
+- - Trident
+  - トライデント
+  - 三叉戟
+  - 三叉戟
+- - Bardiche
+  - バルディッシュ
+  - 巴迪什
+  - 半月斧枪
+- - Damascus Spear
+  - ダマスカススピア
+  - 镔铁枪
+  - 大马士革枪
+- - Poleaxe
+  - ポールアックス
+  - 长柄斧枪
+  - 斧锤长枪
+- - Hache
+  - アースジャベリン
+  - 大地投枪
+  - 大地标枪
+- - Corne Licorne
+  - コルヌリコルヌ
+  - 独角兽
+  - 幻兽之枪
+- - Holy Lance
+  - ホーリーランス
+  - 圣枪
+  - 神兽骑枪
+- - Volcaetus
+  - ヴォルケイトス
+  - 渥肯托斯
+  - 幻火之枪
+- - Ignis
+  - イグニス
+  - 伊格尼斯
+  - 鬼火
+- - Zephyros
+  - ゼピュロス
+  - 泽菲罗斯
+  - 西风之枪
+- - Bentisca
+  - ベンティスカ
+  - 本提斯卡
+  - 暴风雪之枪
+- - Tlaloc's Bolt
+  - トラロク
+  - 特拉洛克
+  - 特拉洛克
+  - 托拉洛克
+- - Pavana
+  - 伐折羅
+  - 伐折罗
+  - 伐折罗
+- - Dark Spear
+  - イービルスピア
+  - 邪枪
+  - 邪魔之枪
+- - Halt Hammer
+  - ハルトハンマー
+  - 坚锤
+  - 手锤
+- - Caldia
+  - カルディア
+  - 卡路狄亚
+  - 舞扇
+- - Iron Fan
+  - 鉄扇
+  - 铁扇
+  - 铁扇
+- - Morning Star
+  - モーニングスター
+  - 晨星
+  - 流星锤
+- - Baldur Hammer
+  - バルダーハンマー
+  - 巴德尔锤
+  - 魔铁锤
+- - War Hammer
+  - ウォーハンマー
+  - 战锤
+  - 战锤
+- - War Maul
+  - ブルメイス
+  - 雄牛锤
+  - 硬头锤
+- - Spiked Flail
+  - スパイクフレイル
+  - 锐刺连枷
+  - 链锤
+- - Damascus Hammer
+  - ダマスカスハンマー
+  - 镔铁锤
+  - ''
+- - Dragon Hammer
+  - ドラゴンハンマー
+  - 巨龙锤
+  - 龙牙骨锤
+- - Sanguine Hammer
+  - ブラッディハンマー
+  - 嗜血锤
+  - 血腥之锤
+- - Yggdrasil Gnarl
+  - イグドラシル
+  - 伊格德拉西尔
+  - 世界树之锤
+- - Glacies
+  - グラキエース
+  - 古拉切斯
+  - 生命之锤
+- - Aqua Hammer
+  - アクアハンマー
+  - 阿奎亚锤
+  - 海神之锤
+- - Vajra
+  - 金剛杵
+  - 金刚杵
+  - 金刚杵
+- - Sanscion
+  - サンシオン
+  - 索象
+  - 地脉之锤
+- - Flame Flail
+  - フレイムフレイル
+  - 火焰连枷
+  - 火焰链锤
+- - Euros
+  - エウロス
+  - 欧洛斯
+  - 东风之锤
+- - Dagda's Hammer
+  - ダグザハンマー
+  - 达古扎锤
+  - 达古扎之锤
+- - Veritas
+  - ウェーリタース
+  - 真理之神
+  - 神戒圣锤
+- - Hisyu
+  - 匕首
+  - 匕首
+  - 匕首
+- - Wakizashi
+  - 脇差し
+  - 胁差
+  - 胁差
+- - Jitte
+  - 十手
+  - 捕棍
+  - 十手
+- - Spiritblade
+  - 妖刀
+  - 妖刀
+  - 妖刀
+- - Ninja Sword
+  - 忍刀
+  - 忍刀
+  - 忍刀
+- - Moon Sickle
+  - 月鎌
+  - 月镰
+  - 月镰
+- - Sai
+  - 釵
+  - 钗
+  - 钩
+- - Muso Blade
+  - 無双刀
+  - 无双刀
+  - 无双刀
+- - Tigerblade
+  - 獅子吼
+  - 狮子吼
+  - 狮子吼
+- - Ghostblade
+  - 夜叉
+  - 夜叉
+  - 夜叉
+- - Brahma
+  - 梵天
+  - 梵天
+  - 梵天
+- - The Awakener
+  - 覚一
+  - 觉一
+  - 觉一
+- - Thunderfire
+  - 雷火
+  - 雷火
+  - 雷火
+- - Golok
+  - 迦楼羅
+  - 迦楼罗
+  - 迦楼罗
+- - Bakasura
+  - 羅刹
+  - 罗刹
+  - 罗刹
+- - Shimmer Sword
+  - 陽炎
+  - 阳炎
+  - 阳炎
+- - Tachi
+  - 太刀
+  - 太刀
+  - 太刀
+- - Siege Sword
+  - 鈍刀
+  - 钝刀
+  - 钝刀
+- - Sawblade
+  - 鋸刀
+  - 锯刀
+  - 锯刀
+- - Nodachi
+  - 野太刀
+  - 野太刀
+  - 野太刀
+- - Mageblade
+  - 魔刀
+  - 魔刀
+  - 魔刀
+- - Cane Blade
+  - 戒杖刀
+  - 戒杖刀
+  - 戒杖刀
+- - Dechevalier
+  - 斬馬刀
+  - 斩马刀
+  - 斩马刀
+- - Blacksteel Blade
+  - 黒作太刀
+  - 黑作太刀
+  - 黑作太刀
+- - Laquersteel Blade
+  - 黒漆太刀
+  - 黑漆太刀
+  - 黑漆太刀
+- - Helm Halver
+  - 兜斬丸
+  - 兜斩丸
+  - 兜斩丸
+- - Oakblade
+  - 柏太刀
+  - 柏太刀
+  - 柏太刀
+- - Nene Bane
+  - 祢々切丸
+  - 祢祢切丸
+  - 弥弥切丸
+- - Whispertouch Blade
+  - 圧し切り長谷部
+  - 压切长谷部
+  - 长谷部国重
+- - Firefly
+  - 蛍丸
+  - 萤丸
+  - 萤丸
+- - Macuahuitl
+  - 獅子王
+  - 狮子王
+  - 狮子王
+- - Bringer of Light
+  - 大典太光世
+  - 大典太光世
+  - 大典太光世
+- - Asura
+  - 阿修羅
+  - 阿修罗
+  - 阿修罗
+- - Crescent Sword
+  - 三日月宗近
+  - 三日月宗近
+  - 三日月宗近
+- - Beadbound Blade
+  - 数珠丸恒次
+  - 数珠丸恒次
+  - 数珠丸恒次
+- - Ogresbane
+  - 鬼丸国綱
+  - 鬼丸国纲
+  - 鬼丸国纲
+- - Sweepblade
+  - 童子切安綱
+  - 童子切安纲
+  - 童子切安纲
+- - Sibyl's Staff
+  - 僧侶の杖
+  - 神职者杖
+  - 僧侣杖
+- - Mage Staff
+  - 魔道士の杖
+  - 魔道士杖
+  - 魔道士杖
+- - Baldur Mace
+  - バルダーメイス
+  - 巴德尔杖
+  - 魔铁权杖
+- - Exarch's Staff
+  - 司教の杖
+  - 主教杖
+  - 司教杖
+- - Magus Staff
+  - 魔術師の杖
+  - 法师杖
+  - 魔术师杖
+- - Damascus Mace
+  - ダマスカスメイス
+  - 镔铁杖
+  - 大马士革权杖
+- - Staff of Restoration
+  - 回復の杖
+  - 回复杖
+  - 回复杖
+- - Staff of Purification
+  - 浄化の杖
+  - 净化杖
+  - 净化杖
+- - Malitza's Staff
+  - マリーツァの杖
+  - 马里札之杖
+  - 马里查之杖
+- - Wand of Air
+  - ウインドワンド
+  - 风之杖
+  - 风之魔杖
+- - Wand of Earth
+  - アースワンド
+  - 地之杖
+  - 土之魔杖
+- - Wand of Lightning
+  - サンダーワンド
+  - 雷之杖
+  - 雷之魔杖
+- - Wand of Water
+  - アクアワンド
+  - 水之杖
+  - 水之魔杖
+- - Wand of Fire
+  - ファイアワンド
+  - 火之杖
+  - 火之魔杖
+- - Wand of Ice
+  - アイスワンド
+  - 冰之杖
+  - 冰之魔杖
+- - Ripple's Rod
+  - リプルズロッド
+  - 丽普露法杖
+  - 莉布露之杖
+- - Sagara
+  - 娑伽羅
+  - 娑伽罗
+  - 娑伽罗
+- - Sage Staff
+  - 賢者の杖
+  - 贤者之杖
+  - 贤者杖
+- - Wiseman's Staff
+  - ワイズマンスタッフ
+  - 智者法杖
+  - 终极魔法杖
+- - Bullwhip
+  - ブルウィップ
+  - 牛鞭
+  - 牛鞭
+- - Spiked Laurel
+  - 月桂樹
+  - 月桂树
+  - 月桂树
+- - Rose Whip
+  - ラプチャーローズ
+  - 欢愉蔷薇
+  - 玫瑰鞭
+- - Clearcrack Whip
+  - 破魔の鞭
+  - 破魔鞭
+  - 破魔鞭
+- - Holy Comet
+  - ホーリーコメット
+  - 神圣彗星
+  - 圣鞭
+- - Blood Whip
+  - ブラッドウィップ
+  - 嗜血鞭
+  - 吸血鞭
+- - Supple Whip
+  - セクシーウィップ
+  - 妖艳长鞭
+  - 性感鞭子
+- - Cat o' Nine Tails
+  - ナインテイル
+  - 九尾
+  - 九尾鞭
+- - Biblion Anatomiae
+  - 人体解剖学書
+  - 人体解剖学书
+  - 人体解剖学书
+- - Biblion Teratos
+  - 魔獣解剖学書
+  - 魔兽解剖学书
+  - 魔兽解剖学书
+- - Biblion Herpetou
+  - 爬虫類解剖学書
+  - 爬行类解剖学书
+  - 爬虫解剖学书
+  - 爬虫类解剖学书
+- - Biblion Drakontos
+  - 竜解剖学書
+  - 龙解剖学书
+  - 龙类解剖学书
+- - Biblion Sacri
+  - 聖霊実存解明学書
+  - 圣灵存在解明学书
+  - 圣灵实存解明学书
+- - Biblion Daemonis
+  - 悪魔実存解明学書
+  - 恶魔存在解明学书
+  - 恶魔实存解明学书
+- - Biblion Spiritus
+  - 精霊実存解明学書
+  - 精灵存在解明学书
+  - 精灵实存解明学书
+- - Biblion Thanatos
+  - 死霊実存解明学書
+  - 死灵存在解明学书
+  - 死灵实存解明学书
+- - Biblion Pupparis
+  - 人形生成錬金学書
+  - 人偶生成炼金学书
+  - 巨像生成炼金学书
+- - Gran Grimoire
+  - グラングリモア
+  - 大魔法书
+  - 大百科辞典
+- - Pandeiro
+  - パンデイロ
+  - 铃鼓
+  - 羊皮手鼓
+- - Bolon
+  - ボロン
+  - 博隆
+  - 沙锤
+- - Cavaquinho
+  - カヴァキーニョ
+  - 多弦吉他
+  - 桑巴吉他
+- - Gerza's Atabaque
+  - ゲルザのアタバキ
+  - 格尔萨手鼓
+  - 格尔扎太鼓
+- - Rabana's Kemenche
+  - 'ラバナのケメンチェ '
+  - 拉文纳奇门奇琴
+  - 拉巴纳单弦琴
+- - Rabana's Tanbur
+  - ラバナのタンブール
+  - 拉文纳鼓琴
+  - 拉巴纳弹拨琴
+- - Livela's Harp
+  - リヴエラの竪琴
+  - 莉维艾拉竖琴
+  - 莉维艾拉的竖琴
+- - Gerges Blowgun
+  - ゲルゲの吹矢
+  - 凯尔盖吹箭
+  - 格尔格吹箭
+- - Stundart Blowgun
+  - ゲルゲの吹矢・麻酔
+  - 凯尔盖吹箭·麻醉
+  - 格尔格吹箭·麻醉
+- - Wortdart Blowgun
+  - ゲルゲの吹矢・魅了
+  - 凯尔盖吹箭·魅惑
+  - 格尔格吹箭·魅惑
+- - Frogdart Blowgun
+  - ゲルゲの吹矢・毒
+  - 凯尔盖吹箭·毒
+  - 格尔格吹箭·毒
+- - Mutedart Blowgun
+  - ゲルゲの吹矢・沈黙
+  - 凯尔盖吹箭·沉默
+  - 格尔格吹箭·沉默
+- - Petridart Blowgun
+  - ゲルゲの吹矢・石化
+  - 凯尔盖吹箭·石化
+  - 格尔格吹箭·石化
+- - Baldur Blowgun
+  - バルダーブロウガン
+  - 巴德尔吹箭
+  - 魔铁吹箭
+- - Damascus Blowgun
+  - ダマスカスブロウガン
+  - 镔铁吹箭
+  - ''
+- - Femakk's Blowgun
+  - フエマックの吹矢
+  - 胡埃马克吹箭
+  - 菲尔马库的吹箭
+- - Rahula
+  - 羅吼
+  - 罗吼
+  - 罗吼
+- - Shortbow
+  - ショートボウ
+  - 短弓
+  - 短弓
+- - Great Bow
+  - グレートボウ
+  - 强弓
+  - 大弓
+- - Longbow
+  - ロングボウ
+  - 长弓
+  - 长弓
+- - Baldur Bow
+  - バルダーボウ
+  - 巴德尔弓
+  - 魔铁弓
+- - Composite Bow
+  - コンポジットボウ
+  - 复合弓
+  - 复合弓
+- - Siege Bow
+  - マーシャルボウ
+  - 军弓
+  - 马歇尔弓
+- - Damascus Bow
+  - ダマスカスボウ
+  - 镔铁弓
+  - 大马士革弓
+- - Crescente
+  - クレシェンテ
+  - 克雷申蒂
+  - 新月弓
+- - Cupido Bow
+  - クピドの弓
+  - 丘比特之弓
+  - 丘比特之弓
+- - Permafrost Bow
+  - 凍土の弓
+  - 冻土弓
+  - 冻土弓
+- - Ixquimilli's Bow
+  - イシュキミリの弓
+  - 伊修奇米利之弓
+  - 伊修基米利之弓
+- - Tempest Bow
+  - 風神の弓
+  - 风神弓
+  - 风神弓
+- - Garuda Bow
+  - ガルーダの弓
+  - 揭路荼之弓
+  - 嘉鲁达之弓
+- - Thunder Bow
+  - 雷神の弓
+  - 雷神弓
+  - 雷神弓
+- - Indra's Bow
+  - インドラの弓
+  - 因陀罗之弓
+  - 因陀罗之弓
+- - Brimstone Bow
+  - 烈火の弓
+  - 烈火弓
+  - 烈火弓
+- - Sirocco Bow
+  - 砂塵の弓
+  - 沙尘弓
+  - 沙尘弓
+- - Ji'ygla's Bow
+  - ジィルガの魔弓
+  - 基卢加魔弓
+  - 基鲁伽魔弓
+- - Pajra
+  - 波夷羅
+  - 波夷罗
+  - 波依罗
+- - Centeotl's Rib
+  - センテオトルの弓
+  - 森特奥托尔之弓
+  - 桑特奥托之弓
+- - Crossbow
+  - クロスボウ
+  - 十字弓
+  - 十字弩
+- - Stonebow
+  - ストーンボウ
+  - 石弩
+  - 石弩
+- - Bowgun
+  - ツインクロスボウ
+  - 双弩
+  - 复合弩
+- - Baldur Crossbow
+  - バルダークロス
+  - 巴德尔弩
+  - 魔铁弩
+- - Heavy Crossbow
+  - ヘヴィクロスボウ
+  - 重弩
+  - 重弩
+- - Arbalest
+  - アルバレスト
+  - 劲弩
+  - 长弩
+- - Steelbow
+  - スティールボール
+  - 钢珠弩
+  - 钢珠弩
+- - Damascus Crossbow
+  - ダマスカスクロス
+  - 镔铁弩
+  - 大马士革弩
+- - Roodbow
+  - セントクロスボウ
+  - 神圣十字弓
+  - 圣弩
+- - Al-iklil
+  - イクリール
+  - 冠绝
+  - 圣神弩
+- - Keening Bowgun
+  - ソニックバレット
+  - 音弹弩
+  - 爆音弩
+- - Daedalus Bowgun
+  - ダイダロスバレット
+  - 代达罗斯弩
+  - 代达罗斯之弩
+  - 戴达罗斯之弩
+- - Asmak
+  - アスマーク
+  - 阿斯玛克
+  - 海龙弩
+- - Leilah
+  - ライラ
+  - 莱拉
+  - 漆黑弩
+- - Shams
+  - シャムス
+  - 夏姆斯
+  - 夏姆斯之弩
+- - Khalmid
+  - カルミード
+  - 卡尔迷德
+  - 大地弩
+- - Ysaar
+  - イウサール
+  - 尤萨尔
+  - 风灵弩
+- - Barad
+  - バラド
+  - 巴拉德
+  - 冰魔弩
+- - Raed
+  - ラエド
+  - 拉埃德
+  - 雷神弩
+- - Rimfire
+  - リムファイア
+  - 掌心雷
+  - 掌心雷
+- - Commander's Gun
+  - カマンダスガン
+  - 军官火枪
+  - 火绳铳
+- - Musket
+  - マスケットガン
+  - 毛瑟枪
+  - 滑膛铳
+- - Petronel
+  - ペトロネル
+  - 帕托内尔
+  - 佩特罗内尔手枪
+- - Banduq-i-chaqmaqi
+  - バンドゥイチャクマ
+  - 班度伊查克玛
+  - 来复铳
+- - Snub Fusil
+  - デリンジャー
+  - 德林杰
+  - 德林格手枪
+- - Longgun
+  - アサルトライフル
+  - 突击步枪
+  - 突击铳
+- - Punch
+  - 殴る
+  - 殴打
+  - 拳击
+- - Slap
+  - ぺしぺしする
+  - 拍打
+  - 巴掌
+- - Rabbit Punch
+  - 姐さんの一撃
+  - 姐姐的一击
+  - 姐姐的五指山
+- - Bite
+  - 噛みつく
+  - 啃咬
+  - 撕咬
+- - Haymaker
+  - ぶん殴る
+  - 痛殴
+  - 暴殴
+- - Rake
+  - 鉤爪攻撃
+  - 钩爪攻击
+  - 钩爪攻击
+- - Flog
+  - 触手攻撃
+  - 触手攻击
+  - 触手攻击
+- - Cast Stones
+  - 投石
+  - 丢石子
+  - 投石
+- - Throwing Dagger
+  - 手裏剣
+  - 手里剑
+  - 手里剑
+- - Sling Stone
+  - 印地打ち
+  - 投石
+  - 拍石
+- - Rail Against
+  - 言葉で攻める
+  - 言语攻势
+  - 咒骂
+- - Boulder Blow
+  - 岩を吹き飛ばす
+  - 飞岩
+  - 吹岩石
+- - Boulder Toss
+  - 岩をぶん投げる
+  - 投掷巨石
+  - 抛岩石
+- - Alluring Corset
+  - キンキーコルセット
+  - 妖艳束腰
+  - 情趣内衣
+- - Alluring Boots
+  - キンキーブーツ
+  - 妖艳长靴
+  - 情趣长靴
+- - Buckler
+  - バックラー
+  - 小型盾
+  - 小圆盾
+- - Pelta
+  - ペルタシールド
+  - 轻盾
+  - 新月盾
+- - Aspis
+  - サークルシールド
+  - 圆盾
+  - 圆盾
+- - Tower Shield
+  - タワーシールド
+  - 塔盾
+  - 塔盾
+- - Spiked Shield
+  - スパイクシールド
+  - 刺盾
+  - 钉刺盾
+- - Baldur Shield
+  - バルダーシールド
+  - 巴德尔盾
+  - 魔铁盾
+- - Heater Shield
+  - ヒーターシールド
+  - 斗盾
+  - 纹章盾
+- - Damascus Shield
+  - ダマスカスシールド
+  - 镔铁盾
+  - ''
+- - Dragon Scale
+  - ドラゴンスケイル
+  - 龙鳞盾
+  - 龙鳞盾
+- - Ancient Dragon Scale
+  - ライオットシールド
+  - 古龙盾
+  - 防暴盾
+- - Rozenzi Shield
+  - ロゼンジシールド
+  - 洛赞吉盾
+  - 罗杰盾
+- - Dread Shield
+  - ドレッドシールド
+  - 恐惧盾
+  - 恐惧盾
+- - Shield of the Winds
+  - ウインドシールド
+  - 风之盾
+  - 风精盾
+- - Shield of the Loam
+  - ソイルシールド
+  - 土之盾
+  - 森精盾
+  - 森灵盾
+- - Shield of the Storm
+  - サンダーシールド
+  - 雷之盾
+  - 雷兽盾
+- - Shield of the Waves
+  - アクアシールド
+  - 水之盾
+  - 水灵盾
+- - Shield of the Flames
+  - フレイムシールド
+  - 火之盾
+  - 炎魔盾
+- - Shield of the Tundra
+  - アイスシールド
+  - 冰之盾
+  - 寒冰盾
+  - 冰寒盾
+- - Shield of Sages
+  - 聖者の盾
+  - 圣者之盾
+  - 圣者盾
+- - Ogre Shield
+  - オウガシールド
+  - 食人魔之盾
+  - 奥伽之盾
+- - Aegis
+  - イージスの盾
+  - 埃癸斯之盾
+  - 神盾
+- - Medusa Shield
+  - メドゥーサの盾
+  - 美杜莎之盾
+  - 美杜莎盾
+- - Circlet
+  - サークレット
+  - 头环
+  - 发环
+- - Bronze Helm
+  - ブロンズヘルム
+  - 青铜头盔
+  - 青铜盔
+- - Baldur Helm
+  - バルダーヘルム
+  - 巴德尔头盔
+  - 魔铁盔
+- - Wizard's Hat
+  - ウィザードハット
+  - 巫师帽
+  - 巫师帽
+- - Damascus Helm
+  - ダマスカスヘルム
+  - 镔铁盔
+  - 大马士革盔
+- - Holy Crown
+  - ホーリークラウン
+  - 神圣冠冕
+  - 圣冠
+- - Wyrmscale Helm
+  - ドラゴンヘルム
+  - 龙鳞盔
+  - 龙鳞盔
+- - Glistening Helm
+  - ヌメヌメする兜
+  - 黏黏头盔
+  - 汗臭头盔
+- - Ogre Helm
+  - オウガヘルム
+  - 食人魔头盔
+  - 奥伽之盔
+- - Skull Mask
+  - スカルマスク
+  - 骷髅面具
+  - 骷髅面具
+- - Fruede Helm
+  - フロイデヘルム
+  - 弗洛德头盔
+  - 菲拉哈圣盔
+- - Robe
+  - ローブ
+  - 长袍
+  - 长袍
+- - Leather Armor
+  - レザーアーマー
+  - 皮甲
+  - 皮甲
+- - Chainmail
+  - チェインメイル
+  - 锁甲
+  - 锁子甲
+- - Magus Robe
+  - 魔術師のローブ
+  - 法师长袍
+  - 魔术师长袍
+- - Baldur Armor
+  - バルダーアーマー
+  - 巴德尔甲
+  - 魔铁铠
+- - Brigandine
+  - ブリガンダイン
+  - 布面甲
+  - 轻甲胄
+- - Sorcerer's Robe
+  - 魔道師のローブ
+  - 魔道师长袍
+  - ''
+- - Damascus Mail
+  - ダマスカスメイル
+  - 镔铁铠
+  - 大马士革铠
+- - Wyrmscale Armor
+  - ドラゴンメイル
+  - 龙鳞铠
+  - 龙鳞铠
+- - Reeking Armor
+  - 汗臭い甲冑
+  - 汗臭甲胄
+  - 汗臭甲胄
+- - Robes of the Gale
+  - 疾風の法衣
+  - 疾风法袍
+  - 疾风法衣
+- - Robes of the Dust
+  - 砂塵の法衣
+  - 沙尘法袍
+  - 沙尘法衣
+- - Robes of the Storm
+  - 雷電の法衣
+  - 雷电法袍
+  - 雷电法衣
+- - Robes of the Cataract
+  - 瀑布の法衣
+  - 瀑布法袍
+  - 瀑布法衣
+- - Robes of the Inferno
+  - 猛火の法衣
+  - 猛火法袍
+  - 猛火法衣
+- - Robes of Black Ice
+  - 冥氷の法衣
+  - 冥冰法袍
+  - 冥冰法衣
+- - Robes of Radiance
+  - 閃光の法衣
+  - 闪光法袍
+  - 闪光法衣
+- - Robes of Gloom
+  - 漆黒の法衣
+  - 漆黑法袍
+  - 漆黑法衣
+- - Falcon Feathercoat
+  - ペレグリンの風鎧
+  - 巨鹰风铠
+  - 佩雷格林风铠
+- - Nathalork Rockcoat
+  - ナサロークの土鎧
+  - 纳萨罗古土铠
+  - 纳萨洛克土铠
+- - Viraat's Thundercoat
+  - ヴィラートの雷鎧
+  - 维拉特雷铠
+  - 维拉托雷铠
+- - Whale Whiskercoat
+  - フウェイルの水鎧
+  - 巨鲸水铠
+  - 弗威尔水铠
+- - Phoenix Flamecoat
+  - ポイニクスの火鎧
+  - 珀尼克斯火铠
+  - 派尼克斯火铠
+- - Vikrant Icecoat
+  - ヴィクラントの氷鎧
+  - 维克兰特冰铠
+  - 维库兰托冰铠
+- - Aganista Lightcoat
+  - アガニスタの光鎧
+  - 亚加尼斯塔光铠
+  - 阿伽尼斯塔光铠
+- - Ji'ygla's Darkcoat
+  - ジィルガの魔鎧
+  - 基卢加魔铠
+  - 基鲁伽魔铠
+- - Falcon Mail
+  - ペレグリンメイル
+  - 巨鹰重铠
+  - 佩雷格林甲胄
+- - Nathalork Mail
+  - ナサロークメイル
+  - 纳萨罗古重铠
+  - 纳萨洛克甲胄
+- - Viraat's Mail
+  - ヴィラートメイル
+  - 维拉特重铠
+  - 维拉托甲胄
+- - Ur-Whale Mail
+  - フウェイルメイル
+  - 巨鲸重铠
+  - 弗威尔甲胄
+- - Phoenix Mail
+  - ポイニクスメイル
+  - 珀尼克斯重铠
+  - 派尼克斯甲胄
+- - Vikrant Mail
+  - ヴィクラントメイル
+  - 维克兰特重铠
+  - 维库兰托甲胄
+- - Titania Mail
+  - タイタニアメイル
+  - 泰坦尼亚铠
+  - 泰塔尼亚甲胄
+- - Thanatos Armor
+  - 死神の甲冑
+  - 死神甲胄
+  - 死神甲胄
+- - Garb of the Sages
+  - 賢者の法衣
+  - 贤者法袍
+  - 贤者法衣
+- - Ogre Armor
+  - オウガアーマー
+  - 食人魔铠甲
+  - 奥伽之铠
+- - Alluring Dress
+  - セクシードレス
+  - 妖艳连衣裙
+  - 性感内衣
+- - Leather Gloves
+  - レザーグローブ
+  - 皮手套
+  - 皮手套
+- - Leather Sleeves
+  - レザースリーブ
+  - 皮护臂
+  - 皮护臂
+- - Gauntlets
+  - ガントレット
+  - 手甲
+  - 铁手甲
+- - Baldur Gauntlets
+  - バルダーガントレ
+  - 巴德尔手甲
+  - 魔铁手甲
+- - Nomad Bracers
+  - ノマドブレイサー
+  - 游牧护臂
+  - 游牧护手
+- - Overguards
+  - オーバーガード
+  - 覆甲
+  - 重手甲
+- - Damascus Mitts
+  - ダマスカスミトン
+  - 镔铁连指手甲
+  - 大马士革手甲
+- - Arkhiatros Mitts
+  - ヒーラーミトン
+  - 治愈手套
+  - 治愈者手套
+- - Mage's Mitts
+  - メイジミトン
+  - 法师手套
+  - 魔法使手套
+- - Wyrmscale Sleeves
+  - ドラゴンスリーブ
+  - 龙鳞护臂
+  - 龙鳞护臂
+- - Musty Gauntlets
+  - むずがゆい篭手
+  - 痒痒护手
+  - 汗臭护手
+- - Ji'ygla's Bracers
+  - ジィルガの魔手
+  - 基卢加魔手
+  - 基鲁伽魔护手
+- - Lightning Gauntlets
+  - サンダーガントレ
+  - 雷之手甲
+  - 雷兽手甲
+- - Fire Gauntlets
+  - ファイアガントレ
+  - 火之手甲
+  - 炎魔手甲
+- - Luminant Gauntlets
+  - ルミナスガントレ
+  - 光之手甲
+  - 圣印手甲
+- - Daedalus Gauntlets
+  - ダイダロスガントレ
+  - 代达罗斯手甲
+  - 代达罗斯手甲
+  - 戴达罗斯手甲
+- - Snipe Bracers
+  - スナイプブレイサー
+  - 狙击护臂
+  - 兽人护手
+- - Linen Slops
+  - リネンスロップス
+  - 亚麻短裤
+  - 亚麻短裤
+- - Leather Leggings
+  - レザーレギンス
+  - 皮护腿
+  - 皮腿甲
+- - Chain Leggings
+  - チェインレギンス
+  - 锁护腿
+  - 锁子腿甲
+- - Baldur Leggings
+  - バルダーレギンス
+  - 巴德尔护腿
+  - 魔铁腿甲
+- - Damascus Leggings
+  - ダマスカスレギンス
+  - 镔铁护腿
+  - ''
+- - Arkhiatros Trousers
+  - ヒーラートラウザ
+  - 治愈长裤
+  - 治愈者长裤
+- - Mage Trousers
+  - メイジトラウザ
+  - 法师长裤
+  - 魔法使长裤
+- - Cloud Shoes
+  - フロートシューズ
+  - 浮空鞋
+  - 漂浮鞋
+- - Winged Boots
+  - ウイングブーツ
+  - 风之靴
+  - 飞行靴
+- - Sidhe Shoes
+  - ワープシューズ
+  - 传送鞋
+  - 瞬移鞋
+- - Sparkguard Boots
+  - スパークガード
+  - 火花防护
+  - 闪耀靴
+- - Greased Boots
+  - グリーシーブーツ
+  - 油靴
+  - 油靴
+- - Earthen Greaves
+  - ソイルグリーブ
+  - 土之护腿
+  - 土魔护胫
+- - Watery Greaves
+  - アクアグリーブ
+  - 水之护腿
+  - 水精护胫
+- - Hoarfrost Greaves
+  - フロストグリーブ
+  - 冰之护腿
+  - 冰兽护胫
+- - Shadowed Greaves
+  - シャドウグリーブ
+  - 影之护腿
+  - 暗影护胫
+- - Alluring Highboots
+  - セクシーハイブーツ
+  - 妖艳高筒靴
+  - 性感长靴
+- - Snipe Gators
+  - スナイパーゲートル
+  - 狙击绑腿
+  - 狙击手绑腿
+- - Crimson Necklace
+  - 紅光の首飾り
+  - 红光项链
+  - 红光项链
+  - 红光首饰
+- - Azure Necklace
+  - 青光の首飾り
+  - 蓝光项链
+  - 青光项链
+  - 青光首饰
+- - Warrior's Ring
+  - 戦士の指輪
+  - 战士指环
+  - 战士指轮
+- - Defender's Ring
+  - 防人の指輪
+  - 守卫指环
+  - 防人指轮
+- - Ring of the Horde
+  - 蛮力の指輪
+  - 蛮力指环
+  - 蛮力指轮
+- - Ring of Vitality
+  - 活力の指輪
+  - 活力指环
+  - 活力指轮
+- - Ring of Deftness
+  - 練達の指輪
+  - 熟练指环
+  - 练达指轮
+- - Ring of Alacrity
+  - 敏速の指輪
+  - 敏速指环
+  - 敏速指轮
+- - Ring of Evasion
+  - 忌避の指輪
+  - 忌避指环
+  - 忌避指轮
+- - Ring of Intellect
+  - 知性の指輪
+  - 智慧指环
+  - 智慧指轮
+- - Ring of the Mind
+  - 精神の指輪
+  - 精神指环
+  - 精神指轮
+- - Magebane Band
+  - 障魔の指輪
+  - 障魔指环
+  - 障魔指轮
+- - Band of Fortune
+  - 幸運の指輪
+  - 幸运指环
+  - 幸运指轮
+- - Beast's Earring
+  - 猛獣のピアス
+  - 猛兽耳环
+  - 猛兽耳环
+  - 猛兽耳饰
+- - Wasp's Earring
+  - 黒蜂のピアス
+  - 黑蜂耳环
+  - 黑蜂耳环
+  - 黑蜂耳饰
+- - Guardsman's Earring
+  - 近衛兵のピアス
+  - 近卫耳环
+  - 近卫兵耳环
+  - 近卫兵耳饰
+- - Swordsman's Earring
+  - 剣闘士のピアス
+  - 剑斗士耳环
+  - 剑斗士耳环
+  - 剑斗士耳饰
+- - Barbarian's Earring
+  - 蛮族のピアス
+  - 蛮族耳环
+  - 蛮族耳环
+  - 蛮族耳饰
+- - Spearman's Earring
+  - 串刺公のピアス
+  - 串刺公耳环
+  - 串刺公耳环
+  - 串刺公耳饰
+- - Temblor Earring
+  - 激震のピアス
+  - 激震耳环
+  - 激震耳环
+  - 激震耳饰
+- - Crescent Earring
+  - 三日月のピアス
+  - 弦月耳环
+  - 新月耳环
+  - 新月耳饰
+- - Sunfire Earring
+  - 陽炎のピアス
+  - 阳炎耳环
+  - 阳炎耳环
+  - 阳炎耳饰
+- - Saint's Earring
+  - 聖者のピアス
+  - 圣者耳环
+  - 圣者耳环
+  - 圣者耳饰
+- - Earring of the Snake
+  - 蛇蠍のピアス
+  - 蛇蝎耳环
+  - 蛇蝎耳环
+  - 蛇蝎耳饰
+- - Scrivener's Earring
+  - 文豪のピアス
+  - 文豪耳环
+  - 文豪耳环
+  - 文豪耳饰
+- - Canso Earring
+  - 恋歌のピアス
+  - 恋歌耳环
+  - 恋歌耳环
+  - 恋歌耳饰
+- - Earring of Stillness
+  - 息吹のピアス
+  - 气息耳环
+  - 息吹耳环
+  - 息吹耳饰
+- - Stalker's Earring
+  - 狩人のピアス
+  - 猎人耳环
+  - 猎人耳环
+  - 猎人耳饰
+- - Archer's Earring
+  - 射手のピアス
+  - 射手耳环
+  - 射手耳环
+  - 射手耳饰
+- - Farseer's Earring
+  - 千里のピアス
+  - 千里耳环
+  - 千里耳环
+  - 千里耳饰
+- - Gale Choker
+  - 疾風の首飾り
+  - 疾风项链
+  - 疾风首饰
+- - Dust Choker
+  - 大地の首飾り
+  - 大地项链
+  - 大地首饰
+- - Storm Choker
+  - 雷獣の首飾り
+  - 雷兽项链
+  - 雷兽首饰
+- - Cataract Choker
+  - 瀑布の首飾り
+  - 瀑布项链
+  - 瀑布首饰
+- - Firewyrm Choker
+  - 火竜の首飾り
+  - 火龙项链
+  - 火龙首饰
+- - Black Ice Choker
+  - 氷結の首飾り
+  - 冰结项链
+  - 冰结首饰
+- - Saint King's Choker
+  - 聖王の首飾り
+  - 圣王项链
+  - 圣王首饰
+- - Ghast's Choker
+  - 死霊の首飾り
+  - 死灵项链
+  - 死灵首饰
+- - Ring of Clouds
+  - フロートリング
+  - 浮空指环
+  - 漂浮指轮
+- - Winged Ring
+  - ウイングリング
+  - 风之指环
+  - 飞行指轮
+- - Sidhe Ring
+  - ワープリング
+  - 传送指环
+  - 瞬移指轮
+- - Sparkguard Ring
+  - スパークリング
+  - 火花指环
+  - 闪耀指轮
+- - Greased Ring
+  - グリーシーリング
+  - 油指环
+  - 油指轮
+- - Reaver Ring
+  - 盗賊の指輪
+  - 盗贼指环
+  - 盗贼指轮
+- - Crest of Fire
+  - ファイアクレスト
+  - 烈焰纹章
+  - 火炎冠饰
+- - Cursed Weapon
+  - 呪われた武具
+  - 罹受诅咒的武具
+  - 受到诅咒的武具
+  - 被诅咒的武具
+commodity:
+- - Mend Leaf
+  - キュアリーフ
+  - 治疗药草
+  - 治愈叶子
+- - Mending Seed
+  - キュアシード
+  - 治疗种子
+  - 治愈种子
+- - Mending Salve
+  - キュアペースト
+  - 治疗药膏
+  - 治愈药膏
+- - Mending Essence
+  - キュアエキス
+  - 治疗精华
+  - 治愈精华
+- - Magic Leaf
+  - マジックリーフ
+  - 魔力药草
+  - 魔法叶子
+- - Magic Seed
+  - マジックシード
+  - 魔力种子
+  - 魔法种子
+- - Magic Salve
+  - マジックペースト
+  - 魔力药膏
+  - 魔法药膏
+- - Magic Essence
+  - マジックエキス
+  - 魔力精华
+  - 魔法精华
+- - Fruit of the Adept
+  - 学者の果実
+  - 学者果实
+  - 学者果实
+- - Fruit of the Sage
+  - 賢者の果実
+  - 贤者果实
+  - 贤者果实
+- - Fruit of the Seraph
+  - 天使の果実
+  - 天使果实
+  - 天使果实
+- - Overripe Fruit
+  - 腐りかけの果実
+  - 行将腐坏的果实
+  - 腐烂的果实
+- - Zolia Draught
+  - ゾリアの薬酒
+  - 佐利亚药酒
+  - 启明药酒
+- - Zena Wine
+  - ゼナの果実酒
+  - 杰娜果酒
+  - 西娜的果实酒
+- - Illumina Nectar
+  - イルミナの蜜酒
+  - 伊耳米娜蜜酒
+  - 回音蜜酒
+- - Gerun Powder
+  - ゲルンの粉薬
+  - 葛鲁恩药粉
+  - 复原药粉
+- - Feyrn Bolus
+  - フェルンの丸薬
+  - 费伦药丸
+  - 还原药丸
+- - Maca Antidote
+  - マカの解毒薬
+  - 玛加解毒药
+  - 马卡解毒药
+- - Jaarn's Poultice
+  - ヤーンの塗布薬
+  - 雅恩膏药
+  - 复转抹膏
+- - Ishtar's Ambrosia
+  - イシュタルの神酒
+  - 伊丝塔神酒
+  - 伊修达尔的神酒
+- - Ashmedai's Grog
+  - アスモデの呪薬
+  - 阿斯莫德咒药
+  - 阿斯摩太的咒药
+- - Blessing Stone
+  - 祝福の聖石
+  - 祝福圣石
+  - 祝福圣石
+- - Hallowing Stone
+  - 至福の聖石
+  - 至福圣石
+  - 至福圣石
+- - Areion Plume
+  - 霊馬の羽根
+  - 灵马羽毛
+  - 灵马羽毛
+- - Basin of Time
+  - 時空の水鏡
+  - 时空水镜
+  - 时空水镜
+- - Spiritstone of the Stars
+  - 星々の霊石
+  - 繁星灵石
+  - 星尘灵石
+- - Faeriescale Powder
+  - 妖精の鱗粉
+  - 妖精鳞粉
+  - 妖精鳞粉
+- - Crystallized Flame
+  - 燐火の結晶
+  - 鬼火结晶
+  - 鳞火结晶
+- - Mercurial Phial
+  - 聖なる水銀柱
+  - 神圣水银柱
+  - 神圣水银柱
+- - Jewel of the Avatar
+  - 神獣の玉版
+  - 神兽玉版
+  - 神兽玉版
+- - Hair of the Unicorn
+  - 一角獣の獣毛
+  - 独角兽兽毛
+  - 独角兽毛
+- - Philtre of Ashes
+  - 灰燼の秘薬
+  - 灰烬秘药
+  - 灰烬秘药
+- - Black Lizard Powder
+  - 黒蜥蜴の粉
+  - 黑蜥蜴粉
+  - 黑蜥蜴粉
+- - Dragon Steak
+  - ドラゴンステーキ
+  - 龙排
+  - 龙肉串烧
+  - 龙肉叉烧
+- - Braised Skewer
+  - ヤキトリ
+  - 烤串
+  - 鸡肉串
+- - Steamed Mollusk
+  - タコヤキ
+  - 章鱼烧
+  - 章鱼烧
+- - Minced Patty
+  - 合成肉ハンバーグ
+  - 合成汉堡肉
+  - 合成肉汉堡
+- - Wyrm Gem
+  - 竜玉石
+  - 龙玉石
+  - 龙玉石
+- - Dried Eyestem
+  - 枯れた眼球の束
+  - 一捆枯萎的眼球
+  - 枯萎的眼球束
+- - Shoulder Shard
+  - 肩胛骨の欠片
+  - 肩胛骨碎片
+  - 肩胛骨碎片
+- - Salted Lobe
+  - 塩漬け耳の干物
+  - 盐渍耳朵干物
+  - 盐腌的干耳朵
+- - Bloodied Ventricle
+  - 血塗れの心臓
+  - 遍染鲜血的心脏
+  - 滴血的心脏
+- - Brand of the Sacrifice
+  - 生贄の烙印
+  - 活祭烙印
+  - 献祭烙印
+- - Dynast-King's Mead
+  - 覇王の蜂蜜酒
+  - 霸王蜂蜜酒
+  - 霸王蜂蜜酒
+- - Echo Stone
+  - 言霊の魔石
+  - 言灵魔石
+  - 言灵魔石
+- - Blackwing Leg
+  - 黒翼鳥の脚
+  - 黑翼鸟之爪
+  - 黑翼鸟的脚
+- - Rood Upright
+  - 正位置の聖印
+  - 正位置圣印
+  - 正位置的圣印
+- - Haunt's Tome
+  - 魍魎の秘本
+  - 魍魉秘本
+  - 鬼魅秘本
+- - Darkscale Tome
+  - 闇竜の秘本
+  - 暗龙秘本
+  - 暗龙秘本
+- - Cursed Unicorn Blood
+  - 一角獣の呪血
+  - 独角兽咒血
+  - 独角兽的咒血
+- - Skulldust Nostrum
+  - 髑髏の秘薬
+  - 骷髅秘药
+  - 骷髅秘药
+- - Magedrain Gland
+  - 吸精器
+  - 吸精器
+  - 吸精器
+- - Shiftstone
+  - 転移石
+  - 转移石
+  - 转移石
+- - Horn of the Savage
+  - 蛮族の角笛
+  - 蛮族号角
+  - 蛮族号角
+- - Coral Harp
+  - サンゴの竪琴
+  - 珊瑚竖琴
+  - 珊瑚竖琴
+- - Whirlwind Shot
+  - 旋風弾
+  - 旋风弹
+  - 旋风弹
+- - Duststorm Shot
+  - 砂塵弾
+  - 沙尘弹
+  - 沙尘弹
+- - Thunder Shot
+  - 雷電弾
+  - 雷电弹
+  - 雷电弹
+- - Torrent Shot
+  - 怒流弾
+  - 怒流弹
+  - 怒流弹
+- - Conflagration Shot
+  - 火炎弾
+  - 火炎弹
+  - 火炎弹
+- - Firnice Shot
+  - 氷塊弾
+  - 冰块弹
+  - 冰块弹
+- - Coruscate Shot
+  - 閃光弾
+  - 闪光弹
+  - 闪光弹
+- - Murk Shot
+  - 無明弾
+  - 无明弹
+  - 无明弹
+- - Book of the Dead
+  - 死者の本
+  - 死者之书
+  - 死者魔本
+- - Ring of the Dead
+  - 死者の指輪
+  - 死者指环
+  - 死者指轮
+- - Ensanguined Rood
+  - 血塗れの聖印
+  - 染血圣印
+  - 滴血圣印
+- - Seal of Rebirth
+  - 転生紋印
+  - 转生纹章
+  - 转生纹印
+- - Void Orb
+  - 虚無のオーブ
+  - 虚无宝珠
+  - 虚无晶球
+- - Gale Orb
+  - 疾風のオーブ
+  - 疾风宝珠
+  - 疾风晶球
+- - Dust Orb
+  - 砂塵のオーブ
+  - 沙尘宝珠
+  - 沙尘晶球
+- - Storm Orb
+  - 雷電のオーブ
+  - 雷电宝珠
+  - 雷电晶球
+- - Cataract Orb
+  - 瀑布のオーブ
+  - 瀑布宝珠
+  - 瀑布晶球
+- - Inferno Orb
+  - 猛火のオーブ
+  - 猛火宝珠
+  - 猛火晶球
+- - Black Ice Orb
+  - 冥氷のオーブ
+  - 冥冰宝珠
+  - 冥冰晶球
+- - Radiant Orb
+  - 閃光のオーブ
+  - 闪光宝珠
+  - 闪光晶球
+- - Gloom Orb
+  - 漆黒のオーブ
+  - 漆黑宝珠
+  - 漆黑晶球
+- - Elixir
+  - エリクサー
+  - 灵药
+  - 药剂
+- - Charm of Remission
+  - 免罪符
+  - 免罪符
+  - 免罪符
+- - Songstress's Score
+  - ディーバの写譜
+  - 歌姬抄谱
+  - 歌女手谱
+  - 歌姬手谱
+- - Intelligence Card
+  - INTのカード
+  - INT卡
+  - ''
+- - Mind Card
+  - MNDのカード
+  - MND卡
+  - ''
+- - MP Card
+  - MPmaxのカード
+  - MPmax卡
+  - ''
+- - HP Card
+  - HPmaxのカード
+  - HPmax卡
+  - ''
+- - Loyalty Card
+  - 忠誠度のカード
+  - 忠诚度卡
+  - ''
+- - Strength Card
+  - STRのカード
+  - STR卡
+  - ''
+- - Avoidance Card
+  - AVDのカード
+  - AVD卡
+  - ''
+- - Vitality Card
+  - VITのカード
+  - VIT卡
+  - ''
+- - Luck Card
+  - LUKのカード
+  - LUK卡
+  - ''
+- - Resistance Card
+  - RESのカード
+  - RES卡
+  - ''
+- - Dexterity Card
+  - DEXのカード
+  - DEX卡
+  - ''
+- - Agility Card
+  - AGIのカード
+  - AGI卡
+  - ''
+- - Vibrant Whetstone
+  - 色砥石
+  - 彩色磨刀石
+  - 磨刀石
+- - Attercop Web
+  - 八眼網
+  - 八眼网
+  - 八眼网
+- - Nightjar Bell
+  - 凶鳥鈴
+  - 凶鸟铃
+  - 凶鸟铃
+- - Tortoiseshell Pin
+  - 鼈甲簪
+  - 玳瑁簪
+  - 龟甲簪
+- - Fuse Ash
+  - 火縄灰
+  - 火枪灰
+  - 火绳灰
+- - Crow Track
+  - 鴉残足
+  - 乌鸦残足
+  - 鸦残足
+- - Short Kunai
+  - 小苦無
+  - 小苦无
+  - 小苦无
+- - Grappling Hook
+  - 鈎縄
+  - 钩绳
+  - 钩绳
+- - Water Striders
+  - 水蜘蛛
+  - 水蜘蛛
+  - 水蜘蛛
+- - Paper Doll
+  - 形代紙
+  - 形代纸
+  - 形代纸
+- - Horse Bit
+  - 轡
+  - 辔
+  - 辔
+- - Beaded Frogwax
+  - 蟾酥丸
+  - 蟾酥丸
+  - 蟾酥丸
+- - Vermin Ichor
+  - 諸蠱油
+  - 诸蛊油
+  - 诸蛊油
+- - Fan of the Brave
+  - 勇の舞扇
+  - 勇舞扇
+  - 勇舞扇
+- - Fan of the Merciful
+  - 慈の舞扇
+  - 慈舞扇
+  - 慈舞扇
+- - Fan of Protection
+  - 護の舞扇
+  - 护舞扇
+  - 护舞扇
+- - Fan of the Mists
+  - 涼の舞扇
+  - 凉舞扇
+  - 凉舞扇
+- - Fan of the Serpent
+  - 蛇の舞扇
+  - 蛇舞扇
+  - 蛇舞扇
+- - Fan of Depravity
+  - 邪の舞扇
+  - 邪舞扇
+  - 邪舞扇
+- - Fan of Wasting
+  - 衰の舞扇
+  - 衰舞扇
+  - 衰舞扇
+- - Fan of Charisma
+  - 艶の舞扇
+  - 艳舞扇
+  - 艳舞扇
+- - Copper Oberyth
+  - オヴェリス黄銅貨
+  - 欧贝利思黄铜币
+  - 奥威利斯黄铜币
+- - Bronze Oberyth
+  - オヴェリス銅貨
+  - 欧贝利思铜币
+  - 奥威利斯铜币
+- - Silver Oberyth
+  - オヴェリス銀貨
+  - 欧贝利思银币
+  - 奥威利斯银币
+- - Gold Oberyth
+  - オヴェリス金貨
+  - 欧贝利思金币
+  - 奥威利斯金币
+- - Platinum Oberyth
+  - オヴェリス白金貨
+  - 欧贝利思白金币
+  - 奥威利斯白金币
+  - 奥威利斯铂金币
+- - Deadshot
+  - デッドショット
+  - 死亡冲击
+  - 烈波
+- - Tornado
+  - トルネード
+  - 龙卷风
+  - 暴风
+- - Sylphide
+  - シルフィード
+  - 希尔菲德
+  - 风精
+- - Aeroflux
+  - エアリアルクライ
+  - 大气怒号
+  - 破空
+- - Instill Air
+  - エアロアタッチ
+  - 空气附加
+  - 惠风
+- - Aeroguard
+  - エアロガード
+  - 空气防御
+  - 耐风
+- - Vulcan Lance
+  - ヴァルカンランス
+  - 火山长枪
+  - 尖岩
+- - Cragfall
+  - クラッグプレス
+  - 岩石重压
+  - 巨岩
+- - Gnome
+  - ノーム
+  - 诺姆
+  - 地精
+- - Earthquake
+  - アースクエイク
+  - 地震
+  - 激震
+- - Instill Earth
+  - ソイルアタッチ
+  - 大地附加
+  - 惠土
+- - Petroguard
+  - ソイルガード
+  - 大地防御
+  - 耐地
+- - Petrifog
+  - ペトロクラウド
+  - 石化烟云
+  - 邪石
+- - Lightning Bow
+  - ライトニングボウ
+  - 雷霆弓
+  - 雷矢
+- - Thunderflare
+  - サンダーフレア
+  - 雷霆炽焰
+  - 天裂
+- - Thunderbird
+  - サンダーバード
+  - 雷鸟
+  - 雷精
+- - Thunderburst
+  - サンダーバースト
+  - 雷爆
+  - 光爆
+- - Instill Lightning
+  - ライトニングアタッチ
+  - 雷霆附加
+  - 惠天
+- - Electriguard
+  - ライトニングガード
+  - 雷霆防御
+  - 耐雷
+- - Aquablast
+  - アクアブラスト
+  - 水波
+  - 水块
+- - Acid Rain
+  - アシッドレイン
+  - 酸雨
+  - 魔雨
+- - Undine
+  - ウンディーネ
+  - 温蒂妮
+  - 水灵
+- - Dread Vapor
+  - ドレッドヴェイパー
+  - 恐怖蒸气
+  - 青烈
+- - Instill Water
+  - アクアアタッチ
+  - 水流附加
+  - 惠水
+- - Aquaguard
+  - アクアガード
+  - 水流防御
+  - 耐水
+- - Sparksphere
+  - スパークスフィア
+  - 火球
+  - 炎弹
+- - Firestorm
+  - ファイアストーム
+  - 炽焰风暴
+  - 红莲
+- - Salamander
+  - サラマンダー
+  - 萨拉曼多
+  - 火精
+- - Supernova
+  - スーパーノヴァ
+  - 超新星
+  - 灼光
+- - Instill Fire
+  - パイロアタッチ
+  - 炽焰附加
+  - 惠炎
+- - Pyroguard
+  - パイロガード
+  - 炽焰防御
+  - 耐火
+- - Iceblast
+  - アイスブラスト
+  - 冰爆
+  - 冰刃
+- - Avalanche
+  - アヴァランチ
+  - 雪崩
+  - 雪崩
+- - Wendigo
+  - ウェンディゴ
+  - 温迪戈
+  - 冰灵
+- - Ice Requiem
+  - アイスレクイエム
+  - 冰寒镇魂曲
+  - 波冻
+- - Instill Ice
+  - フロストアタッチ
+  - 冰霜附加
+  - 惠冰
+- - Frostguard
+  - フロストガード
+  - 冰霜防御
+  - 耐冷
+- - Spiritsurge
+  - スピリットサージ
+  - 精神冲击
+  - 闪光
+- - Judgement
+  - ジャッジメント
+  - 审判
+  - 天裁
+- - Wisplight
+  - ウィスプライト
+  - 威斯普莱特
+  - 光精
+- - Heavenly Judge
+  - ヘヴンリージャッジ
+  - 神圣审判
+  - 辉圣
+- - Exorcism
+  - イクソシズム
+  - 驱魔术
+  - 除灵
+- - Instill Light
+  - シャイニングアタッチ
+  - 光耀附加
+  - 惠光
+- - Lightguard
+  - シャイニングガード
+  - 光耀防御
+  - 耐光
+- - Boon of Swiftness
+  - クイックムーブ
+  - 迅捷移动
+  - 瞬移
+- - Dispel
+  - ディスペル
+  - 解咒
+  - 解魔
+- - Awaken
+  - リカバリー
+  - 恢复
+  - 觉醒
+- - Ease
+  - クリアランス
+  - 净化
+  - 净化
+- - Heal
+  - ヒール
+  - 治愈
+  - 生命
+- - Major Heal
+  - ヒールプラス
+  - 强力治愈
+  - 身命
+- - Resurrect
+  - レザレクション
+  - 复活
+  - 苏生
+- - Word of Pain
+  - ワードオブペイン
+  - 苦痛言灵
+  - 苦咒
+- - Meteor Strike
+  - メテオインパクト
+  - 陨星冲击
+  - 天破
+- - Hellhound
+  - ヘルハウンド
+  - 地狱猎犬
+  - 暗精
+- - Abyss
+  - アビス
+  - 深渊
+  - 深渊
+- - Drain Heart
+  - ドレインハート
+  - 体力吸取
+  - 吸精
+- - Drain Mind
+  - ドレインマインド
+  - 精神吸取
+  - 吸魔
+- - Instill Shadow
+  - シャドウアタッチ
+  - 重影附加
+  - 惠暗
+- - Shadow Guard
+  - シャドウガード
+  - 重影防御
+  - 耐暗
+- - Spellcharge
+  - スペルチャージ
+  - 咒文充能
+  - 供魔
+- - Paradigm Shift
+  - パラダイムシフト
+  - 思角转向
+  - 转换
+- - Torpor
+  - スロウムーブ
+  - 迟缓移动
+  - 迟足
+- - Petriburst
+  - ペトロバースト
+  - 石化爆裂
+  - 石块
+- - Paralytic Wave
+  - パラライズ
+  - 麻痹
+  - 暗囚
+- - Poison Cloud
+  - ポイズンクラウド
+  - 毒云
+  - 毒烟
+- - Sleep
+  - スリープ
+  - 沉眠
+  - 诱梦
+- - Charm
+  - チャーム
+  - 魅惑
+  - 幻惑
+- - Tempest
+  - テンペスト
+  - 风暴厉牙
+  - 暴岚
+- - Gaia Strike
+  - ガイアストライク
+  - 盖亚强袭
+  - 歪土
+- - Vortex
+  - ヴォルテックス
+  - 奔雷涡流
+  - 弹雷
+- - Deluge
+  - デリュージ
+  - 滔天巨浪
+  - 灾涡
+- - Annihilation
+  - アニヒレーション
+  - 日轮寂灭
+  - 热焦
+- - Iceover
+  - ホワイトミュート
+  - 皓白静寥
+  - 冰碎
+- - Starfall
+  - スターティアラ
+  - 繁星御冕
+  - 辉星
+- - Diablo's Spite
+  - イービルデッド
+  - 邪崇死骸
+  - 冥魔
+- - Palace Guidebook
+  - 死者宮観光案内書
+  - 死者宫殿观光手册
+  - 死者宫观光指南书
+- - Springboard
+  - ジャンプウォール
+  - 越墙
+  - 跳跃
+- - Teleport
+  - テレポート
+  - 传送
+  - 转移
+- - Gift of Renewal
+  - ジェネラスゲイン
+  - 慈悯愈合
+  - 命脉
+- - Nullify Strike
+  - インバリドストライク
+  - 触碰回避
+  - 耐讨
+- - Negate Spell
+  - インバリドスペル
+  - 咒文回避
+  - 耐魔
+- - Holy Shield
+  - ホーリーシールド
+  - 神圣御盾
+  - 圣守
+- - Sacrifice
+  - サクリファイス
+  - 献祭
+  - 牺牲
+- - Living Corpse
+  - リビングコープス
+  - 活尸术
+  - 尸人
+- - Banish
+  - バニッシュ
+  - 消逝
+  - 救魂
+- - Curse
+  - カース
+  - 咒诅
+  - 诅咒
+- - Life Force
+  - ライフフォース
+  - 生命之力
+  - 生魔
+- - Putrify
+  - ロトンブラッド
+  - 腐血
+  - 活腐
+- - Brainrot
+  - ロトンブレイン
+  - 腐脑
+  - 衰弱
+- - Summon Darkness
+  - サモンダークネス
+  - 黑暗召唤术
+  - 召魂
+- - Black Plume
+  - ブラックプルーム
+  - 黑羽
+  - 黑翼
+- - Styx Shift
+  - スティックスシフト
+  - 冥河转移
+  - 转送
+- - Wind Dervish
+  - 鎌鼬の術
+  - 镰鼬之术
+  - 镰鼬术
+- - Sand Spider
+  - 土蜘蛛の術
+  - 土蜘蛛之术
+  - 土蜘蛛术
+- - Chimaera
+  - 鵺の術
+  - 夜鸟之术
+  - 鵺术
+- - Water Tiger
+  - 水虎の術
+  - 水虎之术
+  - 水虎术
+- - Fire Snake
+  - 騰蛇の術
+  - 腾蛇之术
+  - 腾蛇术
+- - Rime Raven
+  - 八咫烏の術
+  - 八咫乌之术
+  - 八咫乌术
+  - 八咫鸟术
+- - Shadowbind
+  - 影縫いの術
+  - 缝影之术
+  - 影缝术
+- - Leaping Monkey
+  - 猿飛びの術
+  - 飞猿之术
+  - 猿飞术
+- - Waterstep
+  - 水蜘蛛の術
+  - 水蜘蛛之术
+  - 水蜘蛛术
+- - Decoy
+  - 空蝉の術
+  - 空蝉之术
+  - 空蝉术
+- - Bridle
+  - 轡掛りの術
+  - 挂辔之术
+  - 辔挂术
+- - Benumb
+  - 蝦蟇口の術
+  - 蛤蟆口之术
+  - 蟾口术
+- - Envenom
+  - 蠱毒の術
+  - 蛊毒之术
+  - 蛊毒术
+- - Lion Dance
+  - 獅子神楽の舞
+  - 狮子神乐舞
+  - 狮子神乐舞
+- - Harvest Dance
+  - 五穀豊穣の舞
+  - 五谷丰登舞
+  - 五谷丰登舞
+  - 五谷丰穣舞
+- - Bellows Dance
+  - 蹈鞴の舞
+  - 踏风箱舞
+  - 蹈备舞
+- - Shriving Dance
+  - 祓捨刃の舞
+  - 祓舍刃舞
+  - 祓舍刃舞
+- - Comely Dance
+  - 磐長姫の舞
+  - 磐长姬舞
+  - 磐长姬舞
+- - Bedeviling Dance
+  - 八十鬼の舞
+  - 八十鬼舞
+  - 八十鬼舞
+- - Envigorating Dance
+  - 敦盛の舞
+  - 敦盛舞
+  - 敦盛舞
+- - Demonpetal Dance
+  - 花夜叉の舞
+  - 花夜叉舞
+  - 花夜叉舞
+- - Ardent Conga
+  - 情熱のコンガ
+  - 激情的康茄舞曲
+  - 热情的康加
+- - Weakening Joropo
+  - 魅惑のホローポ
+  - 魅惑的霍洛波舞曲
+  - 魅惑的霍洛波
+  - 魅惑的霍罗波
+- - Taunting Mambo
+  - 挑発的なマンボ
+  - 挑逗的曼波舞曲
+  - 挑衅的曼波
+  - 挑拨的曼波
+- - Stirring Folclore
+  - 奮起のフォルクローレ
+  - 奋起的民俗音乐
+  - 奋起的费克罗
+  - 奋起的费可罗
+- - Somber Chacarera
+  - 哀しみのチャカレーラ
+  - 悲怆的恰卡雷拉舞曲
+  - 哀伤的恰卡雷拉
+  - 哀伤的卡加雷拉
+- - Escalating Sanat
+  - 煽情的なサナート
+  - 煽情的萨纳特舞曲
+  - 煽情的萨纳特
+  - 煽情的萨那朵
+- - Poised Arabesque
+  - 癒しのアラベスク
+  - 治愈的阿拉贝斯克舞曲
+  - 治愈的阿拉贝斯克
+- - Glass Pumpkin
+  - ガラスのカボチャ
+  - 透明南瓜
+  - 水晶南瓜
+- - Heaven's Fork
+  - 十弐神将の音叉
+  - 十二神将的音叉
+  - 十二神将的音叉
+- - Warrior's Mark
+  - 戦士の証
+  - 战士转职证
+  - 战士证
+- - Archer's Mark
+  - 射手の証
+  - 弓箭手转职证
+  - 射手证
+  - 弓箭手证
+- - Mage's Mark
+  - 魔道士の証
+  - 魔道士转职证
+  - 魔道士证
+  - 魔术师证
+- - Sibyl's Mark
+  - 僧侶の証
+  - 教士转职证
+  - 僧侣证
+- - Mage-Knight's Mark
+  - 魔剣士の証
+  - 魔法剑士转职证
+  - 魔剑士证
+- - Knight's Mark
+  - 騎士の証
+  - 骑士转职证
+  - 骑士证
+- - Dreadknight's Mark
+  - 恐騎士の証
+  - 恐惧骑士转职证
+  - 恐骑士证
+  - 恐怖骑士证
+- - Berserker's Mark
+  - 狂戦士の証
+  - 狂战士转职证
+  - 狂战士证
+- - Swordsman's Mark
+  - 剣客の証
+  - 剑术大师转职证
+  - 剑圣证
+  - 剑师证
+- - Dragoon's Mark
+  - 竜騎士の証
+  - 龙骑士转职证
+  - 龙骑士证
+  - 龙骑兵证
+- - Ninja's Mark
+  - 忍びの証
+  - 忍者转职证
+  - 忍者证
+- - Bandit's Mark
+  - 盗賊の証
+  - 盗贼转职证
+  - 盗贼证
+- - Fusilier's Mark
+  - 銃士の証
+  - 枪手转职证
+  - 铳士证
+- - Beastmaster's Mark
+  - 魔獣使いの証
+  - 驯兽师转职证
+  - 驯兽师证
+  - 魔兽使证
+- - Magus's Mark
+  - 魔術士の証
+  - 术士转职证
+  - 魔术师证
+- - Necroprentice's Mark
+  - 屍術士の証
+  - 死灵法师转职证
+  - 尸术士证
+  - 尸术师证
+- - Footsoldier's Mark
+  - 重歩兵の証
+  - 重装步兵转职证
+  - 重装步兵证
+- - Juggernaut's Mark
+  - 破壊士の証
+  - 重战步兵转职证
+  - 破坏士证
+  - 破坏者证
+- - Chief's Mark
+  - 族長の証
+  - 族长转职证
+  - 族长证
+- - Familiar's Mark
+  - 使魔の証
+  - 使魔转职证
+  - 使魔证
+- - Windwyrm's Mark
+  - 風竜の証
+  - 流云龙转职证
+  - 风龙证
+- - Cragwyrm's Mark
+  - 地竜の証
+  - 大地龙转职证
+  - 地龙证
+- - Stormwyrm's Mark
+  - 雷竜の証
+  - 闪电龙转职证
+  - 雷龙证
+- - Waterwyrm's Mark
+  - 水竜の証
+  - 洪流龙转职证
+  - 水龙证
+- - Firewyrm's Mark
+  - 炎竜の証
+  - 火焰龙转职证
+  - 火龙证
+- - Icewyrm's Mark
+  - 氷竜の証
+  - 冰霜龙转职证
+  - 冰龙证
+- - Gleamwyrm's Mark
+  - 光竜の証
+  - 起始龙转职证
+  - 光龙证
+- - Gloomwyrm's Mark
+  - 闇竜の証
+  - 黑暗龙转职证
+  - 暗龙证
+- - Sandstone's Mark
+  - 砂泥兵の証
+  - 粘土魔像转职证
+  - 泥沙兵证
+  - 泥沙巨像证
+- - Granite's Mark
+  - 硬石兵の証
+  - 石魔像转职证
+  - 硬石兵证
+  - 硬石巨像证
+- - Black Iron's Mark
+  - 黒鉄兵の証
+  - 钢铁魔像转职证
+  - 黑铁兵证
+  - 钢铁巨像证
+- - Magesteel's Mark
+  - 魔鉄兵の証
+  - 巴德尔魔像转职证
+  - 魔铁巨像证
+- - Sovereign's Mark
+  - 君主の証
+  - 君主转职证
+  - 君主证
+  - 领主证
+- - Brave's Mark
+  - 勇者の証
+  - 游侠转职证
+  - 勇者证
+  - 游侠证
+- - Abuna's Mark
+  - 高僧の証
+  - 祭司转职证
+  - 高僧证
+  - 祭司证
+- - Heretic's Mark
+  - 異端僧の証
+  - 黑暗祭司转职证
+  - 异端僧证
+  - 暗黑祭司证
+- - Princess's Mark
+  - 王女の証
+  - 公主转职证
+  - 公主证
+- - Holy Knight's Mark
+  - 聖騎士の証
+  - 圣骑士转职证
+  - 圣骑士证
+- - Star Seer's Mark
+  - 占星術士の証
+  - 天文术士转职证
+  - 占星术师证
+- - Peregrine's Mark
+  - 飛翔者の証
+  - 翼人战士转职证
+  - 飞翔者证
+  - 翱翔者证
+- - White Knight's Mark
+  - 白騎士の証
+  - 白骑士转职证
+  - 白骑士证
+- - Oracle's Mark
+  - 巫女の証
+  - 巫女转职证
+  - 巫女证
+  - 萨满证
+- - Wicce's Mark
+  - 魔女ッコの証
+  - 小魔女转职证
+  - 大魔女证
+- - Songstress's Mark
+  - 歌姫の証
+  - 歌姬转职证
+  - 歌女证
+  - 歌姬证
+- - Hagiaknight's Mark
+  - 神殿騎士の証
+  - 神殿骑士转职证
+  - 神殿骑士证
+- - Pirate's Mark
+  - 海賊の証
+  - 海盗转职证
+  - 海盗证
+- - Inferior Ore
+  - 雑鉱石
+  - 杂矿石
+  - 杂矿石
+- - Iron Sand
+  - 砂鉄
+  - 砂铁
+  - 沙铁
+- - Copper Ore
+  - 銅鉱石
+  - 铜矿石
+  - 铜矿石
+- - Tin Ore
+  - 錫石
+  - 锡石
+  - 锡石
+- - Graphite
+  - 石墨
+  - 石墨
+  - 石墨
+- - Iron Ore
+  - 鉄鉱石
+  - 铁矿石
+  - 铁矿石
+- - Silver Ore
+  - 銀鉱石
+  - 银矿石
+  - 银矿石
+- - Baldur Ore
+  - 魔鉱石
+  - 魔矿石
+  - 魔矿石
+- - Gold Ore
+  - 金鉱石
+  - 金矿石
+  - 金矿石
+- - Platinum Ore
+  - 白金鉱石
+  - 白金矿石
+  - 白金矿石
+  - 铂金矿石
+- - Saltpeter
+  - 硝石
+  - 硝石
+  - 硝石
+- - Sulfur
+  - 硫黄
+  - 硫磺
+  - 硫黄
+- - Limestone
+  - 石灰石
+  - 石灰石
+  - 石灰石
+- - Skyiron
+  - 隕鉄
+  - 陨铁
+  - 陨铁
+- - Gemstones
+  - ジェムストーン
+  - 晶洞原石
+  - 宝石原石
+- - Krystallos Ore
+  - 魔水晶の原石
+  - 魔水晶原石
+  - 魔水晶原石
+- - Bronze Ingot
+  - ブロンズインゴット
+  - 青铜铸块
+  - 铜锭
+- - Iron Ingot
+  - アイアンインゴット
+  - 铁铸块
+  - 钢锭
+- - Silver Ingot
+  - シルバーインゴット
+  - 银铸块
+  - 银锭
+- - Baldur Ingot
+  - バルダーインゴット
+  - 巴德尔铸块
+  - 魔铁锭
+- - Steel Ingot
+  - スチールインゴット
+  - 钢铁铸块
+  - 铁锭
+- - Hagane Steel
+  - 玉鋼
+  - 玉钢
+  - 玉钢
+- - Wootz Steel
+  - ウーツ鋼
+  - 乌兹钢
+  - 乌兹钢
+  - 乌茲钢
+- - Golden Ingot
+  - ゴールドインゴット
+  - 金铸块
+  - 金锭
+- - Platinum Ingot
+  - プラチナインゴット
+  - 白金铸块
+  - 白金锭
+  - 铂金锭
+- - Fiery Gems
+  - 赤～橙色の宝石
+  - 红～橙色宝石
+  - 赤～橙色的宝石
+- - Verdant Gems
+  - 黄～緑色の宝石
+  - 黄～绿色宝石
+  - 黄～绿色的宝石
+- - Regal Gems
+  - 青～紫色の宝石
+  - 蓝～紫色宝石
+  - 青～紫色的宝石
+- - White Gems
+  - 白～無色の宝石
+  - 白～无色宝石
+  - 白～无色的宝石
+- - Black Gems
+  - 灰～黒色の宝石
+  - 灰～黑色宝石
+  - 灰～黑色的宝石
+- - Air Krystallos
+  - 風の魔水晶
+  - 风之魔水晶
+  - 风之魔水晶
+- - Earth Krystallos
+  - 土の魔水晶
+  - 土之魔水晶
+  - 土之魔水晶
+- - Lightning Krystallos
+  - 雷の魔水晶
+  - 雷之魔水晶
+  - 雷之魔水晶
+- - Water Krystallos
+  - 水の魔水晶
+  - 水之魔水晶
+  - 水之魔水晶
+- - Fire Krystallos
+  - 火の魔水晶
+  - 火之魔水晶
+  - 火之魔水晶
+- - Ice Krystallos
+  - 氷の魔水晶
+  - 冰之魔水晶
+  - 冰之魔水晶
+- - Light Krystallos
+  - 光の魔水晶
+  - 光之魔水晶
+  - 光之魔水晶
+- - Dark Krystallos
+  - 闇の魔水晶
+  - 暗之魔水晶
+  - 暗之魔水晶
+- - Toneriwood
+  - トネリ材
+  - 白蜡木
+  - 白黄木
+- - Birnewood
+  - ビルネ材
+  - 梨木
+  - 芒果树材
+- - Ananawood
+  - アナナ材
+  - 露兜木
+  - 菠萝树材
+- - Baobawood
+  - バオバ材
+  - 猢狲木
+  - 猴面包树材
+- - Beasthide
+  - 獣皮
+  - 兽皮
+  - 兽皮
+- - Tannin
+  - なめし剤
+  - 鞣剂
+  - 鞣制剂
+- - Leather
+  - なめし革
+  - 鞣革
+  - 鞣革
+- - Parchment
+  - 羊皮紙
+  - 羊皮纸
+  - 羊皮纸
+- - Ink
+  - インク
+  - 墨水
+  - 墨水
+- - Gold Leaf
+  - 金箔
+  - 金箔
+  - 金箔
+- - Water
+  - 水
+  - 水
+  - 水
+- - Log
+  - 丸太
+  - 圆木
+  - 原木
+- - Bundle of Herbs
+  - 薬草
+  - 药草
+  - 药草
+- - Herbal Extract
+  - 薬草のエキス
+  - 药草精华
+  - 药草的萃取物
+- - Nightshade
+  - 毒草
+  - 毒草
+  - 毒草
+- - Nightshade Extract
+  - 毒草のエキス
+  - 毒草精华
+  - 毒草的萃取物
+- - Fruit
+  - 果実
+  - 果实
+  - 果实
+- - Spirits
+  - 蒸留酒
+  - 蒸馏酒
+  - 米酒
+- - Hempen Thread
+  - 麻糸
+  - 麻线
+  - 麻线
+- - Woolen Thread
+  - 毛糸
+  - 毛线
+  - 毛线
+- - Cotton Thread
+  - 綿糸
+  - 绵线
+  - 棉线
+- - Silken Thread
+  - 絹糸
+  - 绢丝
+  - 丝线
+- - Silver Thread
+  - 銀糸
+  - 银丝
+  - 银线
+- - Golden Thread
+  - 金糸
+  - 金丝
+  - 金线
+- - Linen
+  - リネン
+  - 亚麻
+  - 亚麻布
+- - Pincord
+  - コーデュロイ
+  - 灯芯绒
+  - 灯芯绒
+- - Flannel
+  - フランネル
+  - 法兰绒
+  - 法兰绒
+- - Velvet
+  - ベルベット
+  - 天鹅绒
+  - 天鹅绒
+- - Satin
+  - サテン
+  - 绸缎
+  - 绸布
+- - Blackpowder
+  - 黒色火薬
+  - 黑火药
+  - 黑火药
+- - Beast Horn
+  - 魔獣の角
+  - 魔兽角
+  - 魔兽角
+- - Beast Fang
+  - 魔獣の牙
+  - 魔兽牙
+  - 魔兽牙
+- - Beast Claw
+  - 魔獣の爪
+  - 魔兽爪
+  - 魔兽爪
+- - Wyrm Fang
+  - 魔竜の牙
+  - 魔龙牙
+  - 魔龙牙
+- - Wyrm Claw
+  - 魔竜の爪
+  - 魔龙爪
+  - 魔龙爪
+- - Wyrm Scale
+  - 魔竜の鱗
+  - 魔龙鳞
+  - 魔龙鳞
+- - Wyrm Horn
+  - 魔竜の角
+  - 魔龙角
+  - 魔龙角
+- - Wyrm Whisker
+  - 魔竜の髭
+  - 魔龙须
+  - 魔龙须
+- - Wyrm Thighbone
+  - 魔竜の大腿骨
+  - 魔龙大腿骨
+  - 魔龙的股骨
+- - Tooth & Claw
+  - 魔犬の牙と爪
+  - 魔犬爪牙
+  - 魔犬牙和爪
+- - Unicorn Horn
+  - 一角獣の角
+  - 独角兽之角
+  - 独角兽的角
+- - Enchanted Feather
+  - 魔鳥の羽根
+  - 魔鸟羽毛
+  - 魔鸟的羽毛
+- - Ancient Wood
+  - 古代樹の化石
+  - 古树化石
+  - 古代树化石
+- - Ancient Bone
+  - 魔神の骨
+  - 魔神骨
+  - 魔神骨
+- - Orichalcum
+  - オリハルコン
+  - 山铜
+  - 奥里哈鲁根
+- - Gorgon Head
+  - メドゥーサの首
+  - 美杜莎之首
+  - 美杜莎的头颅
+- - Daedalus Pinion
+  - ダイダロス・ギア
+  - 代达罗斯齿轮
+  - 代达罗斯·齿轮
+  - 戴达罗斯·齿轮
+- - Daedalus Rack
+  - ダイダロス・ラック
+  - 代达罗斯齿条
+  - 代达罗斯·直线齿轮
+  - 戴达罗斯·直线齿轮
+- - Melee Weapons I
+  - 近接武器錬成書Ⅰ
+  - 近战武器锻造书Ⅰ
+  - 近战武器炼成书Ⅰ
+- - The Fist
+  - 格闘武器錬成秘伝書
+  - 格斗武器锻造秘传书
+  - 格斗武器炼成秘传书
+- - Fist Enchiridion
+  - 格闘武器錬成古文書
+  - 格斗武器锻造古文书
+  - 格斗武器炼成古文书
+- - The Blade
+  - 剣錬成秘伝書
+  - 剑锻造秘传书
+  - 剑炼成秘传书
+- - Dagger Enchiridion
+  - 短剣錬成古文書
+  - 短剑锻造古文书
+  - 短剑炼成古文书
+- - Sword Enchiridion
+  - 片手剣錬成古文書
+  - 单手剑锻造古文书
+  - 单手剑炼成古文书
+- - 2-H Sword Enchiridion
+  - 両手剣錬成古文書
+  - 双手剑锻造古文书
+  - 双手剑炼成古文书
+- - Axe, Spear & Hammer
+  - 斧槍鎚錬成秘伝書
+  - 斧枪锤锻造秘传书
+  - 斧枪锤炼成秘传书
+- - Axe Enchiridion
+  - 斧錬成古文書
+  - 斧锻造古文书
+  - 斧炼成古文书
+- - Spear Enchiridion
+  - 槍錬成古文書
+  - 长枪锻造古文书
+  - 枪炼成古文书
+- - Hammer Enchiridion
+  - 鎚錬成古文書
+  - 锤锻造古文书
+  - 锤炼成古文书
+- - The Katana
+  - 刀錬成秘伝書
+  - 刀锻造秘传书
+  - 刀炼成秘传书
+- - Katana Enchiridion
+  - 片手刀錬成古文書
+  - 单手刀锻造古文书
+  - 单手刀炼成古文书
+- - 2-H Katana Enchiridion
+  - 両手刀錬成古文書
+  - 双手刀锻造古文书
+  - 双手刀炼成古文书
+- - Cudgel & Whip
+  - 棍鞭錬成秘伝書
+  - 棍鞭锻造秘传书
+  - 棍鞭炼成秘传书
+- - Cudgel Enchiridion
+  - 棍錬成古文書
+  - 棍锻造古文书
+  - 棍炼成古文书
+- - Whip Enchiridion
+  - 鞭錬成古文書
+  - 鞭锻造古文书
+  - 鞭炼成古文书
+- - Transcription
+  - 魔道書写本術書
+  - 魔导书抄本技术书
+  - 魔道书写本术书
+- - Musical Instruments I
+  - 楽器加工術書Ⅰ
+  - 乐器加工技术书Ⅰ
+  - 乐器加工术书Ⅰ
+- - Ranged Weapons I
+  - 遠隔武器錬成書Ⅰ
+  - 远程武器锻造书Ⅰ
+  - 远程武器炼成书Ⅰ
+- - Ways of the Gerges
+  - ゲルゲの口伝書
+  - 凯尔盖口传书
+  - 格尔格的口传书
+- - The Bow
+  - 弓錬成秘伝書
+  - 弓锻造秘传书
+  - 弓炼成秘传书
+- - Bow Enchiridion
+  - 弓錬成古文書
+  - 弓锻造古文书
+  - 弓炼成古文书
+- - The Crossbow
+  - 弩錬成秘伝書
+  - 弩锻造秘传书
+  - 弩炼成秘传书
+- - Crossbow Enchiridion
+  - 弩錬成古文書
+  - 弩锻造古文书
+  - 弩炼成古文书
+- - The Fusil
+  - 銃器製造術書
+  - 枪械制造技术书
+  - 铳制造术书
+- - Fusil Enchiridion
+  - 銃器強化術書
+  - 枪械强化技术书
+  - 铳强化术书
+- - Thrown Weapons I
+  - 投擲武器錬成秘伝書Ⅰ
+  - 投掷武器锻造秘传书Ⅰ
+  - 投掷武器炼成秘传书Ⅰ
+- - Smithing Armor I
+  - 防具錬成書Ⅰ
+  - 防具锻造书Ⅰ
+  - 防具炼成书Ⅰ
+- - Armorcraft
+  - 防具錬成秘伝書
+  - 防具锻造秘传书
+  - 防具炼成秘传书
+- - Shieldcraft
+  - 盾防具錬成秘伝書
+  - 盾牌防具锻造秘传书
+  - 盾防具炼成秘传书
+- - Shield Enchiridion
+  - 盾防具錬成古文書
+  - 盾牌防具锻造古文书
+  - 盾防具炼成古文书
+- - Helm Enchiridion
+  - 頭防具錬成古文書
+  - 头部防具锻造古文书
+  - 头防具炼成古文书
+- - Body Armor Enchiridion
+  - 身体防具錬成古文書
+  - 身体防具锻造古文书
+  - 身体防具炼成古文书
+- - Armguard Enchiridion
+  - 腕防具錬成古文書
+  - 手臂防具锻造古文书
+  - 腕防具炼成古文书
+- - Legguard Enchiridion
+  - 脚防具錬成古文書
+  - 腿部防具锻造古文书
+  - 脚防具炼成古文书
+- - Codex of Jewelry I
+  - 装身具彫金技法書Ⅰ
+  - 装饰品雕金技法书Ⅰ
+  - 装饰品雕金技法书Ⅰ
+- - Codex of Ores
+  - 鉱石・金属精錬技法書
+  - 矿石·金属精炼技法书
+  - 矿石·金属精炼技法书
+- - Codex of Gems
+  - 魔石・宝石加工技法書
+  - 魔石·宝石加工技法书
+  - 魔石·宝石加工技法书
+- - Codex of Timber
+  - 木材加工技法書
+  - 木材加工技法书
+  - 木材加工技法书
+- - Codex of Textiles
+  - 生地・織物生産技法書
+  - 布料·织物生产技法书
+  - 布料·织物生产技法书
+- - On Medicine I
+  - 医薬品調合書Ⅰ
+  - 医药品调合书Ⅰ
+  - 医药品调和书Ⅰ
+- - Secrets of the Master
+  - ダイダロス秘伝書
+  - 代达罗斯秘传书
+  - 代达罗斯秘传书
+  - 戴达罗斯秘传书
+- - Strength Charm
+  - STRのチャーム
+  - STR护符
+  - ''
+- - Vitality Charm
+  - VITのチャーム
+  - VIT护符
+  - ''
+- - Dexterity Charm
+  - DEXのチャーム
+  - DEX护符
+  - ''
+- - Agility Charm
+  - AGIのチャーム
+  - AGI护符
+  - ''
+- - Avoidance Charm
+  - AVDのチャーム
+  - AVD护符
+  - ''
+- - Intelligence Charm
+  - INTのチャーム
+  - INT护符
+  - ''
+- - Mind Charm
+  - MNDのチャーム
+  - MND护符
+  - ''
+- - Resistance Charm
+  - RESのチャーム
+  - RES护符
+  - ''
+- - Luck Charm
+  - LUKのチャーム
+  - LUK护符
+  - ''
+- - Air Charm
+  - 風のエレメンタルチャーム
+  - 风元素护符
+  - ''
+- - Earth Charm
+  - 土のエレメンタルチャーム
+  - 土元素护符
+  - ''
+- - Lightning Charm
+  - 雷のエレメンタルチャーム
+  - 雷元素护符
+  - ''
+- - Water Charm
+  - 水のエレメンタルチャーム
+  - 水元素护符
+  - ''
+- - Fire Charm
+  - 火のエレメンタルチャーム
+  - 火元素护符
+  - ''
+- - Ice Charm
+  - 氷のエレメンタルチャーム
+  - 冰元素护符
+  - ''
+- - Light Charm
+  - 光のエレメンタルチャーム
+  - 光元素护符
+  - ''
+- - Dark Charm
+  - 闇のエレメンタルチャーム
+  - 暗元素护符
+  - ''
+- - Experience Charm
+  - 経験値のチャーム
+  - 经验值护符
+  - ''
+- - Experience Charm V
+  - 経験値のチャームⅤ
+  - 经验值护符Ⅴ
+  - ''
+- - Level Up Charm
+  - レベルアップのチャーム
+  - 升级护符
+  - ''
+- - Grimoire Exorcisme
+  - 聖水
+  - 圣水
+  - 圣水
+- - Max HP Charm
+  - HPmaxのチャーム
+  - HPmax护符
+  - ''
+- - Max MP Charm
+  - MPmaxのチャーム
+  - MPmax护符
+  - ''

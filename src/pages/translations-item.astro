@@ -1,13 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import translations from '../../data/translations.yaml';
+import './translations.astro';  // for style
 
-const title = '译名对照表';
+const title = '译名对照表（道具）';
 const sections = {
-  'people': '人物',
-  'class': '职业',
-  'strongpoint': '地点',
-  'clan': '民族',
+  'arms': '装备',
+  'commodity': '消耗品',
 };
 for (let section of Object.values(translations) as any[]) {
   section.hasCn2012 = section.some((x:any) => x.length > 4);
@@ -16,7 +15,7 @@ for (let section of Object.values(translations) as any[]) {
 
 <BaseLayout title={title}>
   <div id="grid-main">
-    <h1>{title}<span class="translations-title-link"><a href="./translations-item">道具部分</a></span></h1>
+    <h1>{title}</h1>
     {Object.entries(sections).map(([sectionId, sectionName]) => (
       <>
         <h2 class="translations-title">
@@ -59,56 +58,3 @@ for (let section of Object.values(translations) as any[]) {
     ))}
   </div>
 </BaseLayout>
-
-<style lang="scss" is:global>
-  #grid-main {
-    grid-column: 2 / 4;
-    margin-bottom: 6rem;
-    > h1 + p {
-      margin-top: 2.5rem;
-    }
-  }
-  .translations-title {
-    position: relative;
-  }
-  .translations-title-link {
-    margin-left: 1rem;
-    vertical-align: bottom;
-    font-size: 1rem;
-    font-weight: normal;
-  }
-  .translations-tip {
-    position: absolute;
-    right: 0;
-    bottom: -1rem;
-    max-width: 75%;
-    font-size: .875rem;
-    font-weight: normal;
-    line-height: 1.125rem;
-    text-align: right;
-    color: var(--theme-text-lighter);
-  }
-  .translations-table {
-    tbody {
-      color: var(--theme-text-light);
-    }
-    th, td {
-      width: 25%;
-      padding: .5rem 1rem;
-    }
-  }
-  .translations-cn2012 {
-    font-weight: normal;
-    color: var(--theme-text-lighter);
-  }
-  .translations--strongpoint {
-    th, td {
-      &:nth-child(3) {
-        width: 23%;
-      }
-      &:nth-child(4) {
-        width: 27%;
-      }
-    }
-  }
-</style>

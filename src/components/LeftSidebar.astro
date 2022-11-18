@@ -6,6 +6,9 @@ function anchorProps(path: string) {
   if (pathname.endsWith('.html')) {
     pathname = pathname.slice(0, -5);
   }
+  if (pathname.endsWith('translations-item')) {
+    pathname = pathname.slice(0, -5);
+  }
   return {
     'href': path,
     'aria-current': new URL(path, url).pathname === pathname,
