@@ -1,0 +1,106 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import drops from '../../data/drops.yaml';
+
+const title = '掉落表';
+
+const chapterNames = {
+  'C1': '第一章',
+  'C2a': '第二章Ｃ路线',
+  'C2b': '第二章Ｌ路线',
+  'C3a': '第二章Ｎ路线',
+  'C3b': '第二章Ｃ路线',
+  'C3c': '第二章Ｌ路线',
+  'C4': '第四章',
+  'DLC': '结局后',
+};
+function getChapterName(stage: string) {
+  const chapter = stage.slice(0, stage.indexOf('_'));
+  return chapterNames[chapter as keyof typeof chapterNames];
+}
+
+function getEnemyName(raceName: string, className: string) {
+  if (!raceName || raceName === '龙' || raceName === '魔像') {
+    return className;
+  }
+  return `${raceName}${className}`;
+}
+---
+
+<BaseLayout title={title}>
+  <div id="grid-main">
+    <h1>{title}</h1>
+    <p>
+      篇幅所限，本表略过了常规商店中可以买入的道具、换金道具、回蓝药草等较容易获得的道具。<br />
+      敌人的坐标 (x,y) 为，以斜向镜头最靠上格子为坐标 (0,0)，右下方向为x轴，左下方向为y轴。<br />
+      结局后篇章中深层迷宫普通关卡的掉落与第四章相同，不再重复列出。
+    </p>
+    {drops.map((battlestage: any) => (
+      <>
+        <h2 data-stage={battlestage.stage}>
+          {battlestage.strongpoint.replace('　', ' ')
+          }<span class="drops-chapter">{getChapterName(battlestage.stage)}</span>
+        </h2>
+        <table class={`drops-table`}>
+          <thead>
+            <tr>
+              <th>敌人</th>
+              <th>道具</th>
+              <th>掉率</th>
+            </tr>
+          </thead>
+          <tbody>
+            {(battlestage.enemies as any[]).map((enemy, enemyIndex) => (enemy.drops as any[]).map((drop, dropIndex) => (
+              <tr class={`drops-${enemyIndex % 2 == 0 ? 'odd' : 'even'}`}>
+                {dropIndex == 0 && <td rowspan={enemy.drops.length}>{enemy.name
+                  ? <em>{enemy.name}</em>
+                  : getEnemyName(enemy.race, enemy.class)
+                } ({enemy.position})</td>}
+                <td>{drop.item}{drop.amount > 1 ? ` ×${drop.amount}` : ''}</td>
+                <td>{drop.rate}</td>
+              </tr>
+            ))).flat()}
+          </tbody>
+        </table>
+      </>
+    ))}
+  </div>
+</BaseLayout>
+
+<style lang="scss" is:global>
+  #grid-main {
+    margin-bottom: 6rem;
+    > h1 + p {
+      margin-top: 2.5rem;
+    }
+  }
+  .drops-chapter {
+    margin-left: .8rem;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    color: var(--theme-text-light);
+    vertical-align: bottom;
+  }
+  .drops-table {
+    tbody {
+      color: var(--theme-text-light);
+    }
+    th, td {
+      width: 33%;
+      padding: .5rem 1rem;
+    }
+    tr.drops-odd {
+      background-color: transparent;
+    }
+    tr.drops-even {
+      background: var(--theme-bg-hover);
+    }
+    .drops-odd + .drops-odd,
+    .drops-even + .drops-even {
+      td {
+        padding-top: 0;
+      }
+    }
+  }
+</style>
