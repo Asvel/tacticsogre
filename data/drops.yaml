@@ -14171,7 +14171,7 @@
     class: 迦楼罗
     position: 2,6
     drops:
-    - item: 迦楼罗
+    - item: 迦楼罗（格斗）
       amount: 1
       rate: 5%
     - item: 魔鸟羽毛
@@ -20813,7 +20813,7 @@
     class: 血腥猎人
     position: 4,19
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（弓）
       amount: 1
       rate: 4%
   - name: ''
@@ -20821,7 +20821,7 @@
     class: 血腥猎人
     position: 5,22
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（弓）
       amount: 1
       rate: 4%
   - name: ''
@@ -21219,7 +21219,7 @@
     class: 黑暗追踪者
     position: 14,6
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（吹箭）
       amount: 1
       rate: 4%
   - name: ''
@@ -21227,7 +21227,7 @@
     class: 黑暗追踪者
     position: 16,4
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（吹箭）
       amount: 1
       rate: 4%
   - name: ''
@@ -21381,7 +21381,7 @@
     class: 嗜血巨鳄
     position: 5,3
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（长枪）
       amount: 1
       rate: 4%
   - name: ''
@@ -21389,7 +21389,7 @@
     class: 嗜血巨鳄
     position: 8,3
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（长枪）
       amount: 1
       rate: 4%
   - name: ''
@@ -21462,7 +21462,7 @@
     class: 作恶精
     position: 18,3
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（乐器）
       amount: 1
       rate: 4%
     - item: 透明南瓜
@@ -21473,7 +21473,7 @@
     class: 作恶精
     position: 17,7
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（乐器）
       amount: 1
       rate: 4%
     - item: 透明南瓜
@@ -21632,7 +21632,7 @@
     class: 猩红骑兵
     position: 5,9
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（双手剑）
       amount: 1
       rate: 4%
   - name: ''
@@ -21640,7 +21640,7 @@
     class: 猩红骑兵
     position: 7,9
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（双手剑）
       amount: 1
       rate: 4%
   - name: ''
@@ -21715,7 +21715,7 @@
     class: 符文剑士
     position: 11,14
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（单手剑）
       amount: 1
       rate: 4%
   - name: ''
@@ -21723,7 +21723,7 @@
     class: 战士
     position: 10,13
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（单手剑）
       amount: 1
       rate: 4%
   - name: ''
@@ -21823,7 +21823,7 @@
     class: 刽子手
     position: 21,6
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（斧）
       amount: 1
       rate: 4%
   - name: ''
@@ -21831,7 +21831,7 @@
     class: 刽子手
     position: 25,5
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（斧）
       amount: 1
       rate: 4%
   - name: ''
@@ -21888,7 +21888,7 @@
     - item: 魔水晶原石
       amount: 1
       rate: 25%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（魔导书）
       amount: 1
       rate: 4%
   - name: ''
@@ -21899,7 +21899,7 @@
     - item: 莱拉
       amount: 1
       rate: 30%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（魔导书）
       amount: 1
       rate: 4%
   - name: ''
@@ -22129,7 +22129,7 @@
     class: 战士
     position: 4,4
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（锤）
       amount: 1
       rate: 4%
   - name: ''
@@ -22137,7 +22137,7 @@
     class: 重装步兵
     position: 4,8
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（锤）
       amount: 1
       rate: 4%
   - name: ''
@@ -22271,7 +22271,7 @@
     - item: 透明南瓜
       amount: 1
       rate: 35%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（短剑）
       amount: 1
       rate: 4%
   - name: ''
@@ -22282,7 +22282,7 @@
     - item: 透明南瓜
       amount: 1
       rate: 35%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（短剑）
       amount: 1
       rate: 4%
   - name: ''
@@ -22772,7 +22772,7 @@
     class: 猎杀者
     position: 8,18
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（双手刀）
       amount: 1
       rate: 4%
   - name: ''
@@ -22812,7 +22812,7 @@
     class: 战士
     position: 4,13
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（格斗）
       amount: 1
       rate: 4%
   - name: ''
@@ -22844,7 +22844,7 @@
     class: 战士
     position: 14,5
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（格斗）
       amount: 1
       rate: 4%
   - name: ''
@@ -23079,7 +23079,7 @@
     - item: 透明南瓜
       amount: 1
       rate: 35%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（棍）
       amount: 1
       rate: 4%
   - name: ''
@@ -23114,7 +23114,7 @@
     - item: 水之盾
       amount: 1
       rate: 10%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（棍）
       amount: 1
       rate: 4%
 - stage: C4_ST_532
@@ -23246,7 +23246,7 @@
     class: 黑暗追踪者
     position: 12,5
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（单手刀）
       amount: 1
       rate: 4%
   - name: ''
@@ -23254,7 +23254,7 @@
     class: 重装步兵
     position: 16,4
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（单手刀）
       amount: 1
       rate: 4%
 - stage: C4_ST_534
@@ -23384,7 +23384,7 @@
     class: 连续狙击犯
     position: 20,5
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（枪械）
       amount: 1
       rate: 4%
   - name: ''
@@ -23395,7 +23395,7 @@
     - item: 枪手转职证
       amount: 1
       rate: 15%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（枪械）
       amount: 1
       rate: 4%
   - name: ''
@@ -23403,7 +23403,7 @@
     class: 钢铁摔角手
     position: 19,13
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（鞭）
       amount: 1
       rate: 4%
     - item: 巨鹰风铠
@@ -23414,7 +23414,7 @@
     class: 钢铁摔角手
     position: 20,14
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（鞭）
       amount: 1
       rate: 4%
     - item: 维拉特雷铠
@@ -23476,7 +23476,7 @@
     class: 血腥猎人
     position: 8,11
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（弩）
       amount: 1
       rate: 4%
   - name: ''
@@ -23484,7 +23484,7 @@
     class: 血腥猎人
     position: 9,9
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（弩）
       amount: 1
       rate: 4%
   - name: ''
@@ -23835,7 +23835,7 @@
     class: 血腥猎人
     position: 10,3
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（弓）
       amount: 1
       rate: 4%
   - name: ''
@@ -23862,7 +23862,7 @@
     class: 血腥猎人
     position: 14,10
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（弓）
       amount: 1
       rate: 4%
   - name: ''
@@ -23903,7 +23903,7 @@
     class: 黑暗追踪者
     position: 12,6
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（吹箭）
       amount: 1
       rate: 4%
     - item: 巨鲸水铠
@@ -23925,7 +23925,7 @@
     class: 黑暗追踪者
     position: 14,7
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（吹箭）
       amount: 1
       rate: 4%
     - item: 纳萨罗古土铠
@@ -24084,7 +24084,7 @@
     class: 钢铁摔角手
     position: 15,4
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（鞭）
       amount: 1
       rate: 4%
   - name: ''
@@ -24108,7 +24108,7 @@
     class: 钢铁摔角手
     position: 14,10
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（鞭）
       amount: 1
       rate: 4%
   - name: ''
@@ -24393,7 +24393,7 @@
     class: 嗜血巨鳄
     position: 5,13
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（锤）
       amount: 1
       rate: 4%
   - name: ''
@@ -24433,7 +24433,7 @@
     class: 嗜血巨鳄
     position: 2,22
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（锤）
       amount: 1
       rate: 4%
   - name: ''
@@ -24517,7 +24517,7 @@
     class: 斯库拉
     position: 3,12
     drops:
-    - item: 迦楼罗
+    - item: 迦楼罗（单手刀）
       amount: 1
       rate: 10%
   - name: ''
@@ -24608,7 +24608,7 @@
     class: 鹰马
     position: 3,3
     drops:
-    - item: 迦楼罗
+    - item: 迦楼罗（单手刀）
       amount: 1
       rate: 20%
     - item: 亚加尼斯塔光铠
@@ -24622,7 +24622,7 @@
     - item: 巨鲸水铠
       amount: 1
       rate: 20%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（枪械）
       amount: 1
       rate: 4%
   - name: ''
@@ -24641,7 +24641,7 @@
     - item: 维克兰特冰铠
       amount: 1
       rate: 30%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（枪械）
       amount: 1
       rate: 4%
   - name: ''
@@ -24771,7 +24771,7 @@
     class: 斯库拉
     position: 1,9
     drops:
-    - item: 迦楼罗
+    - item: 迦楼罗（单手刀）
       amount: 1
       rate: 30%
   - name: ''
@@ -24953,7 +24953,7 @@
     class: 守卫巨人
     position: 17,14
     drops:
-    - item: 迦楼罗
+    - item: 迦楼罗（单手刀）
       amount: 1
       rate: 40%
   - name: ''
@@ -24961,7 +24961,7 @@
     class: 血腥猎人
     position: 18,9
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（单手刀）
       amount: 1
       rate: 4%
   - name: ''
@@ -24985,10 +24985,10 @@
     class: 黑暗追踪者
     position: 14,15
     drops:
-    - item: 迦楼罗
+    - item: 迦楼罗（单手刀）
       amount: 1
       rate: 40%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（单手刀）
       amount: 1
       rate: 4%
   - name: ''
@@ -25127,7 +25127,7 @@
     class: 夺命贼
     position: 1,11
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（短剑）
       amount: 1
       rate: 4%
   - name: ''
@@ -25135,7 +25135,7 @@
     class: 夜乌
     position: 2,6
     drops:
-    - item: 迦楼罗
+    - item: 迦楼罗（单手刀）
       amount: 1
       rate: 30%
   - name: ''
@@ -25189,7 +25189,7 @@
     class: 夺命贼
     position: 15,3
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（短剑）
       amount: 1
       rate: 4%
     - item: 基卢加魔铠
@@ -25281,7 +25281,7 @@
     class: 半兽人
     position: 3,6
     drops:
-    - item: 迦楼罗
+    - item: 迦楼罗（单手刀）
       amount: 1
       rate: 20%
   - name: ''
@@ -25341,7 +25341,7 @@
     class: 猎杀者
     position: 7,15
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（双手刀）
       amount: 1
       rate: 4%
   - name: ''
@@ -25373,7 +25373,7 @@
     class: 猎杀者
     position: 6,14
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（双手刀）
       amount: 1
       rate: 4%
   - name: ''
@@ -25381,7 +25381,7 @@
     class: 黑暗追踪者
     position: 1,13
     drops:
-    - item: 迦楼罗
+    - item: 迦楼罗（单手刀）
       amount: 1
       rate: 10%
   - name: ''
@@ -25458,7 +25458,7 @@
     - item: 丽普露法杖
       amount: 1
       rate: 30%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（棍）
       amount: 1
       rate: 4%
   - name: ''
@@ -25498,7 +25498,7 @@
     class: 魔术之后
     position: 3,10
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（棍）
       amount: 1
       rate: 4%
   - name: ''
@@ -25574,7 +25574,7 @@
     class: 暗影骑士
     position: 13,7
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（单手剑）
       amount: 1
       rate: 4%
     - item: 巨鹰重铠
@@ -25617,7 +25617,7 @@
     class: 暗影骑士
     position: 26,11
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（单手剑）
       amount: 1
       rate: 4%
     - item: 巨鹰重铠
@@ -25652,7 +25652,7 @@
     class: 血腥猎人
     position: 12,16
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（弩）
       amount: 1
       rate: 4%
   - name: ''
@@ -25714,7 +25714,7 @@
     - item: 维拉特重铠
       amount: 1
       rate: 30%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（弩）
       amount: 1
       rate: 4%
   - name: ''
@@ -25771,7 +25771,7 @@
     - item: 卢恩斧
       amount: 1
       rate: 30%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（魔导书）
       amount: 1
       rate: 4%
   - name: ''
@@ -25782,7 +25782,7 @@
     - item: 沙尘弓
       amount: 1
       rate: 40%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（魔导书）
       amount: 1
       rate: 4%
   - name: ''
@@ -25801,7 +25801,7 @@
     class: 刽子手
     position: 6,11
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（斧）
       amount: 1
       rate: 4%
     - item: 巨鹰重铠
@@ -25812,7 +25812,7 @@
     class: 刽子手
     position: 3,10
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（斧）
       amount: 1
       rate: 4%
     - item: 纳萨罗古重铠
@@ -25880,7 +25880,7 @@
     class: 战士
     position: 4,16
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（双手剑）
       amount: 1
       rate: 4%
     - item: 巨鹰重铠
@@ -25891,7 +25891,7 @@
     class: 战士
     position: 8,4
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（双手剑）
       amount: 1
       rate: 4%
     - item: 纳萨罗古重铠
@@ -26080,7 +26080,7 @@
     class: 夜乌
     position: 7,2
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（格斗）
       amount: 1
       rate: 4%
   - name: ''
@@ -26088,7 +26088,7 @@
     class: 夜乌
     position: 4,2
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（格斗）
       amount: 1
       rate: 4%
   - name: ''
@@ -26196,7 +26196,7 @@
     - item: 魔水晶原石
       amount: 1
       rate: 25%
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（乐器）
       amount: 1
       rate: 4%
   - name: ''
@@ -26220,7 +26220,7 @@
     class: 作恶精
     position: 3,15
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（乐器）
       amount: 1
       rate: 4%
     - item: 透明南瓜
@@ -26377,7 +26377,7 @@
     class: 杀戮天使
     position: 5,10
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（长枪）
       amount: 1
       rate: 4%
     - item: 魔水晶原石
@@ -26431,7 +26431,7 @@
     class: 杀戮天使
     position: 9,6
     drops:
-    - item: 罹受诅咒的武具
+    - item: 罹受诅咒的武具（长枪）
       amount: 1
       rate: 4%
   - name: ''
