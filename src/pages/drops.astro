@@ -1,5 +1,5 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from '../layouts/DropsLayout.astro';
 import drops_ from '../../data/drops.yaml';
 
 let drops = drops_ as {
@@ -51,7 +51,8 @@ drops = drops.filter(x => {
   const s = x.stage.slice(0, -1);
   return s !== 'C2a_ST_31' && s !== 'C2b_ST_32' &&
     s !== 'C3a_ST_45' && s !== 'C3a_ST_46' &&
-    s !== 'C3b_ST_49' && s !== 'C3a_ST_50'
+    s !== 'C3b_ST_49' && s !== 'C3a_ST_50' &&
+    !s.startsWith('EP_')
 });
 drops.splice(drops.findIndex(x => x.stage == 'C3c_ST_482'), 0, dropsC2冻解溪流);
 ---
@@ -66,7 +67,7 @@ drops.splice(drops.findIndex(x => x.stage == 'C3c_ST_482'), 0, dropsC2冻解溪�
     </p>
     {drops.map(battlestage => (
       <>
-        <h2 data-stage={battlestage.stage}>
+        <h2 id={battlestage.stage}>
           {battlestage.strongpoint.replace('　', ' ')
           }<span class="drops-chapter">{getChapterName(battlestage.stage)}</span>
         </h2>
@@ -98,10 +99,20 @@ drops.splice(drops.findIndex(x => x.stage == 'C3c_ST_482'), 0, dropsC2冻解溪�
 </BaseLayout>
 
 <style lang="scss" is:global>
+  :target {
+    scroll-margin: 2rem 0;
+  }
+
   #grid-main {
+    border-right: 1rem solid transparent;
     margin-bottom: 6rem;
     > h1 + p {
       margin-top: 2.5rem;
+    }
+  }
+  @media (max-width: 72em) {
+    #grid-main {
+      border-right: none;
     }
   }
   .drops-chapter {
@@ -134,6 +145,17 @@ drops.splice(drops.findIndex(x => x.stage == 'C3c_ST_482'), 0, dropsC2冻解溪�
     .drops-even + .drops-even {
       td {
         padding-top: 0;
+      }
+    }
+  }
+  @media (max-width: 52em) {
+    .drops-table {
+      th, td {
+        width: 50%;
+        &:last-child {
+          width: 0;
+          white-space: nowrap;
+        }
       }
     }
   }

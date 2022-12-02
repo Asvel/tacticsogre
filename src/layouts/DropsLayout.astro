@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RightSidebar from '../components/RightSidebar.astro';
+
+// splitted into a standalone file due to astro compliler bug
+
+const { title } = Astro.props as { title: string };
+const headings = [
+  { depth: 2, slug: 'C1_ST_130', text: '第一章' },
+  { depth: 2, slug: 'C2a_ST_040', text: '第二章Ｃ路线' },
+  { depth: 2, slug: 'C2b_ST_060', text: '第二章Ｌ路线' },
+  { depth: 2, slug: 'C3a_ST_090', text: '第三章Ｎ路线' },
+  { depth: 2, slug: 'C3b_ST_040', text: '第三章Ｃ路线' },
+  { depth: 2, slug: 'C3c_ST_090', text: '第三章Ｌ路线' },
+  { depth: 2, slug: 'C4_ST_003', text: '第四章' },
+  { depth: 2, slug: 'DLC_ST_025', text: '结局后' },
+  { depth: 2, slug: '', text: '深层迷宫（非剧情时）' },
+  { depth: 3, slug: 'C4_ST_351', text: '芙兰帕大森林' },
+  { depth: 3, slug: 'C4_ST_372', text: '海盗墓地' },
+  { depth: 3, slug: 'C4_ST_386', text: '禁咒神殿' },
+  { depth: 3, slug: 'C4_ST_461', text: '死者宫殿' },
+  { depth: 3, slug: 'C4_ST_581', text: '桑·博隆萨遗迹' },
+];
+---
+
+<BaseLayout title={title}>
+  <slot />
+  <aside id="grid-right" class="grid-sidebar">
+    <RightSidebar headings={headings} />
+  </aside>
+</BaseLayout>
