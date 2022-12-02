@@ -41,6 +41,7 @@ function getEnemyName(raceName: string, className: string) {
           {battlestage.strongpoint.replace('　', ' ')
           }<span class="drops-chapter">{getChapterName(battlestage.stage)}</span>
         </h2>
+        {battlestage.stage === 'DLC_ST_105' && <p class="drops-table-tip">此战中兰斯洛特的掉落推测有单独的程序特殊处理，建议参考专门的攻略。</p>}
         <table class={`drops-table`}>
           <thead>
             <tr>
@@ -81,6 +82,10 @@ function getEnemyName(raceName: string, className: string) {
     font-style: italic;
     color: var(--theme-text-light);
     vertical-align: bottom;
+  }
+  .drops-table-tip {
+    margin-top: -.75rem;
+    margin-bottom: .75rem;
   }
   .drops-table {
     tbody {
