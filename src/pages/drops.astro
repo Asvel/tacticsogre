@@ -1,6 +1,22 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import drops from '../../data/drops.yaml';
+import drops_ from '../../data/drops.yaml';
+
+let drops = drops_ as {
+  stage: string,
+  strongpoint: string,
+  enemies: {
+    name: string,
+    race: string,
+    class: string,
+    position: string,
+    drops: {
+      item: string,
+      amount: number,
+      rate: string,
+    }[],
+  }[],
+}[]
 
 const title = '掉落表';
 
@@ -15,6 +31,10 @@ const chapterNames = {
   'DLC': '结局后',
 };
 function getChapterName(stage: string) {
+  if (stage === 'C2a_ST_312') return '第二章';
+  if (stage === 'C3c_ST_482') return '第三章';
+  if ('C3c_ST_481' <= stage && stage <= 'C3c_ST_487') return '第二章、第三章';
+  if ('C3c_ST_488' <= stage && stage <= 'C3c_ST_490') return '第三章';
   const chapter = stage.slice(0, stage.indexOf('_'));
   return chapterNames[chapter as keyof typeof chapterNames];
 }
@@ -25,6 +45,15 @@ function getEnemyName(raceName: string, className: string) {
   }
   return `${raceName}${className}`;
 }
+
+const dropsC2冻解溪流 = drops.find(x => x.stage == 'C2a_ST_312')!;
+drops = drops.filter(x => {
+  const s = x.stage.slice(0, -1);
+  return s !== 'C2a_ST_31' && s !== 'C2b_ST_32' &&
+    s !== 'C3a_ST_45' && s !== 'C3a_ST_46' &&
+    s !== 'C3b_ST_49' && s !== 'C3a_ST_50'
+});
+drops.splice(drops.findIndex(x => x.stage == 'C3c_ST_482'), 0, dropsC2冻解溪流);
 ---
 
 <BaseLayout title={title}>
@@ -35,7 +64,7 @@ function getEnemyName(raceName: string, className: string) {
       敌人的坐标 (x,y) 为，以斜向镜头最靠上格子为坐标 (0,0)，右下方向为x轴，左下方向为y轴。<br />
       结局后篇章中深层迷宫普通关卡的掉落与第四章相同，不再重复列出。
     </p>
-    {drops.map((battlestage: any) => (
+    {drops.map(battlestage => (
       <>
         <h2 data-stage={battlestage.stage}>
           {battlestage.strongpoint.replace('　', ' ')
@@ -51,7 +80,7 @@ function getEnemyName(raceName: string, className: string) {
             </tr>
           </thead>
           <tbody>
-            {(battlestage.enemies as any[]).map((enemy, enemyIndex) => (enemy.drops as any[]).map((drop, dropIndex) => (
+            {battlestage.enemies.map((enemy, enemyIndex) => enemy.drops.map((drop, dropIndex) => (
               <tr class={`drops-${enemyIndex % 2 == 0 ? 'odd' : 'even'}`}>
                 {dropIndex == 0 && <td rowspan={enemy.drops.length}>{enemy.name
                   ? <em>{enemy.name}</em>
