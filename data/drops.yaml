@@ -1,3 +1,23 @@
+- stage: C1_ST_130
+  strongpoint: 古都莱姆
+  enemies:
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 7,6
+    drops:
+    - item: 大地龙转职证
+      amount: 2
+      rate: 100%
+    - item: 魔龙牙
+      amount: 3
+      rate: 15%
+    - item: 魔兽爪
+      amount: 3
+      rate: 15%
+    - item: 魔兽牙
+      amount: 3
+      rate: 15%
 - stage: C1_ST_200
   strongpoint: 伯卢度湖畔
   enemies:
@@ -144,6 +164,42 @@
       amount: 3
       rate: 15%
     - item: 魔兽爪
+      amount: 3
+      rate: 15%
+- stage: C2a_ST_110
+  strongpoint: 夸卓加要塞
+  enemies:
+  - name: 德萨
+    race: 男性人类
+    class: 狂战士
+    position: 4,5
+    drops:
+    - item: 行将腐坏的果实
+      amount: 3
+      rate: 100%
+    - item: 凯尔盖口传书
+      amount: 1
+      rate: 100%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 7,11
+    drops:
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 15%
+    - item: 独角兽之角
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 7,12
+    drops:
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 15%
+    - item: 独角兽之角
       amount: 3
       rate: 15%
 - stage: C2a_ST_140
@@ -1226,6 +1282,94 @@
     - item: 油靴
       amount: 1
       rate: 15%
+- stage: C2b_ST_190
+  strongpoint: 古都莱姆
+  enemies:
+  - name: ''
+    race: 女性人类
+    class: 女武神
+    position: 4,5
+    drops:
+    - item: 转移石
+      amount: 3
+      rate: 100%
+    - item: 至福圣石
+      amount: 3
+      rate: 100%
+  - name: ''
+    race: 男性人类
+    class: 符文剑士
+    position: 15,3
+    drops:
+    - item: 转移石
+      amount: 3
+      rate: 100%
+    - item: 至福圣石
+      amount: 3
+      rate: 100%
+- stage: C2b_ST_230
+  strongpoint: 艾摩里卡城城门
+  enemies:
+  - name: ''
+    race: 龙
+    class: 起始龙
+    position: 7,7
+    drops:
+    - item: 起始龙转职证
+      amount: 3
+      rate: 100%
+    - item: 魔兽牙
+      amount: 3
+      rate: 15%
+    - item: 魔兽爪
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: 龙
+    class: 黑暗龙
+    position: 7,9
+    drops:
+    - item: 黑暗龙转职证
+      amount: 3
+      rate: 100%
+    - item: 魔兽牙
+      amount: 3
+      rate: 15%
+    - item: 魔兽爪
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: 魔像
+    class: 石魔像
+    position: 10,6
+    drops:
+    - item: 石魔像转职证
+      amount: 3
+      rate: 100%
+  - name: ''
+    race: 魔像
+    class: 石魔像
+    position: 10,10
+    drops:
+    - item: 石魔像转职证
+      amount: 3
+      rate: 100%
+  - name: ''
+    race: 男性人类
+    class: 术士
+    position: 3,4
+    drops:
+    - item: 术士转职证
+      amount: 2
+      rate: 35%
+  - name: ''
+    race: 女性人类
+    class: 女术士
+    position: 3,12
+    drops:
+    - item: 术士转职证
+      amount: 2
+      rate: 35%
 - stage: C2b_ST_240
   strongpoint: 艾摩里卡城内部
   enemies:
@@ -2120,6 +2264,39 @@
     - item: 至福圣石
       amount: 1
       rate: 100%
+- stage: C3a_ST_110
+  strongpoint: 港都艾修敦
+  enemies:
+  - name: ''
+    race: 女性人类
+    class: 教士
+    position: 7,6
+    drops:
+    - item: 至福圣石
+      amount: 1
+      rate: 100%
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 8,12
+    drops:
+    - item: 流云龙转职证
+      amount: 3
+      rate: 100%
+    - item: 魔兽牙
+      amount: 3
+      rate: 15%
+    - item: 魔兽爪
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 8,1
+    drops:
+    - item: 重战步兵转职证
+      amount: 3
+      rate: 50%
 - stage: C3a_ST_130
   strongpoint: 海登山
   enemies:
@@ -2429,6 +2606,39 @@
     - item: 魔鸟羽毛
       amount: 3
       rate: 15%
+- stage: C3a_ST_270
+  strongpoint: 古都莱姆
+  enemies:
+  - name: ''
+    race: 女性人类
+    class: 教士
+    position: 21,1
+    drops:
+    - item: 至福圣石
+      amount: 2
+      rate: 50%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 5,9
+    drops:
+    - item: 魔兽牙
+      amount: 3
+      rate: 15%
+    - item: 魔兽爪
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: 龙
+    class: 起始龙
+    position: 19,14
+    drops:
+    - item: 魔兽牙
+      amount: 3
+      rate: 15%
+    - item: 魔兽爪
+      amount: 3
+      rate: 15%
 - stage: C3a_ST_330
   strongpoint: 飞达克城城南
   enemies:
@@ -2565,6 +2775,61 @@
     - item: 魔兽爪
       amount: 3
       rate: 15%
+- stage: C3a_ST_410
+  strongpoint: 夸卓加要塞
+  enemies:
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 3,1
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 15%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 0,8
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 15%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 10,2
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 15%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 5,9
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 15%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 0,5
+    drops:
+    - item: 使魔转职证
+      amount: 1
+      rate: 8%
 - stage: C3a_ST_430
   strongpoint: 港都戈亚提
   enemies:
@@ -3495,6 +3760,25 @@
     - item: 术士转职证
       amount: 1
       rate: 8%
+- stage: C3b_ST_040
+  strongpoint: 港都艾修敦
+  enemies:
+  - name: 加农
+    race: 男性人类
+    class: 狂战士
+    position: 16,6
+    drops:
+    - item: 魔水晶原石
+      amount: 3
+      rate: 100%
+  - name: ''
+    race: 魔像
+    class: 粘土魔像
+    position: 12,6
+    drops:
+    - item: 粘土魔像转职证
+      amount: 3
+      rate: 100%
 - stage: C3b_ST_070
   strongpoint: 科利塔尼城城门
   enemies:
@@ -3944,6 +4228,17 @@
     - item: 重战步兵转职证
       amount: 3
       rate: 50%
+- stage: C3b_ST_330
+  strongpoint: 古都莱姆
+  enemies:
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 19,9
+    drops:
+    - item: 古树化石
+      amount: 3
+      rate: 31%
 - stage: C3b_ST_400
   strongpoint: 飞达克城城南
   enemies:
@@ -8578,6 +8873,33 @@
     - item: 闪电龙转职证
       amount: 1
       rate: 8%
+- stage: C4_ST_196
+  strongpoint: 结晶回廊
+  enemies:
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 6,11
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 5,14
+    drops:
+    - item: 重战步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 族长
+    position: 5,4
+    drops:
+    - item: 族长转职证
+      amount: 1
+      rate: 8%
 - stage: C4_ST_197
   strongpoint: 悲叹水纹
   enemies:
@@ -8597,7 +8919,7 @@
     - item: 巴德尔魔像转职证
       amount: 1
       rate: 8%
-- stage: C4_ST_201
+- stage: C4_ST_198
   strongpoint: 海盗墓地　圣域
   enemies:
   - name: ''
@@ -8687,6 +9009,25 @@
     - item: 起始龙转职证
       amount: 1
       rate: 8%
+- stage: C4_ST_326
+  strongpoint: 莱赞要塞
+  enemies:
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 2,21
+    drops:
+    - item: 古树化石
+      amount: 3
+      rate: 31%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 4,26
+    drops:
+    - item: 古树化石
+      amount: 3
+      rate: 31%
 - stage: C4_ST_200
   strongpoint: 贝特要塞
   enemies:
@@ -9046,6 +9387,53 @@
     - item: 使魔转职证
       amount: 1
       rate: 8%
+- stage: C4_ST_286
+  strongpoint: 巴马穆沙镇
+  enemies:
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 12,10
+    drops:
+    - item: 陨铁
+      amount: 3
+      rate: 35%
+  - name: ''
+    race: ''
+    class: 独眼巨人
+    position: 1,14
+    drops:
+    - item: 魔神骨
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 3,4
+    drops:
+    - item: 独角兽之角
+      amount: 5
+      rate: 15%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 多头龙
+    position: 13,7
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 15%
+    - item: 魔龙爪
+      amount: 3
+      rate: 15%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 15%
+    - item: 魔龙角
+      amount: 3
+      rate: 15%
 - stage: C4_ST_290
   strongpoint: 夸卓加要塞
   enemies:
@@ -9169,6 +9557,33 @@
     - item: 使魔转职证
       amount: 1
       rate: 8%
+- stage: C4_ST_298
+  strongpoint: 死者宫殿B2
+  enemies:
+  - name: ''
+    race: 龙
+    class: 黑暗龙
+    position: 8,13
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 骷髅
+    class: 女巫
+    position: 23,11
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 龙
+    class: 黑暗龙
+    position: 20,12
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
 - stage: C4_ST_300
   strongpoint: 死者宫殿B3
   enemies:
@@ -9690,6 +10105,41 @@
     - item: 族长转职证
       amount: 1
       rate: 8%
+- stage: C4_ST_346
+  strongpoint: 巴思克村
+  enemies:
+  - name: 卡博特
+    race: 南瓜头
+    class: 使魔
+    position: 1,16
+    drops:
+    - item: 使魔转职证
+      amount: 1
+      rate: 8%
+  - name: 卡博塔
+    race: 南瓜头
+    class: 使魔
+    position: 4,12
+    drops:
+    - item: 使魔转职证
+      amount: 1
+      rate: 8%
+  - name: 卡博拉尼娅
+    race: 南瓜头
+    class: 使魔
+    position: 1,5
+    drops:
+    - item: 使魔转职证
+      amount: 1
+      rate: 8%
+  - name: 卡博伦
+    race: 南瓜头
+    class: 使魔
+    position: 5,1
+    drops:
+    - item: 使魔转职证
+      amount: 1
+      rate: 8%
 - stage: C4_ST_349
   strongpoint: 威莱牧镇
   enemies:
@@ -9701,6 +10151,1960 @@
     - item: 毛瑟枪+1
       amount: 1
       rate: 100%
+- stage: C4_ST_351
+  strongpoint: 诱惑的裂缝
+  enemies:
+  - name: ''
+    race: 翼人
+    class: 巫师
+    position: 7,2
+    drops:
+    - item: 翼人战士转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 翼人
+    class: 巫师
+    position: 13,3
+    drops:
+    - item: 翼人战士转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 教士
+    position: 11,2
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 教士
+    position: 2,3
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 5,3
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 2,6
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 11,6
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 4,6
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 40%
+- stage: C4_ST_352
+  strongpoint: 冻解溪流
+  enemies:
+  - name: ''
+    race: 翼人
+    class: 巫师
+    position: 13,9
+    drops:
+    - item: 翼人战士转职证
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 翼人
+    class: 巫师
+    position: 9,1
+    drops:
+    - item: 翼人战士转职证
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 男性人类
+    class: 教士
+    position: 3,6
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 教士
+    position: 5,6
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 翼人
+    class: 符文剑士
+    position: 8,5
+    drops:
+    - item: 陨铁
+      amount: 3
+      rate: 35%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 10,8
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 9,3
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 9,10
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 8,8
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔鸟羽毛
+      amount: 3
+      rate: 40%
+- stage: C4_ST_353
+  strongpoint: 芙兰帕前院
+  enemies:
+  - name: ''
+    race: 男性人类
+    class: 教士
+    position: 15,1
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 教士
+    position: 10,2
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+- stage: C4_ST_354
+  strongpoint: 风袭丘陵
+  enemies:
+  - name: ''
+    race: 男性人类
+    class: 骑士
+    position: 15,4
+    drops:
+    - item: 至福圣石
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 女性人类
+    class: 骑士
+    position: 1,9
+    drops:
+    - item: 至福圣石
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 男性人类
+    class: 恐惧骑士
+    position: 3,7
+    drops:
+    - item: 龙排
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 男性人类
+    class: 恐惧骑士
+    position: 11,3
+    drops:
+    - item: 烤串
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 男性人类
+    class: 恐惧骑士
+    position: 18,9
+    drops:
+    - item: 章鱼烧
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 女性人类
+    class: 恐惧骑士
+    position: 17,6
+    drops:
+    - item: 合成汉堡肉
+      amount: 1
+      rate: 3%
+- stage: C4_ST_355
+  strongpoint: 斜影之原
+  enemies:
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 1,15
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 5,20
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 1,20
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 3
+      rate: 5%
+    - item: 冰元素护符
+      amount: 2
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 2,3
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 3
+      rate: 5%
+    - item: 冰元素护符
+      amount: 2
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 13,2
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 流云龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 6,18
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 10,2
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 大地龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 11,17
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 闪电龙
+    position: 6,4
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 闪电龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 闪电龙
+    position: 4,14
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 5,7
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 洪流龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 3,16
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 火焰龙
+    position: 6,1
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 火焰龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 火焰龙
+    position: 5,12
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 2,5
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 冰霜龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 9,18
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+- stage: C4_ST_355
+  strongpoint: 斜影之原
+  enemies:
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 1,15
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 5,20
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 1,20
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 1
+      rate: 5%
+    - item: 冰元素护符
+      amount: 1
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 2,3
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 1
+      rate: 5%
+    - item: 冰元素护符
+      amount: 1
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 13,2
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 流云龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 6,18
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 10,2
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 大地龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 11,17
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 闪电龙
+    position: 6,4
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 闪电龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 闪电龙
+    position: 4,14
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 5,7
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 洪流龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 3,16
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 火焰龙
+    position: 6,1
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 火焰龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 火焰龙
+    position: 5,12
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 2,5
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 冰霜龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 9,18
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+- stage: C4_ST_356
+  strongpoint: 无人踏足的湿地
+  enemies:
+  - name: ''
+    race: 骷髅
+    class: 战士
+    position: 11,9
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 骷髅
+    class: 骑士
+    position: 7,4
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 骷髅
+    class: 恐惧骑士
+    position: 9,8
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 7,14
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 3,12
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 4,10
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 3
+      rate: 5%
+    - item: 冰元素护符
+      amount: 2
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 5,7
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 3
+      rate: 5%
+    - item: 冰元素护符
+      amount: 2
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 3,4
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 流云龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 1,7
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 大地龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 闪电龙
+    position: 3,7
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 闪电龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 5,13
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 洪流龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 火焰龙
+    position: 6,9
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 火焰龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 3,2
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 冰霜龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 6,1
+    drops:
+    - item: 灵药
+      amount: 1
+      rate: 3%
+    - item: 古树化石
+      amount: 5
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 5,10
+    drops:
+    - item: 灵药
+      amount: 1
+      rate: 3%
+    - item: 古树化石
+      amount: 5
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 4,15
+    drops:
+    - item: 灵药
+      amount: 1
+      rate: 3%
+    - item: 古树化石
+      amount: 5
+      rate: 40%
+- stage: C4_ST_356
+  strongpoint: 无人踏足的湿地
+  enemies:
+  - name: ''
+    race: 骷髅
+    class: 战士
+    position: 11,9
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 骷髅
+    class: 骑士
+    position: 7,4
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 骷髅
+    class: 恐惧骑士
+    position: 9,8
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 7,14
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 3,12
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 4,10
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 1
+      rate: 5%
+    - item: 冰元素护符
+      amount: 1
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 5,7
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 1
+      rate: 5%
+    - item: 冰元素护符
+      amount: 1
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 3,4
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 流云龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 1,7
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 大地龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 闪电龙
+    position: 3,7
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 闪电龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 5,13
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 洪流龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 火焰龙
+    position: 6,9
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 火焰龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 3,2
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 冰霜龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 6,1
+    drops:
+    - item: 灵药
+      amount: 1
+      rate: 3%
+    - item: 古树化石
+      amount: 5
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 5,10
+    drops:
+    - item: 灵药
+      amount: 1
+      rate: 3%
+    - item: 古树化石
+      amount: 5
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 4,15
+    drops:
+    - item: 灵药
+      amount: 1
+      rate: 3%
+    - item: 古树化石
+      amount: 5
+      rate: 40%
+- stage: C4_ST_357
+  strongpoint: 野兽水岸
+  enemies:
+  - name: ''
+    race: 翼人
+    class: 弓箭手
+    position: 7,17
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 男性人类
+    class: 巫师
+    position: 6,18
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 女性人类
+    class: 女巫
+    position: 1,17
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 翼人
+    class: 符文剑士
+    position: 10,18
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 翼人
+    class: 符文剑士
+    position: 6,20
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 男性人类
+    class: 骑士
+    position: 11,14
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 女性人类
+    class: 骑士
+    position: 2,13
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: 女性人类
+    class: 恐惧骑士
+    position: 5,13
+    drops:
+    - item: 免罪符
+      amount: 1
+      rate: 3%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 13,14
+    drops:
+    - item: 灵药
+      amount: 1
+      rate: 3%
+    - item: 古树化石
+      amount: 5
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 12,16
+    drops:
+    - item: 灵药
+      amount: 1
+      rate: 3%
+    - item: 古树化石
+      amount: 5
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 12,18
+    drops:
+    - item: 灵药
+      amount: 1
+      rate: 3%
+    - item: 古树化石
+      amount: 5
+      rate: 15%
+- stage: C4_ST_358
+  strongpoint: 古纳瓦水源
+  enemies:
+  - name: ''
+    race: 男性人类
+    class: 弓箭手
+    position: 18,2
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 弓箭手
+    position: 17,3
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 翼人
+    class: 教士
+    position: 21,4
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 男性人类
+    class: 战士
+    position: 14,3
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 战士
+    position: 13,5
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+- stage: C4_ST_359
+  strongpoint: 荡绿湖沼
+  enemies:
+  - name: ''
+    race: 男性人类
+    class: 弓箭手
+    position: 4,3
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 弓箭手
+    position: 5,6
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 翼人
+    class: 教士
+    position: 9,4
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 男性人类
+    class: 教士
+    position: 3,5
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 教士
+    position: 3,7
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 8,7
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 6,6
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 11,1
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 9,2
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+- stage: C4_ST_360
+  strongpoint: 衰困绿野
+  enemies:
+  - name: ''
+    race: 男性人类
+    class: 教士
+    position: 15,3
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 教士
+    position: 16,12
+    drops:
+    - item: 祭司转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 男性人类
+    class: 弓箭手
+    position: 16,8
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 弓箭手
+    position: 17,7
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 男性人类
+    class: 术士
+    position: 18,4
+    drops:
+    - item: 术士转职证
+      amount: 1
+      rate: 8%
+- stage: C4_ST_362
+  strongpoint: 风致之丘
+  enemies:
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 5,6
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 6,3
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 2,14
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 1
+      rate: 5%
+    - item: 冰元素护符
+      amount: 1
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 12,13
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 8,13
+    drops:
+    - item: 魔龙须
+      amount: 3
+      rate: 40%
+    - item: 魔龙大腿骨
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 5,1
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 5,4
+    drops:
+    - item: 魔龙须
+      amount: 3
+      rate: 40%
+    - item: 魔龙大腿骨
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 闪电龙
+    position: 3,12
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 闪电龙
+    position: 4,4
+    drops:
+    - item: 魔龙须
+      amount: 3
+      rate: 40%
+    - item: 魔龙大腿骨
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 1,12
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 6,7
+    drops:
+    - item: 魔龙须
+      amount: 3
+      rate: 40%
+    - item: 魔龙大腿骨
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 火焰龙
+    position: 4,14
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 火焰龙
+    position: 5,13
+    drops:
+    - item: 魔龙须
+      amount: 3
+      rate: 40%
+    - item: 魔龙大腿骨
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 10,13
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 11,15
+    drops:
+    - item: 魔龙须
+      amount: 3
+      rate: 40%
+    - item: 魔龙大腿骨
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 魔龙角
+      amount: 3
+      rate: 40%
+- stage: C4_ST_363
+  strongpoint: 仰望之地
+  enemies:
+  - name: ''
+    race: 龙
+    class: 流云龙
+    position: 5,7
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 流云龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 大地龙
+    position: 7,7
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 大地龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 闪电龙
+    position: 5,6
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 闪电龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 8,6
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 洪流龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 火焰龙
+    position: 6,5
+    drops:
+    - item: 魔兽角
+      amount: 3
+      rate: 40%
+    - item: 魔兽牙
+      amount: 3
+      rate: 40%
+    - item: 魔兽爪
+      amount: 3
+      rate: 40%
+    - item: 火焰龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 冰霜龙
+    position: 2,3
+    drops:
+    - item: 魔龙牙
+      amount: 3
+      rate: 40%
+    - item: 魔龙爪
+      amount: 3
+      rate: 40%
+    - item: 魔龙鳞
+      amount: 3
+      rate: 40%
+    - item: 冰霜龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 14,4
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔犬爪牙
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 12,3
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔犬爪牙
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 15,3
+    drops:
+    - item: 独角兽之角
+      amount: 3
+      rate: 40%
+    - item: 魔犬爪牙
+      amount: 3
+      rate: 40%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 12,16
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 1
+      rate: 5%
+    - item: 冰元素护符
+      amount: 1
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 15,17
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 15,18
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
 - stage: C4_ST_364
   strongpoint: 神变太虚
   enemies:
@@ -9721,6 +12125,92 @@
     - item: 奔雷涡流Ⅱ
       amount: 1
       rate: 30%
+- stage: C4_ST_364
+  strongpoint: 神变太虚
+  enemies:
+  - name: ''
+    race: 女性人类
+    class: 女术士
+    position: 1,2
+    drops:
+    - item: 术士转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 幽灵
+    class: 术士
+    position: 7,2
+    drops:
+    - item: 术士转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 弓箭手
+    position: 4,5
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 弓箭手
+    position: 2,5
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+- stage: C4_ST_364
+  strongpoint: 神变太虚
+  enemies:
+  - name: ''
+    race: 女性人类
+    class: 女术士
+    position: 1,2
+    drops:
+    - item: 术士转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 幽灵
+    class: 术士
+    position: 7,2
+    drops:
+    - item: 术士转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 弓箭手
+    position: 4,5
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 弓箭手
+    position: 2,5
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 骑士
+    position: 6,5
+    drops:
+    - item: 神殿骑士转职证
+      amount: 1
+      rate: 4%
+  - name: ''
+    race: 男性人类
+    class: 恐惧骑士
+    position: 3,6
+    drops:
+    - item: 神殿骑士转职证
+      amount: 1
+      rate: 4%
 - stage: C4_ST_365
   strongpoint: 芙兰帕大森林　深处
   enemies:
@@ -9741,6 +12231,678 @@
     - item: 盖亚强袭Ⅱ
       amount: 1
       rate: 30%
+- stage: C4_ST_365
+  strongpoint: 芙兰帕大森林　深处
+  enemies:
+  - name: ''
+    race: 男性人类
+    class: 战士
+    position: 1,16
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 女性人类
+    class: 弓箭手
+    position: 3,16
+    drops:
+    - item: 游侠转职证
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 3,6
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 妖精
+    class: 使魔
+    position: 1,6
+    drops:
+    - item: 风元素护符
+      amount: 1
+      rate: 5%
+    - item: 雷元素护符
+      amount: 1
+      rate: 5%
+    - item: 火元素护符
+      amount: 1
+      rate: 5%
+    - item: 光元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 7,4
+    drops:
+    - item: 土元素护符
+      amount: 1
+      rate: 5%
+    - item: 水元素护符
+      amount: 1
+      rate: 5%
+    - item: 冰元素护符
+      amount: 1
+      rate: 5%
+    - item: 暗元素护符
+      amount: 1
+      rate: 5%
+  - name: ''
+    race: 魔像
+    class: 钢铁魔像
+    position: 9,3
+    drops:
+    - item: 钢铁魔像转职证
+      amount: 1
+      rate: 8%
+- stage: C4_ST_372
+  strongpoint: 怨嗟海角
+  enemies:
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 7,1
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 大海怪
+    position: 10,15
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 族长
+    position: 21,9
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 12,14
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 14,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_372
+  strongpoint: 怨嗟海角
+  enemies:
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 7,1
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 8,7
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 族长
+    position: 21,9
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 14,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 5,10
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_373
+  strongpoint: 幽明境界
+  enemies:
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 11,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 族长
+    position: 13,20
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+    - item: 族长转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 14,6
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 1,4
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+    - item: 重战步兵转职证
+      amount: 1
+      rate: 8%
+- stage: C4_ST_373
+  strongpoint: 幽明境界
+  enemies:
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 11,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 盗贼
+    position: 16,14
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 7,19
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 族长
+    position: 13,20
+    drops:
+    - item: 族长转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 14,6
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 1,4
+    drops:
+    - item: 重战步兵转职证
+      amount: 1
+      rate: 8%
+- stage: C4_ST_374
+  strongpoint: 结晶回廊
+  enemies:
+  - name: ''
+    race: 鬼姆灵
+    class: 盗贼
+    position: 21,15
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 19,15
+    drops:
+    - item: 重战步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 13,13
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 17,5
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+    - item: 魔水晶原石
+      amount: 5
+      rate: 15%
+    - item: 洪流龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 18,7
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 盗贼
+    position: 3,6
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_374
+  strongpoint: 结晶回廊
+  enemies:
+  - name: ''
+    race: 鬼姆灵
+    class: 盗贼
+    position: 21,15
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 19,15
+    drops:
+    - item: 重战步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 13,13
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 17,5
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+    - item: 魔水晶原石
+      amount: 2
+      rate: 15%
+    - item: 洪流龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 18,7
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 盗贼
+    position: 3,6
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_375
+  strongpoint: 明暗裂谷
+  enemies:
+  - name: ''
+    race: 鬼姆灵
+    class: 盗贼
+    position: 12,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 23,8
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 术士
+    position: 3,5
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女术士
+    position: 2,13
+    drops:
+    - item: 术士转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 16,11
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 8,13
+    drops:
+    - item: 使魔转职证
+      amount: 1
+      rate: 8%
+- stage: C4_ST_375
+  strongpoint: 明暗裂谷
+  enemies:
+  - name: ''
+    race: 鬼姆灵
+    class: 盗贼
+    position: 12,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 23,8
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女术士
+    position: 2,13
+    drops:
+    - item: 术士转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 幽灵
+    class: 巫师
+    position: 1,14
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 8,13
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+    - item: 使魔转职证
+      amount: 1
+      rate: 8%
+- stage: C4_ST_376
+  strongpoint: 悲叹水纹
+  enemies:
+  - name: ''
+    race: 魔像
+    class: 巴德尔魔像
+    position: 16,9
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+    - item: 巴德尔魔像转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 7,14
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 巫妖
+    position: 5,0
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 魔像
+    class: 巴德尔魔像
+    position: 11,11
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女术士
+    position: 7,1
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_376
+  strongpoint: 悲叹水纹
+  enemies:
+  - name: ''
+    race: 魔像
+    class: 巴德尔魔像
+    position: 16,9
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+    - item: 巴德尔魔像转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 7,14
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 13,15
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女术士
+    position: 7,1
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 16,5
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_377
+  strongpoint: 崩落庭园
+  enemies:
+  - name: ''
+    race: ''
+    class: 嗜血巨鳄
+    position: 3,2
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 族长
+    position: 5,4
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 9,7
+    drops:
+    - item: 重战步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 2,7
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 12,1
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 族长
+    position: 18,19
+    drops:
+    - item: 族长转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 翼人
+    class: 教士
+    position: 1,1
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_377
+  strongpoint: 崩落庭园
+  enemies:
+  - name: ''
+    race: ''
+    class: 嗜血巨鳄
+    position: 3,2
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 族长
+    position: 5,4
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 9,7
+    drops:
+    - item: 重战步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 2,7
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 12,1
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 族长
+    position: 18,19
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+    - item: 族长转职证
+      amount: 1
+      rate: 8%
 - stage: C4_ST_378
   strongpoint: 青碧大空洞
   enemies:
@@ -9761,6 +12923,646 @@
     - item: 滔天巨浪Ⅱ
       amount: 1
       rate: 30%
+- stage: C4_ST_378
+  strongpoint: 青碧大空洞
+  enemies:
+  - name: ''
+    race: 魔像
+    class: 巴德尔魔像
+    position: 10,3
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 女性人类
+    class: 巫妖
+    position: 9,18
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 骸骨战士
+    position: 6,7
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 术士
+    position: 11,1
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 6,19
+    drops:
+    - item: 使魔转职证
+      amount: 1
+      rate: 8%
+- stage: C4_ST_378
+  strongpoint: 青碧大空洞
+  enemies:
+  - name: ''
+    race: 魔像
+    class: 巴德尔魔像
+    position: 10,3
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女术士
+    position: 12,2
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 盗贼
+    position: 1,9
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 16,19
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 6,19
+    drops:
+    - item: 使魔转职证
+      amount: 1
+      rate: 8%
+- stage: C4_ST_379
+  strongpoint: 幻惑尽头
+  enemies:
+  - name: ''
+    race: ''
+    class: 达贡
+    position: 7,15
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 大海怪
+    position: 17,5
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 骸骨战士
+    position: 2,5
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 大海怪
+    position: 12,4
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_379
+  strongpoint: 幻惑尽头
+  enemies:
+  - name: ''
+    race: ''
+    class: 达贡
+    position: 7,15
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 8,2
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 20,3
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 18,3
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_380
+  strongpoint: 海神怀中
+  enemies:
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 15,9
+    drops:
+    - item: 魔水晶原石
+      amount: 5
+      rate: 15%
+    - item: 洪流龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 骷髅
+    class: 女巫
+    position: 4,19
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 2,3
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 怨灵
+    position: 1,9
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 13,11
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 巫师
+    position: 15,20
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_380
+  strongpoint: 海神怀中
+  enemies:
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 5,22
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 15,9
+    drops:
+    - item: 魔水晶原石
+      amount: 2
+      rate: 15%
+    - item: 洪流龙转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 骷髅
+    class: 女巫
+    position: 4,19
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重装步兵
+    position: 2,3
+    drops:
+    - item: 重装步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 3,21
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 龙
+    class: 洪流龙
+    position: 13,11
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_381
+  strongpoint: 中央断层
+  enemies:
+  - name: ''
+    race: ''
+    class: 达贡
+    position: 16,7
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 怨灵
+    position: 16,2
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 22,4
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 1,10
+    drops:
+    - item: 重战步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 大海怪
+    position: 18,12
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_381
+  strongpoint: 中央断层
+  enemies:
+  - name: ''
+    race: ''
+    class: 达贡
+    position: 16,7
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 22,4
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 1,10
+    drops:
+    - item: 重战步兵转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 20,3
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 怨灵
+    position: 14,1
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_382
+  strongpoint: 海盗墓地　圣域
+  enemies:
+  - name: ''
+    race: 男性人类
+    class: 巫妖
+    position: 7,20
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 骷髅
+    class: 骑士
+    position: 9,2
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: 骷髅
+    class: 弓箭手
+    position: 10,21
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: 骷髅
+    class: 恐惧骑士
+    position: 7,14
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: 骷髅
+    class: 恐惧骑士
+    position: 6,11
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 3,12
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 骷髅
+    class: 弓箭手
+    position: 1,13
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: ''
+    class: 大海怪
+    position: 6,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 怨灵
+    position: 6,4
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 骷髅
+    class: 弓箭手
+    position: 0,15
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+- stage: C4_ST_382
+  strongpoint: 海盗墓地　圣域
+  enemies:
+  - name: ''
+    race: 骷髅
+    class: 骑士
+    position: 9,2
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: 骷髅
+    class: 弓箭手
+    position: 10,21
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: 骷髅
+    class: 恐惧骑士
+    position: 7,14
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: 骷髅
+    class: 恐惧骑士
+    position: 6,11
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: 骷髅
+    class: 弓箭手
+    position: 1,13
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+  - name: ''
+    race: 骷髅
+    class: 弓箭手
+    position: 0,15
+    drops:
+    - item: 海盗转职证
+      amount: 3
+      rate: 78%
+- stage: C4_ST_382
+  strongpoint: 海盗墓地　圣域
+  enemies:
+  - name: ''
+    race: ''
+    class: 达贡
+    position: 8,12
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 男性人类
+    class: 巫妖
+    position: 9,19
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 1,9
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 大海怪
+    position: 10,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_382
+  strongpoint: 海盗墓地　圣域
+  enemies:
+  - name: ''
+    race: 男性人类
+    class: 巫妖
+    position: 9,19
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 1,9
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 大海怪
+    position: 10,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 怨灵
+    position: 13,16
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_383
+  strongpoint: 海盗墓地　深渊
+  enemies:
+  - name: ''
+    race: ''
+    class: 大海怪
+    position: 9,19
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: 魔像
+    class: 巴德尔魔像
+    position: 11,1
+    drops:
+    - item: 巴德尔魔像转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 幽灵
+    class: 女术士
+    position: 12,2
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 18,7
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 达贡
+    position: 11,18
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+- stage: C4_ST_383
+  strongpoint: 海盗墓地　深渊
+  enemies:
+  - name: ''
+    race: 魔像
+    class: 巴德尔魔像
+    position: 11,1
+    drops:
+    - item: 巴德尔魔像转职证
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 幽灵
+    class: 女术士
+    position: 12,2
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 18,7
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 达贡
+    position: 11,18
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 22,9
+    drops:
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
 - stage: C4_ST_386
   strongpoint: 贝特要塞
   enemies:
@@ -12684,6 +16486,113 @@
     - item: 魔水晶原石
       amount: 1
       rate: 25%
+- stage: C4_ST_477
+  strongpoint: 死者宫殿B15
+  enemies:
+  - name: ''
+    race: ''
+    class: 报丧女妖
+    position: 11,11
+    drops:
+    - item: 短剑锻造古文书
+      amount: 1
+      rate: 15%
+    - item: 透明南瓜
+      amount: 1
+      rate: 35%
+  - name: ''
+    race: ''
+    class: 梦魔
+    position: 10,9
+    drops:
+    - item: 棍锻造古文书
+      amount: 1
+      rate: 15%
+    - item: 透明南瓜
+      amount: 1
+      rate: 35%
+  - name: ''
+    race: 鬼姆灵
+    class: 使魔
+    position: 13,10
+    drops:
+    - item: 短剑锻造古文书
+      amount: 1
+      rate: 15%
+    - item: 透明南瓜
+      amount: 1
+      rate: 35%
+  - name: ''
+    race: 鬼姆灵
+    class: 盗贼
+    position: 13,7
+    drops:
+    - item: 透明南瓜
+      amount: 1
+      rate: 35%
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 9,5
+    drops:
+    - item: 浮空指环
+      amount: 1
+      rate: 20%
+    - item: 短剑锻造古文书
+      amount: 1
+      rate: 15%
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 12,4
+    drops:
+    - item: 棍锻造古文书
+      amount: 1
+      rate: 15%
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 狮鹫
+    position: 9,4
+    drops:
+    - item: 短剑锻造古文书
+      amount: 1
+      rate: 15%
+    - item: 魔水晶原石
+      amount: 1
+      rate: 25%
+  - name: ''
+    race: ''
+    class: 鸡蛇
+    position: 11,2
+    drops:
+    - item: 龙鳞盾
+      amount: 1
+      rate: 20%
+  - name: ''
+    race: 幽灵
+    class: 女巫
+    position: 5,2
+    drops:
+    - item: 棍锻造古文书
+      amount: 1
+      rate: 15%
+  - name: ''
+    race: 幽灵
+    class: 术士
+    position: 5,5
+    drops:
+    - item: 棍锻造古文书
+      amount: 1
+      rate: 15%
 - stage: C4_ST_478
   strongpoint: 死者宫殿B16
   enemies:
@@ -27274,6 +31183,169 @@
     - item: 突击步枪
       amount: 1
       rate: 10%
+- stage: EP_ST_710
+  strongpoint: 浮游遗迹群　中央庭园
+  enemies:
+  - name: ''
+    race: 蜥蜴人
+    class: 狂战士
+    position: 14,7
+    drops:
+    - item: 龙排
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 狂战士
+    position: 18,8
+    drops:
+    - item: 烤串
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 盗贼
+    position: 17,5
+    drops:
+    - item: 章鱼烧
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 女性人类
+    class: 盗贼
+    position: 13,5
+    drops:
+    - item: 合成汉堡肉
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 战士
+    position: 20,3
+    drops:
+    - item: 龙排
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 女性人类
+    class: 女武神
+    position: 21,4
+    drops:
+    - item: 烤串
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 女性人类
+    class: 狂战士
+    position: 23,13
+    drops:
+    - item: 章鱼烧
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 女性人类
+    class: 战士
+    position: 19,15
+    drops:
+    - item: 合成汉堡肉
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 盗贼
+    position: 23,17
+    drops:
+    - item: 龙排
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 女性人类
+    class: 盗贼
+    position: 16,17
+    drops:
+    - item: 烤串
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 蜥蜴人
+    class: 狂战士
+    position: 10,14
+    drops:
+    - item: 章鱼烧
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 忍者
+    position: 8,10
+    drops:
+    - item: 合成汉堡肉
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 盗贼
+    position: 11,1
+    drops:
+    - item: 龙排
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 翼人
+    class: 弓箭手
+    position: 6,3
+    drops:
+    - item: 烤串
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 翼人
+    class: 教士
+    position: 3,10
+    drops:
+    - item: 章鱼烧
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 战士
+    position: 12,10
+    drops:
+    - item: 合成汉堡肉
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 女性人类
+    class: 盗贼
+    position: 16,2
+    drops:
+    - item: 龙排
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: 男性人类
+    class: 符文剑士
+    position: 6,5
+    drops:
+    - item: 烤串
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 5,10
+    drops:
+    - item: 至福圣石
+      amount: 1
+      rate: 8%
+  - name: ''
+    race: ''
+    class: 八爪章鱼
+    position: 15,17
+    drops:
+    - item: 至福圣石
+      amount: 1
+      rate: 8%
 - stage: DLC_ST_025
   strongpoint: 怨嗟海角
   enemies:
@@ -27283,6 +31355,17 @@
     position: 1,5
     drops:
     - item: 术士转职证
+      amount: 1
+      rate: 8%
+- stage: DLC_ST_030
+  strongpoint: 海神怀中
+  enemies:
+  - name: ''
+    race: 蜥蜴人
+    class: 重战步兵
+    position: 6,22
+    drops:
+    - item: 重战步兵转职证
       amount: 1
       rate: 8%
 - stage: DLC_ST_035
@@ -27450,6 +31533,37 @@
     - item: 魔水晶原石
       amount: 1
       rate: 25%
+- stage: DLC_ST_056
+  strongpoint: 死者宫殿　封印之殿
+  enemies:
+  - name: 罗德里克
+    race: 幽灵
+    class: 幽魂战士
+    position: 14,11
+    drops:
+    - item: 死者宫殿观光手册
+      amount: 3
+      rate: 100%
+    - item: 死者宫殿观光手册Ⅱ
+      amount: 3
+      rate: 100%
+    - item: 死者宫殿观光手册Ⅲ
+      amount: 3
+      rate: 100%
+    - item: 十二神将的音叉
+      amount: 1
+      rate: 100%
+- stage: DLC_ST_070
+  strongpoint: 老城托拉·可利亚大道
+  enemies:
+  - name: ''
+    race: 男性人类
+    class: 神殿骑士
+    position: 1,23
+    drops:
+    - item: 术士转职证
+      amount: 1
+      rate: 8%
 - stage: DLC_ST_105
   strongpoint: 港都戈亚提居住区北部
   enemies:
