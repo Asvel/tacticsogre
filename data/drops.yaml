@@ -31368,20 +31368,6 @@
     - item: 重战步兵转职证
       amount: 1
       rate: 8%
-- stage: DLC_ST_035
-  strongpoint: 海盗墓地　深渊
-  enemies:
-  - name: 赛莲
-    race: ''
-    class: 赛莲
-    position: 3,12
-    drops:
-    - item: 歌姬转职证
-      amount: 3
-      rate: 100%
-    - item: 乐器加工技术书Ⅰ
-      amount: 1
-      rate: 100%
 - stage: DLC_ST_045
   strongpoint: 死者宫殿B88
   enemies:
