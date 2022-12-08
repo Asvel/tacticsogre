@@ -12113,6 +12113,9 @@
     class: 法朱拉
     position: 8,2
     drops:
+    - item: 金刚杵
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -12219,6 +12222,9 @@
     class: 麦崔亚
     position: 9,3
     drops:
+    - item: 金毗罗
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -12911,6 +12917,9 @@
     class: 艾雅
     position: 7,3
     drops:
+    - item: 焰魔
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -23751,6 +23760,9 @@
     class: 阿弗拉玛
     position: 4,6
     drops:
+    - item: 阿修罗
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -25031,6 +25043,9 @@
     class: 维杰
     position: 7,3
     drops:
+    - item: 毗沙门
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -25419,6 +25434,9 @@
     class: 阿斯拉玛
     position: 5,7
     drops:
+    - item: 娑伽罗
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -25996,6 +26014,9 @@
     class: 强德拉
     position: 20,4
     drops:
+    - item: 战捺罗
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -26469,6 +26490,9 @@
     class: 伊迦纳
     position: 9,3
     drops:
+    - item: 伊舍那
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -29979,6 +30003,9 @@
     class: 瓦尤
     position: 4,6
     drops:
+    - item: 伐折罗
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -30377,6 +30404,9 @@
     class: 拉克夏
     position: 13,19
     drops:
+    - item: 罗刹
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -30934,6 +30964,9 @@
     class: 沙伦迦
     position: 3,9
     drops:
+    - item: 波夷罗
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -31104,6 +31137,9 @@
     class: 亚蒂提
     position: 10,10
     drops:
+    - item: 罗吼
+      amount: 1
+      rate: 30%
     - item: 代达罗斯齿轮
       amount: 1
       rate: 25%
@@ -31527,6 +31563,9 @@
     class: 幽魂战士
     position: 14,11
     drops:
+    - item: 食人魔之剑
+      amount: 1
+      rate: 8%
     - item: 死者宫殿观光手册
       amount: 3
       rate: 100%
