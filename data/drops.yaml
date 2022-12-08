@@ -31219,8 +31219,8 @@
     - item: 突击步枪
       amount: 1
       rate: 10%
-- stage: EP_ST_710
-  strongpoint: 浮游遗迹群　中央庭园
+- stage: DLC_ST_010
+  strongpoint: 港都奥密舒
   enemies:
   - name: ''
     race: 蜥蜴人

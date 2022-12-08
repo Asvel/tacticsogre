@@ -51,8 +51,7 @@ drops = drops.filter(x => {
   const s = x.stage.slice(0, -1);
   return s !== 'C2a_ST_31' && s !== 'C2b_ST_32' &&
     s !== 'C3a_ST_45' && s !== 'C3a_ST_46' &&
-    s !== 'C3b_ST_49' && s !== 'C3a_ST_50' &&
-    !s.startsWith('EP_')
+    s !== 'C3b_ST_49' && s !== 'C3a_ST_50'
 });
 drops.splice(drops.findIndex(x => x.stage == 'C3c_ST_482'), 0, dropsC2冻解溪流);
 
