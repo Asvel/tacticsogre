@@ -46,7 +46,7 @@ function getEnemyName(raceName: string, className: string) {
   return `${raceName}${className}`;
 }
 
-const dropsC2冻解溪流 = drops.find(x => x.stage == 'C2a_ST_312')!;
+const dropsC2冻解溪流 = drops.find(x => x.stage === 'C2a_ST_312')!;
 drops = drops.filter(x => {
   const s = x.stage.slice(0, -1);
   return s !== 'C2a_ST_31' && s !== 'C2b_ST_32' &&
@@ -55,6 +55,8 @@ drops = drops.filter(x => {
     !s.startsWith('EP_')
 });
 drops.splice(drops.findIndex(x => x.stage == 'C3c_ST_482'), 0, dropsC2冻解溪流);
+
+drops.find(x => x.stage === 'C4_ST_050')!.strongpoint += "（卡图雅未参战时）";
 ---
 
 <BaseLayout title={title}>
