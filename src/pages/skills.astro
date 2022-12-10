@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RightSidebar from '../components/RightSidebar.astro';
+import skillChancesText from '../../data/skill-chances.csv';
+
+const skillChances = skillChancesText.split(/\r?\n/).slice(0, -1).map(line => line.split('|'));
+
+const title = '技能数据';
+
+const headings = [
+  { depth: 2, slug: 'auto-chance', text: '自动技能发动率' },
+  { depth: 2, slug: '', text: '（更多内容追加中）' },
+];
+---
+
+<BaseLayout title={title}>
+  <div id="grid-main">
+    <h1>{title}</h1>
+    <p>
+      部分游戏内无法直接看到的技能数据。
+    </p>
+    <h2 class="skills-title" id="auto-chance">
+      自动技能发动率
+    </h2>
+    <p>
+      同一技能不同等级发动率相同，敌我之间发动率没有区别。<br />
+      每张“技能发动率提升”增益卡额外提供30%的发动率，加法叠加。<br />
+      例如二卡时“先发制人”的发动率为 25%+30%+30% = 85%。
+    </p>
+    <table class="skills-table">
+      <thead>
+        <tr>
+          <th>技能</th>
+          <th>发动率</th>
+        </tr>
+      </thead>
+      <tbody>
+        {skillChances.map(row => (
+          <tr>
+            <td>{row[0]}</td>
+            <td>{row[1]}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <aside id="grid-right" class="grid-sidebar">
+    <RightSidebar headings={headings} />
+  </aside>
+</BaseLayout>
+
+<style lang="scss" is:global>
+  :target {
+    scroll-margin: 2rem 0;
+  }
+
+  #grid-main {
+    margin-bottom: 6rem;
+    > h1 + p {
+      margin-top: 2.5rem;
+    }
+  }
+
+  .skills-table {
+    width: auto;
+    tbody {
+      color: var(--theme-text-light);
+    }
+    th, td {
+      padding: .5rem 1rem;
+    }
+    p + & {
+      margin-top: 1rem;
+    }
+  }
+</style>
+
+<script is:inline>
+  document.querySelector('.skills-table-expand').addEventListener('click', () => {
+    document.querySelector('.skills-table-collapsed').classList.remove('skills-table-collapsed');
+  });
+</script>
