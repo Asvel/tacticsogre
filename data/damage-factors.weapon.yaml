@@ -1,0 +1,60 @@
+- weapons:
+  - 单手剑
+  - 斧（单手）
+  - 锤（单手）
+  - 魔导书（单手）
+  - 乐器（单手）
+  - 盾牌
+  offenseEquipmentAtkFactor: 1.0
+  defenseEquipmentDefFactor: 1.0
+  offenseStatFactor: 1.8str+1.3dex
+  defenseStatFactor: 0.7str+1.0vit
+  elementSelfToActionFactor: 1.1,0.7
+  elementSelfToTatgetFactor: 30%,-10%
+- weapons:
+  - 格斗
+  - 双手剑
+  - 斧（双手）
+  - 长枪
+  - 锤（双手）
+  - 双手刀
+  - 鞭
+  - 魔导书（双手）
+  - 乐器（双手）
+  - 玻瑞阿斯
+  - 神职者杖
+  - 罹受诅咒的武具（棍）
+  offenseEquipmentAtkFactor: 1.0
+  defenseEquipmentDefFactor: 1.0
+  offenseStatFactor: 1.8str+1.4dex
+  defenseStatFactor: 0.7str+1.0vit
+  elementSelfToActionFactor: 1.1,0.7
+  elementSelfToTatgetFactor: 30%,-10%
+- weapons:
+  - 短剑
+  - 单手刀
+  offenseEquipmentAtkFactor: 1.2
+  defenseEquipmentDefFactor: 1.0
+  offenseStatFactor: 1.5str+1.6dex
+  defenseStatFactor: 1.0str+1.0vit
+  elementSelfToActionFactor: 1.1,0.7
+  elementSelfToTatgetFactor: 30%,-10%
+- weapons:
+  - 棍
+  offenseEquipmentAtkFactor: 1.0
+  defenseEquipmentDefFactor: 1.0
+  offenseStatFactor: 1.0str+0.6dex
+  defenseStatFactor: 0.7str+1.0vit
+  elementSelfToActionFactor: 1.1,0.7
+  elementSelfToTatgetFactor: 30%,-10%
+- weapons:
+  - 吹箭
+  - 弓
+  - 弩
+  - 枪械
+  offenseEquipmentAtkFactor: 2.5
+  defenseEquipmentDefFactor: 2.5
+  offenseStatFactor: 1.3str+1.7dex
+  defenseStatFactor: 0.7str+1.0vit
+  elementSelfToActionFactor: 1.1,0.7
+  elementSelfToTatgetFactor: 30%,-10%

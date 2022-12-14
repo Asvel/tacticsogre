@@ -5,21 +5,17 @@ import skillChancesText from '../../data/skill-chances.csv';
 
 const skillChances = skillChancesText.split(/\r?\n/).slice(0, -1).map(line => line.split('|'));
 
-const title = '技能数据';
+const title = '技能发动率';
 
 const headings = [
-  { depth: 2, slug: 'auto-chance', text: '自动技能发动率' },
-  { depth: 2, slug: '', text: '（更多内容追加中）' },
+  { depth: 2, slug: 'auto', text: '自动技能发动率' },
 ];
 ---
 
 <BaseLayout title={title}>
   <div id="grid-main">
     <h1>{title}</h1>
-    <p>
-      部分游戏内无法直接看到的技能数据。
-    </p>
-    <h2 class="skills-title" id="auto-chance">
+    <h2 id="auto">
       自动技能发动率
     </h2>
     <p>
@@ -65,6 +61,9 @@ const headings = [
     width: auto;
     tbody {
       color: var(--theme-text-light);
+      tr:hover {
+        color: var(--theme-text);
+      }
     }
     th, td {
       padding: .5rem 1rem;
@@ -74,9 +73,3 @@ const headings = [
     }
   }
 </style>
-
-<script is:inline>
-  document.querySelector('.skills-table-expand').addEventListener('click', () => {
-    document.querySelector('.skills-table-collapsed').classList.remove('skills-table-collapsed');
-  });
-</script>

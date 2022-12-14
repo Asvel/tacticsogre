@@ -1,0 +1,220 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RightSidebar from '../components/RightSidebar.astro';
+import dataWeapon from '../../data/damage-factors.weapon.yaml';
+import dataMagic from '../../data/damage-factors.magic.yaml';
+import dataFinishing from '../../data/damage-factors.finishing.yaml';
+import dataOther from '../../data/damage-factors.other.yaml';
+type Data = { [index: string]: any }[];
+
+const finishingCategoried = new Map<number, any[]>();
+for (const entry of dataFinishing) {
+  if (!finishingCategoried.has(entry.actionCategory))
+    finishingCategoried.set(entry.actionCategory, []);
+  finishingCategoried.get(entry.actionCategory)!.push(entry);
+}
+
+const title = '伤害参数';
+
+const headings = [
+  { depth: 2, slug: 'weapon', text: '武器普通攻击' },
+  { depth: 2, slug: 'magic', text: '魔法' },
+  { depth: 2, slug: 'finishing', text: '必杀技' },
+  { depth: 2, slug: 'other', text: '其他' },
+];
+---
+
+<BaseLayout title={title}>
+  <div id="grid-main">
+    <h1>{title}</h1>
+    <p>
+      游戏伤害计算方式的大致形式为（用于理解表中的各种参数，实际远比此复杂）：<br />
+      (攻方装备和攻击动作的ATK × 攻方和攻击动作的元素相性补正 − 防方装备DEF) +<br />
+      (攻方属性值收益 - 防方属性值收益) ×<br />
+      (100 + 攻防双方的元素相性补正 + 攻方各类攻击类型数值 − 防方各类耐性数值)%
+    </p>
+    <p>
+      攻方和攻击动作的元素相性补正，除魔法外均为元素相同时1.1，攻方被攻击动作元素克制时0.7。<br />
+      攻防双方的元素相性补正，所有攻击动作均为攻方元素克制防方时+30，攻方被防方元素克制时−10。<br />
+      攻击动作和防方之间并不存在直接的元素相性补正，但是攻击动作的元素类攻击类型数值仅在攻击动作的元素属性克制防方的守护元素时才生效，防方的元素类耐性仅在克制或被克制时才生效。
+    </p>
+    <p>
+      另外，物理攻击类型的耐性似乎有bug，无论攻击类型总是使用防方的“切断”耐性来计算。
+    </p>
+    <h2 id="weapon">
+      武器普通攻击
+    </h2>
+    <table class="damage-table">
+      <thead>
+        <tr>
+          <th>武器</th>
+          <th>攻方装备ATK倍率</th>
+          <th>防方装备DEF倍率</th>
+          <th>攻方属性值倍率</th>
+          <th>防方属性值倍率</th>
+        </tr>
+      </thead>
+      <tbody>
+        {(dataWeapon as Data).map(entry => (
+          <tr>
+            <td>{entry.weapons.join('\n')}</td>
+            <td>{entry.offenseEquipmentAtkFactor.toFixed(1)}</td>
+            <td>{entry.defenseEquipmentDefFactor.toFixed(1)}</td>
+            <td>{entry.offenseStatFactor}</td>
+            <td>{entry.defenseStatFactor}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <h2 id="magic">
+      魔法
+    </h2>
+    <p>
+      魔法的攻方和攻击动作的元素相性补正为，元素相同时1.4，攻方被攻击动作元素克制时0.5。<br />
+      魔法的攻方装备Atk倍率均为0（不吃装备Atk加成），防方装备Def倍率均为0.5。<br />
+      魔法并不带元素类攻击类型数值，所以魔法的元素属性与防方的守护元素之间不存在任何相性补正。
+    </p>
+    <table class="damage-table">
+      <thead>
+        <tr>
+          <th>魔法</th>
+          <th>攻击动作ATK</th>
+          <th>攻方属性值倍率</th>
+          <th>防方属性值倍率</th>
+          <th>备注</th>
+        </tr>
+      </thead>
+      <tbody>
+        {(dataMagic as Data).map(entry => (
+          <tr>
+            <td>{entry.group === ""
+              ? entry.magics.join('\n')
+              : <details><summary>{entry.group}</summary>{entry.magics.join('\n')}</details>
+            }</td>
+            <td>{entry.actionAtk}</td>
+            <td>{entry.offenseStatFactor}</td>
+            <td>{entry.defenseStatFactor}</td>
+            <td>{
+              entry.defenseStepFactor != 0 && `防方属性值收益额外降低\n(防方登场位置的高度−1)×${-entry.defenseStepFactor}`}{
+              entry.defenseInverseStepFactor != 0 && `防方属性值收益额外降低\n(33−防方登场位置的高度)×${-entry.defenseInverseStepFactor}`
+            }</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <h2 id="finishing">
+      必杀技
+    </h2>
+    <p>
+      与武器的元素类攻击类型数值相同，必杀技的攻击动作元素数值也只在必杀技的元素属性克制防方的守护元素时才生效。
+    </p>
+    {Array.from(finishingCategoried.values()).map(entries => (
+      <table class="damage-table">
+        <thead>
+          <tr>
+            <th>必杀技</th>
+            <th>攻击动作<br />ATK</th>
+            <th>攻击动作<br />元素数值</th>
+            <th>攻方装备<br />ATK倍率</th>
+            <th>防方装备<br />DEF倍率</th>
+            <th>攻方<br />属性值倍率</th>
+            <th>防方<br />属性值倍率</th>
+          </tr>
+        </thead>
+        <tbody>
+          {entries.map(entry => (
+            <tr>
+              <td>{entry.name}</td>
+              <td>{entry.actionAtk}</td>
+              <td>{entry.actionElement || '-'}</td>
+              <td>{entry.offenseEquipmentAtkFactor.toFixed(1)}</td>
+              <td>{entry.defenseEquipmentDefFactor.toFixed(1)}</td>
+              <td>{entry.offenseStatFactor}</td>
+              <td>{entry.defenseStatFactor}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    ))}
+    <h2 id="other">
+      其他
+    </h2>
+    <p>
+      兵种技能、道具等，未整理。
+    </p>
+    <table class="damage-table">
+      <thead>
+        <tr>
+          <th>必杀技</th>
+          <th>攻击动作<br />ATK</th>
+          <th>攻方装备<br />ATK倍率</th>
+          <th>防方装备<br />DEF倍率</th>
+          <th>攻方<br />属性值倍率</th>
+          <th>防方<br />属性值倍率</th>
+        </tr>
+      </thead>
+      <tbody>
+        {(dataOther as Data).map(entry => (
+          <tr>
+            <td>{entry.name}</td>
+            <td>{entry.actionAtk}</td>
+            <td>{entry.offenseEquipmentAtkFactor.toFixed(1)}</td>
+            <td>{entry.defenseEquipmentDefFactor.toFixed(1)}</td>
+            <td>{entry.offenseStatFactor}</td>
+            <td>{entry.defenseStatFactor}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <aside id="grid-right" class="grid-sidebar">
+    <RightSidebar headings={headings} />
+  </aside>
+</BaseLayout>
+
+<style lang="scss" is:global>
+  :target {
+    scroll-margin: 2rem 0;
+  }
+
+  #grid-main {
+    margin-bottom: 6rem;
+    > h1 + p {
+      margin-top: 2.5rem;
+    }
+    > p + p {
+      margin-top: .5rem;
+    }
+    > table + table {
+      margin-top: 1.5rem;
+    }
+  }
+
+  .damage-table {
+    // width: auto;
+    white-space: pre-line;
+    tbody {
+      color: var(--theme-text-light);
+      tr:hover {
+        color: var(--theme-text);
+      }
+    }
+    th, td {
+      padding: .5rem 1rem;
+      &:first-child {
+        min-width: 7em;
+      }
+      &:not(:first-child) {
+        text-align: center;
+      }
+    }
+    p + & {
+      margin-top: 1rem;
+    }
+  }
+
+  summary {
+    cursor: pointer;
+  }
+
+</style>
