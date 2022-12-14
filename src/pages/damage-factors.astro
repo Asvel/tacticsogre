@@ -57,7 +57,7 @@ const headings = [
       <tbody>
         {(dataWeapon as Data).map(entry => (
           <tr>
-            <td>{entry.weapons.join('\n')}</td>
+            <td><pre>{entry.weapons.join('\n')}</pre></td>
             <td>{entry.offenseEquipmentAtkFactor.toFixed(1)}</td>
             <td>{entry.defenseEquipmentDefFactor.toFixed(1)}</td>
             <td>{entry.offenseStatFactor}</td>
@@ -88,16 +88,16 @@ const headings = [
         {(dataMagic as Data).map(entry => (
           <tr>
             <td>{entry.group === ""
-              ? entry.magics.join('\n')
-              : <details><summary>{entry.group}</summary>{entry.magics.join('\n')}</details>
+              ? <pre>{entry.magics.join('\n')}</pre>
+              : <details><summary>{entry.group}</summary><pre>{entry.magics.join('\n')}</pre></details>
             }</td>
             <td>{entry.actionAtk}</td>
             <td>{entry.offenseStatFactor}</td>
             <td>{entry.defenseStatFactor}</td>
-            <td>{
+            <td><pre>{
               entry.defenseStepFactor != 0 && `防方属性值收益额外降低\n(防方登场位置的高度−1)×${-entry.defenseStepFactor}`}{
               entry.defenseInverseStepFactor != 0 && `防方属性值收益额外降低\n(33−防方登场位置的高度)×${-entry.defenseInverseStepFactor}`
-            }</td>
+            }</pre></td>
           </tr>
         ))}
       </tbody>
@@ -191,8 +191,6 @@ const headings = [
   }
 
   .damage-table {
-    // width: auto;
-    white-space: pre-line;
     tbody {
       color: var(--theme-text-light);
       tr:hover {
