@@ -73,6 +73,9 @@ drops.find(x => x.stage === 'C4_ST_050')!.strongpoint += "（卡图雅未参战�
           {battlestage.strongpoint.replace('　', ' ')
           }<span class="drops-chapter">{getChapterName(battlestage.stage)}</span>
         </h2>
+        {battlestage.stage === 'C4_ST_494' && <p class="drops-table-tip">本层的“死者指环”初见时无法掉落（需要打过一次死者宫殿B41的剧情才可掉落）。</p>}
+        {battlestage.stage === 'C4_ST_581' && <p class="drops-table-tip">本层的“染血圣印”初见时无法掉落（需要打过一次转律之塔3F的剧情才可掉落）。</p>}
+        {battlestage.stage === 'C4_ST_589' && <p class="drops-table-tip">本层的“转生纹章”需要打过一次转律之塔10F的剧情才可掉落。</p>}
         {battlestage.stage === 'DLC_ST_105' && <p class="drops-table-tip">此战中兰斯洛特的掉落推测有单独的程序特殊处理，建议参考专门的攻略。</p>}
         <table class={`drops-table`}>
           <thead>
