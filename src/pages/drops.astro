@@ -36,6 +36,9 @@ function getChapterName(stage: string) {
   if (stage === 'C3c_ST_482') return '第三章';
   if ('C3c_ST_481' <= stage && stage <= 'C3c_ST_487') return '第二章、第三章';
   if ('C3c_ST_488' <= stage && stage <= 'C3c_ST_490') return '第三章';
+  if ('C4_ST_314' <= stage && stage <= 'C4_ST_318') return '结局后';
+  if ('C4_ST_561' <= stage && stage <= 'C4_ST_573') return '结局后';
+  if ('C4_ST_581' <= stage && stage <= 'C4_ST_609') return '结局后';
   const chapter = stage.slice(0, stage.indexOf('_'));
   return chapterNames[chapter as keyof typeof chapterNames];
 }
