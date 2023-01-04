@@ -8767,6 +8767,18 @@
     - item: 天使果实
       amount: 1
       rate: 100%
+- stage: C4_ST_160
+  strongpoint: 古利摩斯比镇
+  enemies:
+  - name: 麦堤姆
+    race: 男性人类
+    class: 神殿骑士指挥官
+    position: 14,12
+    drops:
+    - item: 枪械制造技术书
+      amount: 1
+      rate: 100%
+    shiftstone: true
 - stage: C4_ST_164
   strongpoint: 尼姆拉赫巴森林
   enemies:
@@ -31603,6 +31615,15 @@
     - item: 布伦希尔德
       amount: 1
       rate: 10%
+  - name: 兰斯洛特
+    race: 男性人类
+    class: 死亡神殿骑士
+    position: 5,8
+    drops:
+    - item: 安毕希翁
+      amount: 1
+      rate: 10%
+    shiftstone: true
   - name: 巴瑟佛
     race: 男性人类
     class: 神殿骑士指挥官
