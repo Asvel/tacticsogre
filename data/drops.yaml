@@ -7329,9 +7329,6 @@
     - item: 魔龙鳞
       amount: 3
       rate: 15%
-    - item: 魔龙角
-      amount: 3
-      rate: 0%
   - name: ''
     race: 龙
     class: 黑暗龙
@@ -7346,9 +7343,6 @@
     - item: 魔龙鳞
       amount: 3
       rate: 15%
-    - item: 魔龙角
-      amount: 3
-      rate: 0%
 - stage: C4_ST_082
   strongpoint: 海姆城中庭
   enemies:
@@ -20529,9 +20523,6 @@
     class: 巫师
     position: 4,4
     drops:
-    - item: 越墙
-      amount: 1
-      rate: 0%
     - item: 魔水晶原石
       amount: 1
       rate: 25%
@@ -20893,9 +20884,6 @@
     - item: 飓风
       amount: 1
       rate: 20%
-    - item: 魔水晶原石
-      amount: 0
-      rate: 0%
   - name: ''
     race: 龙
     class: 洪流龙
@@ -20918,14 +20906,6 @@
     - item: 魔水晶原石
       amount: 1
       rate: 25%
-  - name: ''
-    race: 男性人类
-    class: 盗贼
-    position: 12,13
-    drops:
-    - item: 魔水晶原石
-      amount: 0
-      rate: 0%
   - name: ''
     race: 男性人类
     class: 死灵法师
