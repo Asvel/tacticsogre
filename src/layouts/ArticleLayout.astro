@@ -62,6 +62,21 @@ const { frontmatter: { title }, headings } = Astro.props;
       padding-top: .25rem;  // for scroll-margin
       margin-top: 2.25rem;
     }
+    > h2, > h3 {
+      &:target {
+        position: relative;
+        &::before {
+          content: " ";
+          position: absolute;
+          left: -.4em;
+          top: .125em;
+          width: .25em;
+          height: 1em;
+          background-color: var(--theme-text);
+          border-radius: 1px;
+        }
+      }
+    }
   }
 
   h2 > em {

@@ -75,9 +75,9 @@ function compactHeadingSceneId() {
   return (tree) => {
     visit(tree, (node) => {
       if (node.type === 'heading') {
-        const sceneId = /^c(\d+)$/.exec(node.data?.id)?.[1];
+        const [ , prefix, sceneId ] = /^(_?c)(\d+)$/.exec(node.data?.id) ?? [];
         if (sceneId?.length > 3) {
-          node.data.hProperties.id = node.data.id = `c${parseInt(sceneId, 10) % 1000}`;
+          node.data.hProperties.id = node.data.id = `${prefix}${parseInt(sceneId, 10) % 1000}`;
         }
       };
     });
